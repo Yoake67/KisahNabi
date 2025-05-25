@@ -8,10 +8,26 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rasulallah"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageView
         android:id="@+id/imageView"
-        android:layout_width="111dp"
-        android:layout_height="147dp"
-        app:srcCompat="@mipmap/ic_inapp_launcher"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="205dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kisah_25_nabi"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/quiz"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="178dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
