@@ -7,4 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="111dp"
+        android:layout_height="147dp"
+        app:srcCompat="@mipmap/ic_inapp_launcher"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
