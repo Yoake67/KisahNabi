@@ -9,17 +9,19 @@
 
     <ImageView
         android:id="@+id/imageView_kisaharasul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_kisahrasul"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="264dp" />
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_kisahrasul" />
 
     <ImageView
         android:id="@+id/imageView2_quiz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_quiz"
-        tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="251dp" />
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_quiz" />
 </androidx.constraintlayout.widget.ConstraintLayout>
