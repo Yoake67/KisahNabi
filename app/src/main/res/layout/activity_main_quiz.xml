@@ -34,6 +34,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout_Quizvert"
         android:layout_width="409dp"
         android:layout_height="665dp"
         android:orientation="vertical"
