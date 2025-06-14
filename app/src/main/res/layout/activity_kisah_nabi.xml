@@ -8,7 +8,7 @@
     tools:context=".KisahNabi">
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
+        android:id="@+id/linearLayout_Quiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#AAE06A"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView_Quiz"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -42,8 +42,8 @@
         android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+        app:layout_constraintStart_toStartOf="@+id/linearLayout_Quiz"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz">
 
         <ScrollView
             android:layout_width="match_parent"
