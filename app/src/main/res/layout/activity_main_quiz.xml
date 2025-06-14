@@ -64,7 +64,7 @@
                         android:fontFamily="@font/adlam_display"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="1. Siapakah nabi pertama yang diutus oleh Allah?"
+                        android:text="1. Siapa nabi pertama yang diutus oleh Allah?"
                         android:textColor="#000000"
                         android:textSize="20sp" />
                 </LinearLayout>
