@@ -32,4 +32,11 @@
             android:textSize="34sp"
             android:textStyle="bold" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="665dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="65dp"></LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
