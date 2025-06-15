@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Kisahrosul">
+    tools:context=".KisahrosulActivity">
 
     <LinearLayout
-        android:id="@+id/LinearLayout_KisahRosul"
+        android:id="@+id/LinearLayout_KisahRosulActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#AAE06A"
@@ -41,132 +41,133 @@
         android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/LinearLayout_KisahRosul"
-        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_KisahRosul">
+        app:layout_constraintStart_toStartOf="@+id/LinearLayout_KisahRosulActivity"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_KisahRosulActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rosul1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adlam_display"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="1. Kisah Nabi 1"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rosul2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adlam_display"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2. Kisah Rosul 2"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rosul3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adlam_display"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="3. Kisah Rosul 3"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rosul4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adlam_display"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="4. Kisah Rosul 4"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_rosul5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adlam_display"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2. Kisah Rosul 5"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rosul5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adlam_display"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="2. Kisah Rosul 5"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/rosul1"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="1. Kisah Nabi 1"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/rosul2"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="2. Kisah Rosul 2"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/rosul3"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="3. Kisah Rosul 3"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/rosul4"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="4. Kisah Rosul 4"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView_rosul5"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="2. Kisah Rosul 5"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/rosul5"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="2. Kisah Rosul 5"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-            </LinearLayout>
         </ScrollView>
 
     </LinearLayout>
