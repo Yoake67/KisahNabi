@@ -57,226 +57,301 @@
                 android:paddingBottom="90dp">
 
                 <Button
-                    android:id="@+id/Nabi1"
+                    android:id="@+id/BtnNabi1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="1. Kisah Nabi Adam AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi2"
+                    android:id="@+id/BtnNabi2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="2. Kisah Nabi Idris AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi3"
+                    android:id="@+id/BtnNabi3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="3. Kisah Nabi Nuh AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi4"
+                    android:id="@+id/BtnNabi4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="4. Kisah Nabi Hud AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi5"
+                    android:id="@+id/BtnNabi5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="5. Kisah Nabi Saleh AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi6"
+                    android:id="@+id/BtnNabi6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="6. Kisah Nabi Ibrahim AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi7"
+                    android:id="@+id/BtnNabi7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="7. Kisah Nabi Luth AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi8"
+                    android:id="@+id/BtnNabi8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="8. Kisah Nabi Ismail AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi9"
+                    android:id="@+id/BtnNabi9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="9. Kisah Nabi Ishaq AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi10"
+                    android:id="@+id/BtnNabi10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="10. Kisah Nabi Ya'Qub AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi11"
+                    android:id="@+id/BtnNabi11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="11. Kisah Nabi Yusuf AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi12"
+                    android:id="@+id/BtnNabi12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="12. Kisah Nabi Ayyub AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi13"
+                    android:id="@+id/BtnNabi13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="13. Kisah Nabi Syu'Aib AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi14"
+                    android:id="@+id/BtnNabi14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="14. Kisah Nabi Musa AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi15"
+                    android:id="@+id/BtnNabi15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="15. Kisah Nabi Harun AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi16"
+                    android:id="@+id/BtnNabi16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="16. Kisah Nabi Zulkifli AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi17"
+                    android:id="@+id/BtnNabi17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="17. Kisah Nabi Daud AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi18"
+                    android:id="@+id/BtnNabi18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="18. Kisah Nabi Suilaiman AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi19"
+                    android:id="@+id/BtnNabi19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="19. Kisah Nabi Ilyas AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi20"
+                    android:id="@+id/BtnNabi20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="20. Kisah Nabi Ilyasa AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi21"
+                    android:id="@+id/BtnNabi21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="21. Kisah Nabi Yunus AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi22"
+                    android:id="@+id/BtnNabi22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="22. Kisah Nabi Zakaria AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi23"
+                    android:id="@+id/BtnNabi23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="23. Kisah Nabi Yahya AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi24"
+                    android:id="@+id/BtnNabi24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="24. Kisah Nabi Isa AS"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/Nabi25"
+                    android:id="@+id/BtnNabi25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonkisahnabi"
                     android:fontFamily="@font/poppins_bold"
+                    android:paddingLeft="10dp"
                     android:text="25. Kisah Nabi Muhammad SAW"
                     android:textAlignment="viewStart"
                     android:textSize="16sp" />
