@@ -19,6 +19,9 @@
             android:name=".MainActivity_Quiz2"
             android:exported="false" />
         <activity
+            android:name=".NabiIdrisActivity"
+            android:exported="false" />
+        <activity
             android:name=".NabiAdamActivity"
             android:exported="false" />
         <activity
