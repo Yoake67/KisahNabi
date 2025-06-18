@@ -36,7 +36,7 @@
     <LinearLayout
         android:id="@+id/linearLayout_Quizvert"
         android:layout_width="335dp"
-        android:layout_height="208dp"
+        android:layout_height="wrap_content"
         android:background="#E7F3F5"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,6 +55,11 @@
             android:textColor="#000000"
             android:textStyle="bold"
             android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/Nabi_Musa1"
@@ -88,6 +93,7 @@
             android:fontFamily="@font/adlam_display"
             android:text="Nabi Muhammad"
             android:textSize="12sp" />
+        </RadioGroup>
 
         <Button
             android:id="@+id/submit1"
