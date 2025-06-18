@@ -30,6 +30,21 @@ class MainActivity : AppCompatActivity() {
 
             // 4. Jalankan niat tersebut untuk pindah halaman
             startActivity(intent)
+            }
+
+//KISAH NABI ---
+
+            // 1. Temukan ImageView "Kisah Nabi" berdasarkan ID-nya
+            val btnKisahNabi = findViewById<ImageView>(R.id.btn_kisah_nabi)
+
+            // 2. Beri aksi ketika tombol tersebut diklik
+            btnKisahNabi.setOnClickListener {
+                // 3. Buat Intent untuk pindah ke halaman KisahNabi
+                //    Pastikan nama kelasnya benar (KisahNabi, bukan activity_kisah_nabi)
+                val intent = Intent(this, KisahNabi::class.java)
+
+                // 4. Jalankan perpindahan halaman
+                startActivity(intent)
+            }
         }
     }
-}

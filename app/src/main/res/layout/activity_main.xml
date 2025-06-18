@@ -20,13 +20,13 @@
         android:id="@+id/imageView2_quiz"
         android:layout_width="117dp"
         android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="@+id/my_image_view"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_kisah_nabi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/my_image_view"
+        app:layout_constraintTop_toTopOf="@+id/btn_kisah_nabi"
         app:srcCompat="@drawable/ic_quiz" />
 
     <ImageView
-        android:id="@+id/my_image_view"
+        android:id="@+id/btn_kisah_nabi"
         android:layout_width="117dp"
         android:layout_height="118dp"
         android:src="@drawable/ic_kisahnabi"
