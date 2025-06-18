@@ -52,6 +52,7 @@
             android:fontFamily="@font/adlam_display"
             android:textColor="#000000"
             android:textSize="14sp"
+            android:layout_marginBottom="16dp"
             android:text="1. Siapa nabi pertama yang diutus oleh Allah?" />
 
         <RadioButton
@@ -84,6 +85,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
             android:textSize="12sp"
+            android:layout_marginBottom="8dp"
             android:text="Nabi Muhammad" />
 
         <Button
