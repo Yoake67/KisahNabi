@@ -45,12 +45,45 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz"
         app:layout_constraintVertical_bias="0.501">
 
+        <TextView
+            android:id="@+id/Soal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="1. Siapa nabi pertama yang diutus oleh Allah?" />
+
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/Nabi_Musa"
             android:fontFamily="@font/adlam_display"
             android:textSize="12sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Nabi Musa" />
+
+        <RadioButton
+            android:id="@+id/Nabi_Ibrahim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:text="Nabi Ibrahim" />
+
+        <RadioButton
+            android:id="@+id/Nabi_Adam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:text="Nabi Adam" />
+
+        <RadioButton
+            android:id="@+id/Nabi_Ibrahim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:text="Nabi Muhammad" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
