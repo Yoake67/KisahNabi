@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiIdrisActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/KisahNabiAdam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI IDRIS AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Idris as merupakan keturunan dari Qabil dan Iqlima (putera dan puteri Nabi Adam as) kepada keturununannya inilah Idris ditugaskan Tuhan mengajak kepada kebenaran."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Idris adalah orang pertama yang menerima wahyu lewat Malaikat Jibril, ketika berumur 82 tahun. Tak ada informasi tentang lokasi pasti mengenai kehidupan Idris (Hurmus al-Haramisah) yang ditugaskan untuk membenahi akhlak anak cucu Qabil ini."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ada yang menyebut daerah Munaf, Mesir, namun adapula yang menyebut Babilonia. Yang pasti Idris yang sejak kecil belajar ilmu dari Nabi Syits (Putra Adam as), kepadanya telah diturunkan wahyu kenabian."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="“Dan Ceritakanlah (hai Muhammad kepada mereka, kisah) Idris (yang tersebut) di dalam Al Quran. Sesungguhnya ia adalah seorang yang sangat membenarkan dan seorang Nabi. Dan Kami telah mengangkatnya ke martabat yang tinggi.” (QS. Maryam: 56-57)"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Idris menurut riwayat dalam hadis Bukhari adalah kakeknya bapak Nuh a.s. berarti Nabi Idris merupakan generasi ke enam dari Adam, mengingat Nuh sendiri sebagai keturunan ke sepuluh dari Adam as."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kelebihan Nabi Idris a.s"
+                        android:textColor="#070707"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Idris as memiliki beberapa kelebihan alias mukjizat dari Tuhan:"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pertama, dia manusia pertama yang pandai baca tulis dengan pena. Kepada Idrislah Allah swt memberikan 30 sahifah alias suhuf lembaran-lembaran ajaran Tuhan, berisi petunjuk untuk disampaikan kepada umatnya."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kedua, Nabi Idris diberi bermacam-macam pengetahuan mulai dari merancak (merawat) kuda, ilmu perbintangan (falaq), sampai ilmu berhitung alias matematika."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ketiga, Nama Nabi Idris sendiri berasal dari kata Darasa yang artinya belajar. Idris memang sangat rajin mengkaji ajaran Allah swt yang diturunkan kepada Adam dan Nabi Syits, bahkan yang langsung kepada dirinya. Nabi Idris juga sangat tekun mengkaji fenomena alam semesta, yang semua merupakan ayat dan pertanda dari Tuhannya."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Keempat, Nabi Idris as ialah orang yang pertama pandai memotong dan menjahit pakaiannya. Orang-orang sebelumnya konon hanya mengenakan kulit binatang secara sederhana dan apa adanya untuk dijadikan penutup aurat."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Idris yang haus akan ilmu pengetahuan sehari-hari memang disibukkan oleh berbagai kepentingan, namun ia tetap selalu ingat kepada Tuhan. Dengan berbekal pengetahuan yang mencapai kelengkapan, dengan kekuatan dan kehebatan yang mumpuni."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Idris menjadi gagah berani tak takut mati, tak gentar kepada siapa saja, terutama dalam menyadarkan keturunan Qabil-Iqlima yang saat itu penuh dengan kesesatan. Dapat dipahami jika ia mendapat gelar kehormatan Asadul Usud alias “Singa di atas segala singa” dari Allah swt."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="“Peganglah tali agama Allah, beribdalah hanya kepada Allah. Bebaskan diri dari azab akhirat dengan cara amal saleh dan kebaikan. Zuhudlah di dunia dan berlaku adil, mengerjakan shalat sesuai dengan ajaran Tuhan. Berpuasa pada hari tertentu setiap bulan, jihad melawan musuh agama bikinan setan, serta keluarkan zakat dan sedekah membantu kaum papa dan kaum yang ditimpa kemalangan”"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selain itu, Idris juga selalu menyatakan beberapa pesan kebajikan:  Pertama, salat mayit lebih sebagai penghormatan, karena pemberi syafaat hanya Tuhan sesuai ukuran amal kebajikan."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kedua, besarnya rasa syukur yang diucapkan, tetap tidak akan mampu mengalahkan besarnya nikmat Tuhan yang diberikan."
+                        android:textColor="#050505"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ketiga, sambutlah seruan Tuhan secara ikhlas, untuk shalat, puasa, maupun menaati semua perintah-Nya."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Keempat, hindari hasad alias dengki kepada sasama yang mendapat rezki, karena hakikat jumlahnya tidak seberapa."
+                        android:textColor="#090909"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:paddingBottom="150dp"
+                        android:text="Kelima, menumpuk numpuk harta tidak ada manfaat bagi dirinya. Keenam, kehidupan handaknya diisi hikmah kebijakan (Ma’al anbiya’ fil Quranil Karim:78)"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/Nabi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
