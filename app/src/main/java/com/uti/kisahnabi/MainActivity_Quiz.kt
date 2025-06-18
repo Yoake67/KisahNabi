@@ -32,7 +32,7 @@ class MainActivity_Quiz : AppCompatActivity() {
         radioNabiAdam = findViewById(R.id.Nabi_Adam)
         radioNabiMuhammad = findViewById(R.id.Nabi_Muhammad)
         submitButton = findViewById(R.id.submit1)
-        resultText = findViewById(R.id.result_text)
+        resultText = findViewById(R.id.Soal1)
 
         submitButton.setOnClickListener {
             val isMusa = radioNabiMusa.isChecked
