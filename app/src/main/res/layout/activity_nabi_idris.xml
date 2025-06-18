@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".NabiIdrisActivity">
 
     <LinearLayout
@@ -60,7 +60,7 @@
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Idris as merupakan keturunan dari Qabil dan Iqlima (putera dan puteri Nabi Adam as) kepada keturununannya inilah Idris ditugaskan Tuhan mengajak kepada kebenaran."
                         android:textAlignment="viewStart"
@@ -97,7 +97,7 @@
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginBottom="10dp"
                         android:text="Idris menurut riwayat dalam hadis Bukhari adalah kakeknya bapak Nuh a.s. berarti Nabi Idris merupakan generasi ke enam dari Adam, mengingat Nuh sendiri sebagai keturunan ke sepuluh dari Adam as."
                         android:textColor="#040404"
@@ -116,7 +116,7 @@
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Idris as memiliki beberapa kelebihan alias mukjizat dari Tuhan:"
                         android:textColor="#070707"
@@ -125,7 +125,7 @@
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginBottom="10dp"
                         android:text="Pertama, dia manusia pertama yang pandai baca tulis dengan pena. Kepada Idrislah Allah swt memberikan 30 sahifah alias suhuf lembaran-lembaran ajaran Tuhan, berisi petunjuk untuk disampaikan kepada umatnya."
                         android:textColor="#070707"
@@ -241,23 +241,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/Nabi1"
-            android:layout_width="wrap_content"
+            android:id="@+id/sebelumnyake1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
             android:backgroundTint="#A9DE69"
             android:fontFamily="@font/poppins_bold"
             android:text="Selanjutnya"
             android:textColor="#050505"
             android:textSize="16sp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
