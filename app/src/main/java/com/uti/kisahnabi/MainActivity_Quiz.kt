@@ -21,7 +21,8 @@ class MainActivity_Quiz : AppCompatActivity() {
             insets
         }
 
-// --- MULAI LOGIKA KUIS DARI SINI ---
+
+        // --- MULAI LOGIKA KUIS DARI SINI ---
 
         // 1. Ambil referensi komponen dari layout XML
         val radioGroupSoal1 = findViewById<RadioGroup>(R.id.radioGroup1)
@@ -40,21 +41,22 @@ class MainActivity_Quiz : AppCompatActivity() {
                 // Jika belum ada yang dipilih, tampilkan pesan peringatan
                 Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
             } else {
-                // Jika sudah ada yang dipilih, periksa kebenarannya
+                // Jika sudah ada yang dipilih, tetap lanjutkan.
+                // Pertama, tampilkan apakah jawaban benar atau salah.
                 if (idJawabanTerpilih == idJawabanBenar) {
                     // Jawaban BENAR
                     Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
-
-                    // Buat Intent untuk pindah ke halaman kuis berikutnya
-                    val intent = Intent(this, MainActivity_Quiz2::class.java)
-                    startActivity(intent)
-
                 } else {
                     // Jawaban SALAH
-                    Toast.makeText(this, "Jawaban Anda Salah. Coba lagi!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
                 }
+
+                // Kemudian, selalu pindah ke halaman kuis berikutnya
+                val intent = Intent(this, MainActivity_Quiz2::class.java)
+                startActivity(intent)
             }
         }
     }
 }
+
 
