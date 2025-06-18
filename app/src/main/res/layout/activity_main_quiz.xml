@@ -8,7 +8,7 @@
     tools:context=".MainActivity_Quiz">
 
     <LinearLayout
-        android:id="@+id/linearLayout_Quiz"
+        android:id="@+id/linearLayout_Quiz1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0020FF"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView_Quiz"
+            android:id="@+id/textView_Quiz2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -42,21 +42,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz1"
         app:layout_constraintVertical_bias="0.501">
 
         <TextView
             android:id="@+id/Soal1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/adlam_display"
-            android:textColor="#000000"
-            android:textSize="14sp"
             android:layout_marginBottom="16dp"
-            android:text="1. Siapa nabi pertama yang diutus oleh Allah?" />
+            android:fontFamily="@font/adlam_display"
+            android:text="1. Nabi yang dikenal dengan julukan Khalilullah (Teman Allah) adalah:"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14sp" />
 
         <RadioButton
-            android:id="@+id/Nabi_Musa"
+            android:id="@+id/Nabi_Musa1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
@@ -64,37 +65,39 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/Nabi_Ibrahim"
+            android:id="@+id/Nabi_Adam1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
-            android:textSize="12sp"
-            android:text="Nabi Ibrahim" />
+            android:text="Nabi Ibrahim"
+            android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/Nabi_Adam"
+            android:id="@+id/Nabi_Ibrahim1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
-            android:textSize="12sp"
-            android:text="Nabi Adam" />
+            android:text="Nabi Ibrahim"
+            android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/Nabi_Muhammad"
+            android:id="@+id/Nabi_Muhammad1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
             android:fontFamily="@font/adlam_display"
-            android:textSize="12sp"
-            android:layout_marginBottom="8dp"
-            android:text="Nabi Muhammad" />
+            android:text="Nabi Muhammad"
+            android:textSize="12sp" />
 
         <Button
             android:id="@+id/submit1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/adlam_display"
             android:background="#F6E3C1"
+            android:fontFamily="@font/adlam_display"
             android:text="SUBMIT" />
 
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
