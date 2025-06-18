@@ -85,5 +85,14 @@
             android:fontFamily="@font/adlam_display"
             android:textSize="12sp"
             android:text="Nabi Muhammad" />
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:background="#F6E3C1"
+
+            android:text="SUBMIT" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
