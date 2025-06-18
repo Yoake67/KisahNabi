@@ -35,7 +35,7 @@ class KisahNabi : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val buttonNabiHud: Button = findViewById(R.id.BtnNabi3)
+        val buttonNabiHud: Button = findViewById(R.id.BtnNabi4)
 
         buttonNabiHud.setOnClickListener {
             val intent = Intent(this, NabiHudActivity::class.java)
