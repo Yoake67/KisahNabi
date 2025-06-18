@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+//        Logika Quiz
 
         // 1. Cari tombol QUIZ berdasarkan ID yang sudah dibuat di XML
         val btnQuiz = findViewById<ImageView>(R.id.imageView2_quiz)
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             }
 
-//KISAH NABI ---
+//Logika KISAH NABI ---
 
             // 1. Temukan ImageView "Kisah Nabi" berdasarkan ID-nya
             val btnKisahNabi = findViewById<ImageView>(R.id.btn_kisah_nabi)
@@ -46,5 +47,12 @@ class MainActivity : AppCompatActivity() {
                 // 4. Jalankan perpindahan halaman
                 startActivity(intent)
             }
+
+        // Logika untuk Tombol Kisah Rasul ---
+        val btnKisahRasul = findViewById<ImageView>(R.id.imageView_kisaharasul)
+        btnKisahRasul.setOnClickListener {
+            val intent = Intent(this, KisahrosulActivity::class.java)
+            startActivity(intent)
+        }
         }
     }
