@@ -35,41 +35,75 @@
 
     <LinearLayout
         android:id="@+id/linearLayout_Quizvert"
-        android:layout_width="409dp"
-        android:layout_height="665dp"
+        android:layout_width="335dp"
+        android:layout_height="208dp"
+        android:background="#E7F3F5"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="65dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz"
+        app:layout_constraintVertical_bias="0.501">
 
-        <ScrollView
+        <TextView
+            android:id="@+id/Soal1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"
+            android:text="1. Siapa nabi pertama yang diutus oleh Allah?" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
+        <RadioButton
+            android:id="@+id/Nabi_Musa"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Musa" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/Nabi_Ibrahim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:text="Nabi Ibrahim" />
 
-                    <TextView
-                        android:id="@+id/SoalSatu"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/adlam_display"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="1. Siapa nabi pertama yang diutus oleh Allah?"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
+        <RadioButton
+            android:id="@+id/Nabi_Adam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:text="Nabi Adam" />
 
+        <RadioButton
+            android:id="@+id/Nabi_Muhammad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp"
+            android:text="Nabi Muhammad" />
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:background="#F6E3C1"
+            android:text="SUBMIT" />
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:gravity="center" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
