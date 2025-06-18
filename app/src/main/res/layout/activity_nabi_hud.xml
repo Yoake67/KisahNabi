@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiHudActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/KisahNabiHud"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI HUD AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Nuh dan kaumnya yang berada di dalam kapal selamat dari azab banjir. Mereka keluar dari kapal dan melanjutkan kehidupan mereka. Di antara mereka terdapat kaum ‘Ad yang nasabnya berasal dari Sam bin Nuh."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mereka melakukan perjalanan hingga sampai di daerah bernama Al-Ahqaf, yaitu antara Umman dan Hadramaut di Yaman. Di Al-Ahqaf, kaum ‘Ad membangun kebudayaannya. Mereka membangun bangunan-bangunan tinggir di Iram (ibu kota kaum ‘Ad)."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada masa itu, belum pernah ada kota yang dibangun seperti itu di negeri-negeri lain. Kaum ‘Ad membuat bangunan-bangunan itu dengan tiang-tiang penyangga yang besar dan kuat. Wilayah Al-Ahqaf merupakan daerah yang subur. Kaum ‘Ad memanfaatkannya untuk daerah pertanian. Curah hujan di wilayah ini cukup tinggi shingga tanaman dapat tumbuh dengan baik. Kaum ‘Ad hidup dengan penuh kemakmuran dan kemewahan. Hal itu membuat kaum ‘Ad menjadi angkuh. Mereka berkata, “Siapakah yang kekuataannya lebih besar dari kami ?”. setan telah berhasil menyesatkan mereka. Kaum ‘Ad mulai menyembah patung berhala. Mereka melupakan dahsyatnya banjir itu. Lama-kelamaan, mereka juga berbuat zalim dengan melakukan tindak kekerasan dan kejahatan. Dalam Al-Quran digambarkan kondisi kaum ‘Ad saat itu pada ayat 130 surat Asy-Syu’ara, “Dan apabila kamu menyiksa, maka kamu menyiksa sebagai orang-orang kejam dan bengis”. Kaum ‘Ad benar-benar berada dalam kesesatan yang nyata. Mereka tidak lagi menyembah Allah SWT."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Hud Berdakwah Kepada Kaum ‘Ad"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Karena kaum ‘Ad telah berada dalam kesesatan, Nabi Hud diutus oleh Allah untuk berdakwah. Ia mengajak kaum ‘Ad menyembah Allah SWT dan menghentikan kezaliman. Di hadapan kaum ‘Ad, Nabi Hud berkata, “Hai kaumku, sembahlah Allah, sekali-kali tidak ada Tuhan bagimu selain Dia. Maka mengapa kamu tdak bertakwa kepada-Nya ?” Kemudian, para pemuka kaum ‘Ad menjawab, “Sesungguhnya kami benar-benar memandang kamu dalam keadaan kurang akal dan sesungguhnya kami menganggap kamu termasuk orang-orang yang berdusta”. Meskipun dikatakan gila dan pendusta, Nabi Hud tetap berdakwah. Nabi Hud berkata, “Hai kaumku, tidak ada padaku kekurangan akal sedikit pun, tetapi aku ini adalah utusan dari Tuhan semesta alam. Aku menyampaikan amanat-amanat Tuhanku kepadamu dan aku hanyalah pemberi nasihat yang terpercaya bagimu”. (QS. Al-Araf : 67-68)."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kaum ‘Ad tetap menolak seruan Nabi Hud. Malahan, mereka menantang diturunkannya azab jika seruan Nabi Hud benar. Mereka menjawab, “Apakah kamu datang kepada kami untuk memalingkan kami dari (menyembah) tuhan-tuhan kami ? Maka datangkanlah kepada kami azab yang telah kamu ancamkan kepada kami jika kamu termasuk orang-orang yang benar”. Kemakmuran dan kemewahan telah membuat kaum ‘Ad lupa diri. Mereka tidak mempedulikan utusan Allah, Nabi Hud. Hanya sedikit yang mengikuti ajaran Nabi Hud."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Perbincangan Nabi Hud Dengan Kaumnya"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Salah satu cara berdakwah Nabi Hud adalah dengan berdialog. Ia berdialog dengan kaum ‘Ad tentang kenikmatan dari Allah. Nabi Hud mengatakan bahwa seharusnya kaum ‘Ad menerima ajarannya sebagai suatu peringatan dari Allah. Ia juga mengingatkan adanya kaum Nabi Nuh. Mereka ditimpa azab karena tidak mempedulikan peringatan dari Allah. Nabi Hud berkata, “Allah telah memberikan kelebihan, kekuasaan, dan kekuatan kepada kalian. Allah memberikan semua itu agar kamu beriman dan bersyukur”. Kebimbangan meliputi perasaan kaum ‘Ad. Mereka merasa ada kebenaran dalam dakwah Nabi Hud. Namun, mereka tidak dapat meninggalkan penyembahan berhala. Kemudian, mereka berkata, “Wahai Hud ! Kami tahu tuhan kami telah menimpakan penyakit gila kepadamu. Sesungguhnya engkau adalah seorang pendusta”. Nabi Hud menyangkal perkataan kaum ‘Ad, “Wahai kaumku ! Aku bukanlah orang gila. Aku adalah Rasul Allah, Tuhan seluruh alam. Aku menyampaikan amanat Tuhanku”."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Hud berkata, “Apakah kamu tidak (tidak percaya) dan heran bahwa datang kepadamu peringatan dari Tuhanmu yang dibawa oleh seorang laki-laki di antaramu untuk member peringatan kepadamu ? Dan ingatlah oleh kamu sekalian di waktu Allah menjadikan kamu sebagai pengganti-pengganti (yang berkuasa) sesudah lenyapnya kaum Nuh, dan Tuhan telah melebihkan kekuatan tubuh dan perawakanmu (dari pada kaum Nuh itu). Maka ingatlah nikmat-nikmat Allah supaya kamu mendapat keberuntungan”. Mereka (kaum ‘Ad) berkata, “Apakah kamu datang kepada kami, agar kami hanya menyembah Allah saja dan meninggalkan apa yang biasa disembah oleh bapak-bapak kami ? Maka datangkanlah azab yang kamu ancamkan kepada kami jika kamu termasuk orang-orang yang benar” (QS. Al-Araf : 69-70). Demikianlah sebagian perbincangan Nabi Hud dan kaum ‘Ad. Kaum ‘Ad tetap menolak ajakan Nabi Hud sekalipun Nabi Hud memberikan penjelasan tentang bukti-bukti kekuasaan Allah SWT."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Azab Untuk Kaum ‘Ad"
+                        android:textColor="#070707"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Hud telah lama berdakwah kepada kaum ‘Ad. Namun, kaum ‘Ad tetap berpegang teguh pada agama nenek moyang. Mereka menyembah tuhan-tuhan berhala. Kemudia, Allah SWT menurunkan azab. Kemarau yang panjang menimpa wilayah mereka. Tanah kembali kering dan tanaman tidak tumbuh. Hewan ternak mereka juga banyak yang mati. Kehidupan kaum ‘Ad menjadi sulit. Ketika itu, Nabi Hud meminta kaum ‘Ad untuk memohon ampun kepada Allah. Namun, mereka menolaknya dan tetap menyembah berhala. Mereka berharap tuhan-tuhan berhala akan menolong mereka. Sekali lagi, Allah menurunkan azab. Awalnya, kaum ‘Ad melihat sesuatu yang bergumpal-gumpal berwarna hitam. Mereka mengira telah melihat awan hitam yang akan menurunkan hujan. Mereka bersorak karena terlalu senang. Nabi Hud mengetahui bahwa azab segera datang. Oleh karena itu, ia mengumpulkan pengikutnya."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Setelah gumpalan mendekat, kaum ‘Ad yang kafir menyadari bahwa itu bukanlah awan. Dengan tiba-tiba, angin kencang menggulung kaum ‘Ad. Mereka terlempar ke udara hingga seluruhnya binasa. Hanya Nabi Hud dan pengikutnya yang selamat. Kisah tentang azab untuk kaum ‘Ad dikisahkan dalam beberapa surat. “Dan juga pada (kisah) ‘Ad ketika kami kirimkan kepada mereka angin yang membinasakan, angin itu tidak membiarkan satu pun yang dilaluinya, melainkan dijadikannya seperti serbuk” (QS. Adz-Dzaariyat : 41-42). “Sesungguhnya kami telah menghembuskan kepada mereka angin yang sangat kencang pada hari nahas yang terus menerus, yang menggelimpangkan manusia seakan-akan mereka pohon kurma yang tumbang” (QS. Al-Qamar : 19-20). “Adapun kaum ‘Ad maka mereka telah dibinasakan dengan angin yang sangat dingin lagi amat kencang, yang Allah menimpakan angin itu kepada mereka selama tujuh malam dan delapan haru terus menerus, maka kamu lihat kaum ‘Ad pada waktu itu mati bergelimpangan seakan-akan mereka tunggul pohon kurma yang telah kosong (lapuk). Maka kamu tidak melihat seorang pun yang tinggal di antara mereka” (QS. Al-Haaqqah : 6-8)."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

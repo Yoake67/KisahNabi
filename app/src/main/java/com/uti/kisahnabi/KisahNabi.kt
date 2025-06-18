@@ -35,6 +35,14 @@ class KisahNabi : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val buttonNabiHud: Button = findViewById(R.id.BtnNabi4)
+
+        buttonNabiHud.setOnClickListener {
+            val intent = Intent(this, NabiHudActivity::class.java)
+            startActivity(intent)
+        }
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
