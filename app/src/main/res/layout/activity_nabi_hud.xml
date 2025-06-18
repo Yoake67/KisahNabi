@@ -7,4 +7,294 @@
     android:layout_height="match_parent"
     tools:context=".NabiHudActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/KisahNabiHud"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI HUD AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nuh adalah putra Lamik bin Matta Syalih bin Idris. Menurut Al-Quran usia Nabi Nuh ialah 950 tahun (QS. Al-'Ankabuut:14). Setelah Nabi Idris meninggal dunia, perilaku masyarakat semakin menyimpang. Begitu juga kaum Nuh, yang ketika itu menyembah berhala. Al-Quran menyebutkan hal ini dalam Surah Nuuh ayat 23. &quot;Mereka berkata, &quot;Jangan kamu tinggalkan tuhan-tuhan kamu dan jangan kamu tinggalkan Wadd, Suwa', Yaghuts, Ya'uq, dan Nasr.&quot;"
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selain itu, kaum Nuh terkenal zalim dan sewenang-wenang. Kejayaan dan kekayaan membuat mereka sombong. Martabat dan harga diri diukur dari banyaknya harta. Karena itu, orang-orang miskin dipandang rendah. Para budak diperlakukan seperti binatang. Melihat keadaan itu, Allah memerintahkan Nuh untuk mengajak mereka ke jalan yang benar. Dengan sabarnya, Nabi Nuh menyampaikan ajaran-ajaran Allah kepada masyarakat yang musyrik. Nabi Nuh berkata kepada kaumnya, &quot;Dan sesungguhnya aku memperingatkan kamu akan siksaan Allah dan aku menjelaskan kepadamu jalan keselamatan. Maka, sembahlah Allah saja dan jangan menyekutukan-Nya dengan suatu apapun. Karena aku khawatir apabila kamu menyembah selain Dia, atau menyekutukan-Nya dengan yang lain, Dia akan menyiksamu pada hari kiamat dengan siksaan yang sangat menyedihkan.&quot; (QS. Huud: 25-26). "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ternyata, dakwah Nabi Nuh tidak mendapat sambutan yang baik. Mereka malah mencemooh dan menghina Nabi Nuh. Mereka juga meremehkan Nabi Nuh dan pengikutnya yang miskin. &quot;Maka, berkatalah pemimpin-peminpin yang kafir dari kaumnya, 'Kami tidak melihat kamu melainkan (sebagai) seorang manusia seperti kami, dan kami tidak melihat orang-orang yang mengikuti kamu, melainkan orang-orang yang hina dina diantara kami yang lekas percaya saja, dan kami tidak melihat kamu memiliki sesuatu kelebihan apapun atas kami, bahkan kami yakin bahwa kamu adalah orang-orang yang berdusta.&quot; (QS. Huud : 27)."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Doa Nabi Nuh as"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Nuh kesal terhadap sikap kaumnya. Ia pun berlindung kepada Allah dan memohon pertolongan-Nya. Ia berdoa kepada Allah, &quot;Ya Tuhanku, sesungguhnya aku telah menyeru kaumku untuk beriman kepada-Mu. Aku juga mengajak mereka agar meninggalkan penyembahan berhala. Aku sangat berharap mereka mau beriman. Tidak ku lewatkan setiap kesempatan, melainkan kuajak mereka siang dan malam. Ternyata, harapanku sia-sia. Mereka malah makin membangkang dan durhaka. Setiap kali kuajak mereka untuk menyembah-Mu, supaya Engkau bisa memaafkan kesalahan-kesalahan mereka, mereka pun menutup telinganya dengan ujung jarinya. Mereka tidak suka mendengar ajakanku. Mereka sangat berlebih-lebihan dalam pembangkangan. Sampai-sampai, mereka menutup wajahnya dengan baju supaya tidak melihatku dan tidak mendengar dakwah yang kuberikan."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Wahai Tuhanku, aku telah mengajak mereka untuk menyembah-Mu berulang-ulang dengan berbagai cara. Kadang-kadang, aku mengajak secara terang-terangan dalam kelompok-kelompok mereka. Kadang-kadang, secara sendirian terhadap seseorang diantara mereka. Aku berkata kepada mereka, 'Mintalah ampun kepada Tuhanmu. Bertobatlah dari kekafiran dan kemaksiatan. Sesungguhnya Dia menerima tobat hamba-hamba-Nya. Dia memaafkan kesalahan-kesalahan serta memberi ganjaran atas tobat dan istigfarmu. Maka, Dia akan menurunkan hujan yang deras bagi kamu. Hujan yang akan menyuburkan tanahmu sesudah kekeringan. Dia memberi rezeki kepadamu berupa harta benda untuk kamu nikmati dan mengaruniai anak-anak yang akan membantu kamu. Kebun-kebun yang lebat akan membuat hidupmu sejahtera. Dan sungai-sungai akan menjamin pengairan bagi tanahmu.&quot; (QS. Nuuh : 5-12)"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pembuatan Kapal"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sudah tidak ada harapan lagi kaum Nuh akan beriman, kecuali sedikit. Akhirnya, Nabi Nuh berdoa agar Allah menimpakan azab kepada kaumnya. Allah pun mengabulkan doa Nabi Nuh. Sebelum membinasakan kaum kafir itu. Allah memerintahkan Nabi Nuh dan kaum Muslim menyiapkan alat untuk menyelamatkan diri. Allah menyuruh mereka untuk membuat kapal. Nabi Nuh dan pengikutnya segera menjalankan perintah Allah itu. Mereka mulai membuat kapal. Namun, pembuatan kapal diejek oleh orang-orang kafir. Untuk menghadapi ejekan orang-orang kafir itu, Nabi Nuh berkata, &quot;Jika kamu mengejek Kami, maka sesungguhnya kami (pun) mengejekmu sebagaimana kamu sekalin, mengejek (kami). Kelak, kamu akan mengetahui siapa yang akan ditimpa oleh azab yang menghinakannya, dan yang akan ditimpa azab yang kekal.&quot; (QS. Huud : 38-39)."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Air Bah"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Nuh dan pengikutnya, kaum Muslim, akhirnya selesai membuat kapal. Selanjutnya, Allah memerintahkan Nabi Nuh untuk mengumpulkan sepasang dari setiap jenis hewan yang hidup. Lalu, hewan-hewan itu dimasukkan ke dalam kapal. Hal ini supaya mereka bisa berkembang biak lagi. Sebab, nanti setelah bencana besar melanda, makhluk hidup di bumi akan musnah. Kecuali yang ikut naik ke kapal Nabi Nuh. Setelah itu, Nabi Nuh menyuruh semua pengikutnya naik ke kapal. Nabi Nuh berkata kepada orang-orang beriman, &quot;Naiklah ke kapal dengan menyebut nama Allah Ta'ala di waktu berlayar dan berlabuh.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mereka berdoa demikian karena bukan kapal itu yang menyelamatkan mereka. Hanya Allah-lah yang menjalankan dan menghentikan kapal itu. Sehingga, wajiblah atas mereka berharap kepada Allah. Setelah semuanya siap di dalam kapal, Allah menurunkan hujan dari langit. Allah menyuruh bumi memancarkan air dari segenap penjurunya. Dalam sekejap, air dari langit dan bumi berkumpul sehingga timbullah air bah yang dahsyat. Itulah bencana yang ditakdirkan Allah, dengan doa Nabi-Nya, untuk membinasakan orang-orang kafir. Sementara itu, kapal berlayar dengan perlindungan Allah dan pemeliharaan-Nya. Allah telah menyelamatkan Nabi Nuh dan orang-orang yang beriman."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tenggelamnya Putra Nabi Nuh as"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Nuh teringat akan putranya. Sebagai seorang bapak yang menyayangi anaknya, Nabi Nuh memanggilnya. Ia memintanya untuk naik ke kapal bersama keluarga yang lain. Namun, putranya menolak. Nabi Nuh berkata, &quot;Hai anakku, naiklah ke kapal ini agar engkau selamat dari azab Allah. Janganlah engkau masuk ke dalam golongan orang-orang kafir yang mengingkari agama Allah.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Putra Nabi Nuh memang durhaka. Dalam situasi demikian, ia tetap tidak mau beriman kepada Allah. Karena ia menduga bahwa apa yang terjadi merupakan peristiwa alam biasa. Tanpa naik ke kapal pun, ia bisa selamat. Begitu pikirnya. Maka, ia berkata kepada bapaknya, &quot;Aku akan berlindung ke puncak gunung yang tidak bisa dicapai oleh air, sehingga aku tidak akan tenggelam.&quot;   Nabi Nuh mengingatkan, &quot;Tidak ada satu kekuatan pun yang sanggup mencegah takdir Allah. Jika seseorang ditakdirkan tenggelam, ia pasti tenggelam, sebagai balasan bagi orang-orang kafir.&quot; Putranya tetap menolak ajakan Nabi Nuh. Ia yakin bisa mencapai puncak gunung dan berlindung di sana. Akan tetapi, bukan itu yang terjadi. Air bah terus meninggi dan menenggelamkan putra Nabi Nuh."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Memohon Keselamatan Putranya"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sebelum putranya tenggelam, Nabi Nuh memohon kepada Allah agar putranya diselamatkan. Karena, Allah telah berjanji akan menyelamatkan keluarganya. Allah menjawab bahwa putra Nabi Nuh yang kafir itu bukanlah termasuk keluarga yang dijanjikan untuk diselamatkan. Hal itu karena putra Nabi Nuh tidak beriman kepada Allah dan melakukan perbuatan-perbuatan yang tidak baik. Allah melarang Nabi Nuh untuk memohon sesuatu, kecuali bila ia yakin bahwa hal itu benar. Nabi Nuh kemudian menyesal. Ia mengakui kesalahannya, &quot;Sesungguhnya aku berlindung kepada-Mu, wahai Tuhanku. Aku tidak akan memohon sesuatu yang tidak Engkau ridhai. Jika Engkau tidak mengampuniku, niscaya aku termasuk orang-orang yang merugi.&quot;"
+                        android:textColor="#050505"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Air Bah Surut"
+                        android:textColor="#070707"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selanjutnya, air bah benar-benar menenggelamkan kaum Nabi Nuh yang tidak mau taat. Setelah semua orang kafir tenggelam. Allah menyuruh bumi untuk mengisap airnya. Allah juga menyuruh langit untuk berhenti menurunkan hujan. Maka, surutlah air bah itu. Kapal Nabi Nuh, kemudian terdampar di Gunung Judy."
+                        android:textColor="#090909"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Allah mengatakan dalam Surah Huud (11):48, Dikatakan kepada Nuh, &quot;Hai Nuh, turunlah dengan selamat sejahtera dan penuh keberkatan dari Kami atasmu dan atas umat-umat (yang mukmin) dari orang-orang yang bersamamu. Dan ada (pula) umat-umat yang Kami beri kesenangan pada mereka (dalam kehidupan dunia). Kemudian, mereka akan ditimpa azab (siksa) yang pedih dari Kami.&quot;"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Di tanah baru itulah, pengikut Nabi Nuh hidup dengan damai. Lalu, mereka berkembang sehingga jumlahnya menjadi banyak lagi. Hud adalah Nabi yang diutus Allah kepada kaum 'Ad di Al-Ahqaf. Sebagaimana firman Allah, &quot;Dan ingatlah (Hud) saudara kaum 'Ad yaitu ketika dia memberi peringatan kepada kaumnya di Al-Ahqaf...&quot; (QS. Al-Ahqaaf : 21)."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Menurut ahli sejarah, Al-Ahqaf merupakan daerag di antara Yaman dan Amman (Yordania) sampai Hadramaut dan Asy-Syajar. Kaum Ad hidup di daerah yang tanahnya subur. Mata air mengalir dari segala penjuru. Kondisi daerah sebaik itu memudahkan mereka untuk mengelola pertanian. Mereka juga mendirikan gedung-gedung megah di kota-kota. Kaum 'Ad diberikan kekayaan harta benda oleh Allah. Akan tetapi, kaum 'Ad lupa bersyukur kepada Allah. Padahal, mereka telah mendapat begitu banyak nikmat. Mereka malah menyembah berhala, yaitu Shada, Shamud, dan Al-Haba."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
