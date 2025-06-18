@@ -37,10 +37,20 @@
         android:id="@+id/linearLayout_Quizvert"
         android:layout_width="335dp"
         android:layout_height="208dp"
-        android:background="#00008B"
+        android:background="#E7F3F5"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_Quiz"
+        app:layout_constraintVertical_bias="0.501">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:fontFamily="@font/adlam_display"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
