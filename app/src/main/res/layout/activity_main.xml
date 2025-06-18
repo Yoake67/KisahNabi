@@ -44,9 +44,9 @@
         android:paddingTop="12dp"
         android:textSize="24sp"
         android:text="KISAH 25 NABI DAN RASUL"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="#FF0000"
-        android:textDirection="firstStrong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
