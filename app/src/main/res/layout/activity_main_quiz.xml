@@ -100,6 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#F6E3C1"
+            android:textStyle="bold"
             android:fontFamily="@font/adlam_display"
             android:text="SUBMIT" />
 

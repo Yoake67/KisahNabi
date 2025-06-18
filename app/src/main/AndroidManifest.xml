@@ -16,9 +16,6 @@
             android:name=".MainActivity_Quiz"
             android:exported="false" />
         <activity
-            android:name=".MainActivity_quiz1"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity_Quiz2"
             android:exported="false" />
         <activity

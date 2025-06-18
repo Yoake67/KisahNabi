@@ -1,5 +1,6 @@
 package com.uti.kisahnabi
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -43,6 +44,11 @@ class MainActivity_Quiz : AppCompatActivity() {
                 if (idJawabanTerpilih == idJawabanBenar) {
                     // Jawaban BENAR
                     Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
+
+                    // Buat Intent untuk pindah ke halaman kuis berikutnya
+                    val intent = Intent(this, MainActivity_Quiz2::class.java)
+                    startActivity(intent)
+
                 } else {
                     // Jawaban SALAH
                     Toast.makeText(this, "Jawaban Anda Salah. Coba lagi!", Toast.LENGTH_SHORT).show()
@@ -51,3 +57,4 @@ class MainActivity_Quiz : AppCompatActivity() {
         }
     }
 }
+
