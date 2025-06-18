@@ -2,29 +2,29 @@ package com.uti.kisahnabi
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.widget.Button
 
-class KisahNabi : AppCompatActivity() {
+class NabiIdrisActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_kisah_nabi)
+        setContentView(R.layout.activity_nabi_idris)
 
-        val buttonNabiAdam: Button = findViewById(R.id.BtnNabi1)
+        val buttonSebelumnya: Button = findViewById(R.id.sebelumnyake1)
 
-        buttonNabiAdam.setOnClickListener {
+        buttonSebelumnya.setOnClickListener {
             val intent = Intent(this, NabiAdamActivity::class.java)
             startActivity(intent)
         }
 
-        val buttonNabiIdris: Button = findViewById(R.id.BtnNabi2)
+        val buttonSelanjutnya: Button = findViewById(R.id.selanjutnyake3)
 
-        buttonNabiIdris.setOnClickListener {
-            val intent = Intent(this, NabiIdrisActivity::class.java)
+        buttonSelanjutnya.setOnClickListener {
+            val intent = Intent(this, KisahNabi::class.java)
             startActivity(intent)
         }
 
