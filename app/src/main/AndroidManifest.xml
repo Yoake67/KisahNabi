@@ -13,6 +13,12 @@
         android:theme="@style/Theme.KisahNabi"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Quiz2"
+            android:exported="false" />
+        <activity
             android:name=".NabiIdrisActivity"
             android:exported="false" />
         <activity
@@ -22,10 +28,10 @@
             android:name=".KisahrosulActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity_Quiz"
+            android:name=".KisahNabi"
             android:exported="false" />
         <activity
-            android:name=".KisahNabi"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,9 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

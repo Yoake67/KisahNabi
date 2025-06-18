@@ -1,22 +1,16 @@
 package com.uti.kisahnabi
 
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.RadioButton
-import android.widget.TextView
+import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity_Quiz : AppCompatActivity() {
-    private lateinit var radioNabiMusa: RadioButton
-    private lateinit var radioNabiIbrahim: RadioButton
-    private lateinit var radioNabiAdam: RadioButton
-    private lateinit var radioNabiMuhammad: RadioButton
-    private lateinit var submitButton: Button
-    private lateinit var resultText: TextView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -27,38 +21,42 @@ class MainActivity_Quiz : AppCompatActivity() {
             insets
         }
 
-        radioNabiMusa = findViewById(R.id.Nabi_Musa)
-        radioNabiIbrahim = findViewById(R.id.Nabi_Ibrahim)
-        radioNabiAdam = findViewById(R.id.Nabi_Adam)
-        radioNabiMuhammad = findViewById(R.id.Nabi_Muhammad)
-        submitButton = findViewById(R.id.submit1)
-        resultText = findViewById(R.id.result_text)
 
-        submitButton.setOnClickListener {
-            val isMusa = radioNabiMusa.isChecked
-            val isIbrahim = radioNabiIbrahim.isChecked
-            val isAdam = radioNabiAdam.isChecked
-            val isMuhammad = radioNabiMuhammad.isChecked
+        // --- MULAI LOGIKA KUIS DARI SINI ---
 
-            if (!isMusa && !isIbrahim && !isAdam && !isMuhammad) {
-                // No option selected
-                resultText.text = "Harap pilih jawaban terlebih dahulu."
-                return@setOnClickListener
-            }
+        // 1. Ambil referensi komponen dari layout XML
+        val radioGroupSoal1 = findViewById<RadioGroup>(R.id.radioGroup1)
+        val buttonSubmit1 = findViewById<Button>(R.id.submit1)
 
-            if (isAdam) {
-                resultText.text = "Jawaban benar!"
+        // ID dari RadioButton yang merupakan jawaban benar
+        val idJawabanBenar = R.id.Nabi_Ibrahim1
+
+        // 2. Atur aksi ketika tombol SUBMIT diklik
+        buttonSubmit1.setOnClickListener {
+            // Dapatkan ID dari RadioButton yang sedang dipilih oleh pengguna
+            val idJawabanTerpilih = radioGroupSoal1.checkedRadioButtonId
+
+            // 3. Periksa apakah pengguna sudah memilih jawaban atau belum
+            if (idJawabanTerpilih == -1) {
+                // Jika belum ada yang dipilih, tampilkan pesan peringatan
+                Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
             } else {
-                resultText.text = "Jawaban salah, coba lagi."
+                // Jika sudah ada yang dipilih, tetap lanjutkan.
+                // Pertama, tampilkan apakah jawaban benar atau salah.
+                if (idJawabanTerpilih == idJawabanBenar) {
+                    // Jawaban BENAR
+                    Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
+                } else {
+                    // Jawaban SALAH
+                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
+                }
+
+                // Kemudian, selalu pindah ke halaman kuis berikutnya
+                val intent = Intent(this, MainActivity_Quiz2::class.java)
+                startActivity(intent)
             }
-            // Disable radio buttons to prevent answer change after submit
-            radioNabiMusa.isEnabled = false
-            radioNabiIbrahim.isEnabled = false
-            radioNabiAdam.isEnabled = false
-            radioNabiMuhammad.isEnabled = false
-            // Disable submit button to prevent multiple submits
-            submitButton.isEnabled = false
         }
     }
 }
+
 
