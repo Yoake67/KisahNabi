@@ -56,7 +56,6 @@
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/adlam_display"
                 android:textStyle="bold"
-
                 android:text="3. Nabi siapakah yang dianugerahi mukjizat dapat berbicara dengan hewan?"
                 android:textColor="#000000"
                 android:textSize="16sp" />

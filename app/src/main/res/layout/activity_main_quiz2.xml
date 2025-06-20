@@ -109,7 +109,6 @@
                 android:fontFamily="@font/adlam_display"
                 android:text="SUBMIT"
                 android:textStyle="bold"
-
                 android:textColor="@color/black" />
 
         </LinearLayout>
