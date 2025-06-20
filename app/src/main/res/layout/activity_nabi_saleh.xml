@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiSalehActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/KisahNabiSaleh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI SALEH AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Shaleh diutus Allah untuk berdakwah dan menyerukan kebenaran kepada kaum Tsamud. Shaleh sendiri masih ada hubungan saudara dengan Tsamud, sama-sama keturunan Sam bin Nuh. Adapun silsilah Shaleh: Shaleh bin Abid bin Asif bin Masyih bin Abid bin Hadzir bin Tsamud bin Shaleh bin Arfakhsyad bin Sam bin Nuh. Sedangkan silsilah Tsamud: Tsamud bin Ad bin Irmi bin Shaleh bin Arfakhsyad bin Sam bin Nuh."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Jadi, Tsamud adalah keturunan Ad. Tsamud ini kemudian beranak pinak, bercucu banyak sehingga terbentuklah suatu kaum atau suku yang disebut kaum Tsamud. Sedangkan, Shaleh adalah anak dari Abid, keturunan Tsamud. "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kaum Tsamud menghuni daerah Hadramaut, yakni daratan antara Yaman dan Syam (Syria). Kaum Tsamud ini mempunyai ilmu pengetahuan, keterampilan, dan kecakapan dalam bercocok tanam dan beternak. Dengan keahlian itu, mereka hidup makmur di Hadramaut. Semua itu adalah karunia Allah yang diberikan kepada mereka."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tidak hanya itu, mereka pun diberi kekuatan fisik yang tangguh. Mereka sanggup mengukir gunung-gunung untuk dijadikan pemandangan indah. Mereka membangun gedung-gedung tinggi. Mereka juga membuat rumah-rumah di tebing-tebing gunung yang dilubangi dan dipahat."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Namun, kaum Tsamud tidak mengenal tuhan. Berhala yang mereka buat sendirilah yang mereka jadikan tuhan. Hukum yang berlaku pun hukum rimba. Hukum yang bertentangan dengan kemanusiaan. Gaya hidup mereka menyimpang jauh dari kebenaran dan kemanusiaan. Orang-orang kaya hidup berfoya-foya, bermabuk-mabukan, berzina, dan lain-lain. Perampokan terjadi disana-sini. Penganiayaan dan perbuatan zalim dapat dijumpai setiap hari. Orang yang lemah menjadi budak dan diperlakukan tidak manusiawi."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kemudian, Allah mengutus Shaleh kepada kaum Tsamud. Nabi Shaleh berkata, &quot;Wahai Saudaraku, kaum Tsamud, kebiasaanmu menyembah berhala itu sangat keliru. Sesungguhnya, Tuhan yang wajib kalian sembah adalah Allah.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Hai Shaleh! Siapakah Allah itu?&quot; tanya salah seorang dari mereka."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dia adalah Tuhan sekalian manusia, sekalian makhluk. Dialah yang berkuasa atas segala-galanya. Dialah tempat meminta ampunan, tempat memohon pertolongan dari kesulitan,&quot; kata Nabi Shaleh menjelaskan."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Coba tunjukkan dimana Tuhanmu itu. Bagaimana wujudnya, apakah sama dengan tuhan-tuhan kami?&quot;"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Masya Allah, kalian sungguh keterlaluan. Kalian tidak akan mampu melihat wujud Allah,&quot; jawab Nabi Shaleh. "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Pembual! Omong kosong kau, hai Shaleh. Aku tidak memercayai omonganmu sedikit pun sebelum kau menunjukkan bukti, mukjizatmu kepada kami. Tunjukkanlah bukti-bukti kehebatanmu sebagai nabi utusan Tuhanmu itu! Baru kami akan memercayai dan mengikutimu!&quot; kata orang-orang Tsamud. Dialog ini diterangkan di dalam Al Quran Surah Huud (11):61-62."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kaum Tsamud tidak menghiraukan perkataan Nabi Shaleh. Mereka bahkan menganggap Nabi Shaleh gila, terkena sihir atau kerasukan setan sehingga omongannya ngawur. Mereka hanya akan percaya bila Nabi Shaleh bisa menunjukkan tanda-tanda kenabiannya. Maka, Nabi Shaleh pun memohon kepada Allah untuk memberikan mukjizat."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Saat itu pula Allah memerintahkan Nabi Shaleh untuk memukulkan tangannya ke atas permukaan batu yang ada di depannya. Setelah Nabi Shaleh melakukannya, muncullah unta yang gemuk, besar, dan bagus. Tentu saja, kandungan susunya banyak. Orang-orang Tsamud terperanjat semuanya. Saking herannya, mereka bergumam bagaikan suara lebah."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Shaleh lalu berkata kepada kaumnya, &quot;Hai kaumku, inilah tanda bahwa aku adalah Nabi pesuruh Allah. Sembahlah Allah, dan tinggalkanlah berhala-berhala itu. Kalian jangan mengganggu unta ajaib ini. Binatang ini perlu minum sebagaimana kalian minum. Jika kalian menginginkan susunya, silakan memerahnya!&quot; kata Nabi Shaleh menerangkan. Kisah tentang unta ajaib ini ada di dalam Al Quran Surah Asy-Syu'araa' 26:155-159."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sejak awal, Nabi Shaleh telah memperingatkan kaum Tsamud. Mereka dilarang mengganggu unta itu, apalagi membunuhnya. Sebab, unta itu bukan sembarang unta, melainkan mukjizat dari Allah. Jika sampai ada yang membunuhnya, dikhawatirkan Allah akan murka."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sejak itulah, sang unta berkeliaran. Ia berpindah-pindah tempat kemana pun ia suka. Setiap hari, orang-orang antre untuk mendapatkan susunya. Anehnya, susu itu keluar terus walaupun banyak orang yang memerahnya."
+                        android:textColor="#050505"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pembunuhan Unta"
+                        android:textColor="#070707"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dengan hadirnya unta itu, sebagian dari mereka merasa senang. Hal ini karena mereka bisa mendapatkan susu setiap hari. Namun demikian, diam-diam ternyata ada beberapa orang yang sangat tidak menyukai kehadiran unta ajaib itu. Mereka adalah orang-orang yang sudah sejak lama tidak menyukai Nabi Shaleh."
+                        android:textColor="#090909"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada suatu malam, mereka berunding untuk membunuh unta tersebut. Mereka khawatir jika unta itu dibiarkan terus hidup, akan semakin banyak orang yang beriman dan mengikuti nabi Shaleh. Akhirnya, para pemimpin orang-orang kafir sepakat untuk melenyapkan unta Nabi Shaleh. Kemudian, mereka menunjuk seorang pemuda berbadan kekar untuk melaksanakan tugas itu."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Keesokan harinya, tatkala matahari muncul di ufuk timur, orang-orang berbondong-bondong mengambil air di telaga sebagaimana biasanya. Setelah itu, para penduduk menyambut kedatangan unta. Lalu, mereka memerah susunya secara bergiliran. Orang-orang kafir yang fanatik kepada berhalanya semakin panas hati. Diam-diam, seorang pemuda kafir sedang menanti saat yang tepat untuk membunuh unta itu. Ketika orang-orang sudah meninggalkan unta itu, si pemuda pun membunuhnya."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Setelah mengetahui untanya disembelih, Nabi Shaleh marah bukan main. Ia segera menuju telaga. Sesampainya disana, Nabi Shaleh berkata, &quot;Wahai kaumku! Siapakah yang berani-beraninya membunuh unta ajaib itu?&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pemuda yang membunuh unta itu berkata, &quot;Akibat untamu itu, telaga menjadi kotor. Orang-orang tergila-gila pada air susunya. Kamilah yang membinasakannya.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Apakah engkau tidak ingat? Aku telah memperingatkan, jangan sekali-kali kalian mengganggu unta itu. Apalagi sampai membunuhnya. Bila kalian melakukannya, berarti kalian siap menerima azab dari Allah,&quot; kata Nabi Shaleh."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Mana mungkin Tuhanmu bisa mengirim azab. Buktikan! Kami ingin tahu dan merasakan!&quot; tantang mereka. Kehancuran Kaum Tsamud Setelah tantangan kaum Tsamud itu, Nabi Shaleh memberi tahu bahwa azab akan datang tiga hari lagi. Hal ini dijelaskan Allah dalam Surah Huud (11):65, &quot;Mereka membunuh unta itu. Maka berkatalah Nabi Shaleh, &quot;Bersukarialah kamu sekalian di rumah selama tiga hari. Itu adalah janji yang tidak dapat didustakan.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada hari pertama setelah pembunuhan unta, masih terasa biasa-biasa saja. Hari kedua pun sama. Akhirnya, pada hari ketiga, janji Allah datang. Langit menjadi gelap. Orang-orang mulai panik. Sementara Nabi Shaleh dan pengikutnya, orang-orang beriman sudah pergi menyelamatkan diri. Petir pun menyambar orang-orang kafir."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Al Quran mengatakan, &quot;Maka mereka berlaku angkuh terhadap perintah Tuhanny, lalu mereka di sambar petir sedang mereka melihatnya.&quot; (QS. Adz-Dzaariyaat (51):44)."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Mereka juga diguncang gempa. Mereka pun mati di dalam rumah mereka. Allah berfirman, &quot;Karena itu mereka ditimpa gempa. Karena itu, jadilah mereka mayat-mayat yang bergelimpangan di tempat tinggal mereka.&quot; (QS. Al-A'raaf[7]:78)."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
