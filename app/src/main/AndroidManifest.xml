@@ -25,6 +25,12 @@
             android:name=".MainActivity_quiz3"
             android:exported="false" />
         <activity
+            android:name=".NabiHudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NabiNuhActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity_Quiz"
             android:exported="false" />
         <activity

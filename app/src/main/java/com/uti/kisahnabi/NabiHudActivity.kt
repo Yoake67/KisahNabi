@@ -2,46 +2,31 @@ package com.uti.kisahnabi
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.widget.Button
 
-class KisahNabi : AppCompatActivity() {
+class NabiHudActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_kisah_nabi)
+        setContentView(R.layout.activity_nabi_hud)
 
-        val buttonNabiAdam: Button = findViewById(R.id.BtnNabi1)
+        val buttonSebelumnya: Button = findViewById(R.id.sebelumnyake3)
 
-        buttonNabiAdam.setOnClickListener {
-            val intent = Intent(this, NabiAdamActivity::class.java)
-            startActivity(intent)
-        }
-
-        val buttonNabiIdris: Button = findViewById(R.id.BtnNabi2)
-
-        buttonNabiIdris.setOnClickListener {
-            val intent = Intent(this, NabiIdrisActivity::class.java)
-            startActivity(intent)
-        }
-
-        val buttonNabiNuh: Button = findViewById(R.id.BtnNabi3)
-
-        buttonNabiNuh.setOnClickListener {
+        buttonSebelumnya.setOnClickListener {
             val intent = Intent(this, NabiNuhActivity::class.java)
             startActivity(intent)
         }
 
-        val buttonNabiHud: Button = findViewById(R.id.BtnNabi4)
+        val buttonSelanjutnya: Button = findViewById(R.id.selanjutnyake5)
 
-        buttonNabiHud.setOnClickListener {
+        buttonSelanjutnya.setOnClickListener {
             val intent = Intent(this, NabiHudActivity::class.java)
             startActivity(intent)
         }
-
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
