@@ -40,7 +40,7 @@ class MainActivity_Quiz2 : AppCompatActivity() {
 
                 // Lanjutkan ke halaman kuis berikutnya (soal 3)
                 // Pastikan Anda sudah membuat MainActivity_Quiz3.kt dan activity_main_quiz3.xml
-                val intent = Intent(this, MainActivity_Quiz3::class.java)
+                val intent = Intent(this, MainActivity_quiz3::class.java)
                 startActivity(intent)
                 // Selesaikan activity saat ini agar tidak bisa kembali dengan tombol back
                 finish()
