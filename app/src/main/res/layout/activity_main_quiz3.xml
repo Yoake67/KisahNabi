@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity_quiz3">
+    tools:context=".MainActivity_Quiz3">
 
     <LinearLayout
         android:id="@+id/linearLayout_Quiz"
