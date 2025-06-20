@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity_Quiz2">
+    tools:context=".MainActivity_Quiz5">
 
     <LinearLayout
         android:id="@+id/linearLayout_Quiz"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView_Quiz2"
+            android:id="@+id/textView_Quiz5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
@@ -50,64 +50,63 @@
             android:gravity="center">
 
             <TextView
-                android:id="@+id/Soal2"
+                android:id="@+id/Soal5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/adlam_display"
-                android:text="2. Siapa nama nabi yang menerima wahyu pertama di Gua Hira?"
                 android:textStyle="bold"
+                android:text="5. Nabi yang dikenal dengan kesabarannya yang luar biasa saat diuji dengan penyakit adalah..."
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
-            <!-- RadioGroup untuk menampung semua pilihan jawaban soal 2 -->
             <RadioGroup
-                android:id="@+id/radioGroup2"
+                android:id="@+id/radioGroup5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/opsiA_soal2"
+                    android:id="@+id/opsiA_soal5_jawaban"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Musa AS"
+                    android:text="Nabi Ayyub AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiB_soal2"
+                    android:id="@+id/opsiB_soal5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Isa AS"
+                    android:text="Nabi Ya'qub AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiC_soal2"
+                    android:id="@+id/opsiC_soal5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Adam AS"
+                    android:text="Nabi Zakaria AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiD_soal2_jawaban"
+                    android:id="@+id/opsiD_soal5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Muhammad SAW"
+                    android:text="Nabi Syu'aib AS"
                     android:textSize="14sp" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/submit2"
+                android:id="@+id/submit5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#F6E3C1"
                 android:fontFamily="@font/adlam_display"
-                android:text="SUBMIT"
+                android:text="SELESAI KUIS"
                 android:textStyle="bold"
                 android:textColor="@color/black" />
 
