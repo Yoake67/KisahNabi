@@ -8,7 +8,7 @@
     tools:context=".KisahNabi">
 
     <LinearLayout
-        android:id="@+id/linearLayout_KisahNabi"
+        android:id="@+id/linearLayout_KisahRosul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#AAE06A"
@@ -42,8 +42,8 @@
         android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout_KisahNabi"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+        app:layout_constraintStart_toStartOf="@+id/linearLayout_KisahRosul"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahRosul">
 
         <ScrollView
             android:layout_width="match_parent"
