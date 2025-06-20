@@ -105,7 +105,7 @@
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#F6E3C1"
                 android:fontFamily="@font/adlam_display"
-                android:text="SELESAI"
+                android:text="SUBMIT"
                 android:textColor="@color/black" />
 
         </LinearLayout>
