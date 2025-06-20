@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity_Quiz2">
+    tools:context=".MainActivity_quiz3">
 
     <LinearLayout
         android:id="@+id/linearLayout_Quiz"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView_Quiz2"
+            android:id="@+id/textView_Quiz3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
@@ -50,63 +50,62 @@
             android:gravity="center">
 
             <TextView
-                android:id="@+id/Soal2"
+                android:id="@+id/Soal3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/adlam_display"
-                android:text="2. Siapa nama nabi yang menerima wahyu pertama di Gua Hira?"
+                android:text="3. Nabi siapakah yang dianugerahi mukjizat dapat berbicara dengan hewan?"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
-            <!-- RadioGroup untuk menampung semua pilihan jawaban soal 2 -->
             <RadioGroup
-                android:id="@+id/radioGroup2"
+                android:id="@+id/radioGroup3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/opsiA_soal2"
+                    android:id="@+id/opsiA_soal3_jawaban"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Musa AS"
+                    android:text="Nabi Sulaiman AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiB_soal2"
+                    android:id="@+id/opsiB_soal3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Isa AS"
+                    android:text="Nabi Daud AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiC_soal2"
+                    android:id="@+id/opsiC_soal3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Adam AS"
+                    android:text="Nabi Nuh AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiD_soal2_jawaban"
+                    android:id="@+id/opsiD_soal3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Muhammad SAW"
+                    android:text="Nabi Yunus AS"
                     android:textSize="14sp" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/submit2"
+                android:id="@+id/submit3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#F6E3C1"
                 android:fontFamily="@font/adlam_display"
-                android:text="SUBMIT"
+                android:text="SELESAI"
                 android:textColor="@color/black" />
 
         </LinearLayout>
