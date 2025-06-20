@@ -14,6 +14,13 @@ class NabiHudActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_nabi_hud)
 
+        val buttonkeKembali: Button = findViewById(R.id.kembalikekisahnabi)
+
+        buttonkeKembali.setOnClickListener {
+            val intent = Intent(this, KisahNabi::class.java)
+            startActivity(intent)
+        }
+
         val buttonSebelumnya: Button = findViewById(R.id.sebelumnyake3)
 
         buttonSebelumnya.setOnClickListener {
