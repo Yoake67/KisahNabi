@@ -11,7 +11,7 @@ class MainActivity_Quiz2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // Menggunakan layout activity_main_quiz2.xml yang sudah diperbaiki
+        // Menggunakan layout activity_main_quiz2.xml
         setContentView(R.layout.activity_main_quiz2)
 
         // 1. Ambil referensi komponen dari layout XML
@@ -39,11 +39,12 @@ class MainActivity_Quiz2 : AppCompatActivity() {
                 }
 
                 // Lanjutkan ke halaman kuis berikutnya (soal 3)
-                // Pastikan Anda sudah membuat MainActivity_Quiz3.kt dan activity_main_quiz3.xml
                 val intent = Intent(this, MainActivity_quiz3::class.java)
                 startActivity(intent)
-                // Selesaikan activity saat ini agar tidak bisa kembali dengan tombol back
-                finish()
+
+                // PERINTAH finish() DIHAPUS DARI SINI
+                // Dengan menghapus finish(), activity ini tetap ada di 'tumpukan' (stack),
+                // sehingga Anda bisa kembali ke halaman ini dari halaman berikutnya.
             }
         }
     }
