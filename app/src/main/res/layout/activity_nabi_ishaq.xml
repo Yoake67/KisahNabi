@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiIshaqActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiIshaq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI ISHAQ AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Ishaq adalah putera nabi Ibrahim dari isterinya Sarah, sedang Nabi Ismail adalah puteranya dari Hajr, dayang yang diterimanya sebagai hadiah dari Raja Namrud."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tentang Nabi Ishaq ini tidak dikisahkan dalan Al-Quran kecuali dalam beberapa ayat di antaranya adalah ayat 69 sehingga 74 dari surah Hud, seperti berikut:"
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot; Dan sesungguhnya utusan-utusan Kami {malaikat-malaikat} telah datang kepada Ibrahim membawa khabar gembira mereka mengucapkan &quot;selamat&quot;.Ibrahim menjawab: &quot;Selamatlah&quot; maka tidak lama kemudian Ibrahim menjamukan daging anak sapi yang dipanggang. 70. Mak tatkala dilihatnya tangan mereka tidak menjamahnya, Ibrahim memandang aneh perbuatan mereka, dan merasa takut kepada mereka. malaikat itu berkata &quot; Janagan kamu takut sesungguhnya kami adalah {malaikat-malaikat} yang diuts untuk kaum Luth.&quot; 71. dan isterinya berdiri di sampingnya lalu di tersenyum. Maka Kami sampaikan kepadanya berita gembira akan {kelahiran} Ishaq dan sesudah Ishaq {lahir pula} Ya'qup. 72. Isterinya berkata &quot; sungguh menghairankan apakah aku akan melahirkan anak padahal aku adalah seorang perempuan tua dan suamiku pun dalam keadaan yang sudah tua juga? Sesungguhnya ini benar-benar sesuatu yang aneh. 73. Para malaikat itu berkata &quot; Apakah kamu merasa hairan tentang ketetapan Allah? { itu adalah} rahmat Allah dan keberkatan-Nya dicurahkan atas kamu hai ahlulbait! sesungguhnya Allah Maha Terpuji lagi Maha Pemurah. 74. Mak tatkala rasa takut hilang dari Ibrahim dan berita gembira telah datang kepadanya dia pun bersoal jawab dengan {malaikat-malaikat} Kami tentang kaum Luth.&quot; { Hud : 69 ~ 74 }"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selain ayat-ayat yang tersebut di atas yang membawa berita akan lahirnya Nabi Ishaq drp kedua orang tuanya yang sudah lanjut usia yang menurut sementara riwayat bahwa usianya pada waktu itu sudah mencapai sembilan puluh tahun, terdapat beberapa ayat yang menetapkan kenabiannya di antaranya ialah ayat 49 surah &quot;Maryam&quot; sebagai berikut:"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dan ayat 112 dan 113 surah &quot;Ash-Shaffaat&quot; sebagai berikut :"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot; 112. Dan Kami dia khabar gembira dengan {kelahiran} Ishaq seorang nabi yang termasuk orang-orang yang soleh. 113. Kami limpahkan keberkatan atasnya dan atas Ishaq. Dan di antara anak cucunya ada yang berbuat baik dan ada {pula} yang zalim terhadap dirinya dengan nyata.&quot;"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Catatan Tambahan"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text=" Diriwayatkan bahwa Nabi Ibrahim wafat pada usia 175 tahun. Nabi Ismail pada usia 137 tahun dan Nabi Ishaq pada usia 180 tahun."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
