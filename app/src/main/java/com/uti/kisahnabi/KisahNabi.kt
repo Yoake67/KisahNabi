@@ -14,6 +14,13 @@ class KisahNabi : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_kisah_nabi)
 
+        val buttonKembalikeMain: Button = findViewById(R.id.kembalikemain)
+
+        buttonKembalikeMain.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
         val buttonNabiAdam: Button = findViewById(R.id.BtnNabi1)
 
         buttonNabiAdam.setOnClickListener {
@@ -53,6 +60,13 @@ class KisahNabi : AppCompatActivity() {
 
         buttonNabiIbrahim.setOnClickListener {
             val intent = Intent(this, NabiIbrahimActivity::class.java)
+            startActivity(intent)
+        }
+
+        val buttonNabiIsmail: Button = findViewById(R.id.BtnNabi7)
+
+        buttonNabiIsmail.setOnClickListener {
+            val intent = Intent(this, NabiIsmailActivity::class.java)
             startActivity(intent)
         }
 
