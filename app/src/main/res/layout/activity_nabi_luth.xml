@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sampai Nabi Ibrahim yang berhijrah meninggalkan Mesir bersama Sarah, isterinya  dan Hajar, dayangnya di tempat tujuannya di Palestin. Ia telah membawa pindah  juga semua binatang ternaknya dan harta miliknya yang telah diperolehinya  sebagai hasil usaha niaganya di Mesir."
+                        android:text="Nabi Luth adalah anak saudara dari Nabi Ibrahim. Ayahnya yang bernama Hasan bin  Tareh adalah saudara sekandung dari Nabi Ibrahim. Ia beriman kepada bapa  saudaranya Nabi Ibrahim mendampinginya dalam semua perjalanan dan sewaktu mereka  berada di Mesir berusaha bersama dalam bidang perternakan yang berhasil dengan  baik binatang ternaknya berkembang biak sehingga dalam waktu yang singkat jumlah  yang sudah berlipat ganda itu tidak dapat ditampung dalam tempat yang disediakan  . Akhirnya perkongsian Ibrahim-Luth dipecah dan binatang ternakan serta harta  milik perusahaan mereka di bahagi dan berpisahlah Luth dengan Ibrahim pindah ke  Yordania dan bermukim di sebuah tempat bernama Sadum."
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp" />
@@ -82,16 +82,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Al-Bukhari meriwayatkan daripada Ibnu Abbas  r.a.berkata:"
+                        android:text="Nabi Luth Diutuskan Oleh Allah Kepada  Rakyat Sadum"
                         android:textColor="#070707"
-                        android:textSize="16sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Pertama-tama yang menggunakan setagi (setagen) ialah Hajar ibu  Nabi Ismail tujuan untuk menyembunyikan kandungannya dari Siti Sarah yang telah  lama berkumpul dengan Nabi Ibrahim a.s. tetapi belum juga hamil. tetapi  walaubagaimana pun juga akhirnya terbukalah rahasia yang disembunyikan itu dengan  lahirnya Nabi Ismail a.s. Dan sebagai lazimnya seorang isteri sebagai Siti Sarah  merasa telah dikalahkan oleh Siti Hajar sebagai seorang dayangnya yang diberikan  kepada Nabi Ibrahim a.s. Dan sejak itulah Siti Sarah merasakan bahawa Nabi  Ibrahim a.s. lebih banyak mendekati Hajar karena merasa sgt gembira dengan  puteranya yang tunggal dan pertama itu, hal ini yang menyebabkan permulaan ada  keratakan dalam rumahtangga Nabi Ibrahim a.s. sehingga Siti Sarah merasa tidak  tahan hati jika melihat Siti Hajar dan minta pada Nabi Ibrahim a.s. supaya  menjauhkannya dari matanya dan menempatkannya di lain tempat."
+                        android:text="Masyarakat Sadum adalah masyarakat yang rendah tingkat  moralnya,rusak mentalnya, tidak mempunyai pegangan agama atau nilai kemanusiaan  yang beradab. Kemaksiatan dan kemungkaran bermaharajalela dalam pergaulan hidup  mereka. Pencurian dan perampasan harta milik menrupakan kejadian hari-hari di mana  yang kuat menjadi kuasa sedang yang lemah menjadi korban penindasan dan  perlakuan sewenang-wenang. Maksiat yang paling menonjol yang menjadi ciri khas  hidup mereka adalah perbuatan homoseks {liwat} di kalangan lelakinya dan lesbian  di kalangan wanitanya. Kedua-dua jenis kemungkaran ini begitu bermaharajalela di  dalam masyarakat sehinggakan ianya merupakan suatu kebudayaan bagi kaum  Sadum."
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -100,7 +101,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Untuk suatu  hikmah yang belum diketahui dan disadari oleh Nabi Ibrahim Allah s.w.t.  mewahyukan kepadanya agar keinginan dan permintaan Sarah isterinya dipenuhi dan  dijauhkanlah Ismail bersama Hajar ibunya dan Sarah ke suatu tempat di mana yang  ia akan tuju dan di mana Ismail puteranya bersama ibunya akan di tempatkan dan  kepada siapa akan ditinggalkan."
+                        android:text="Seorang pendatang yang masuk ke Sadum tidak akan selamat dari  diganggu oelh mereka. Jika ia membawa barang-barang yang berharga maka dirampaslah  barang-barangnya, jika ia melawan atau menolak menyerahkannya maka nyawanya  tidak akan selamat. Akan tetapi jika pendatang itu seorang lelaki yang bermuka  tampan dan berparas elok maka ia akan menjadi rebutan di antara mereka dan akan  menjadi korban perbuatan keji lelakinya dan sebaliknya jika si pendatang itu  seorang perempuan muda maka ia menjadi mangsa bagi pihak wanitanya  pula."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -109,7 +110,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Maka dengan tawakkal kepada Allah  berangkatlah Nabi Ibrahim meninggalkan rumah membawa Hajar dan Ismail yang  diboncengkan di atas untanya tanpa tempat tujuan yang tertentu. Ia hanya  berserah diri kepada Allah yang akan memberi arah kepada binatang tunggangannya.  Dan berjalanlah unta Nabi Ibrahim dengan tiga hamba Allah yang berada di atas  punggungnya keluar kota masuk ke lautan pasir dan padang terbuka di mana terik  matahari dengan pedihnya menyengat tubuh dan angin yang kencang  menghembur-hamburkan debu-debu pasir."
+                        android:text="Kepada masyarakat yang sudah sedemikian rupa keruntuhan moralnya  dan sedemikian paras penyakit sosialnya diutuslah nabi Luth sebagai pesuruh dan  Rasul-Nya untuk mengangkat mereka dari lembah kenistaan ,kejahilan dan kesesatan  serta membawa mereka alam yang bersih ,bermoral dan berakhlak mulia. Nabi Luth  mengajak mereka beriman dan beribadah kepada Allah meninggalkan kebiasaan  mungkar menjauhkan diri dari perbuatan maksiat dan kejahatan yang diilhamkan  oleh iblis dan syaitan. Ia memberi penerang kepada mereka bahwa Allah telah  mencipta mereka dan alam sekitar mereka tidak meredhai amal perbuatan mereka yang  mendekati sifat dan tabiat kebinatangan dan tidak sesuai dengan nilai-nilai  kemanusiaan dan bahwa Allah akan memberi ganjaran setimpal dengan amal kebajikan  mereka. Yang berbuat baik dan beramal soleh akan diganjar dengan syurga di  akhirat sedang yang melakukan perbuatan mungkar akan di balaskannya dengan  memasukkannya ke dalam neraka Jahanam."
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -118,17 +119,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ismail dan Ibunya Hajar Ditingalkan di  Makkah"
+                        android:text="Nabi Luth berseru kepada mereka agar  meninggalkan adat kebiasaan iaitu melakukan perbuatan homoseks dan lesbian  karena perbuatan itu bertentangan dengan fitrah dan hati nurani manusia serta  menyalahi hikmah yang terkandung didalam penciptaan manusia menjadi dua jenis  iaitu lelaki dan wanita. Juga kepada mereka di beri nasihat dan dianjurkan  supaya menghormati hak dan milik masing-masing dengan meninggalkan perbuatan  perampasan, perompakan serta pencurian yang selalu mereka lakukan di antara sesama  mereka dan terutama kepada pengunjung yang datang ke Sadum. Diterangkan bahwa  perbuatan-perbuatan itu akan merugikan mereka sendiri, karena akan menimbulkan  kekacauan dan ketidak amanan di dalam negeri sehingga masing-masing dari mereka  tidak merasa aman dan tenteram dalam hidupnya."
                         android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Setelah  berminggu-minggu berada dalam perjalanan jauh yang memenatkan tibalah pada  akhirnya Nabi Ibrahim bersama Ismail dan ibunya di Makkah kota suci dimana  Kaabah didirikan dan menjadi pujaan manusia dari seluruh dunia. di tempat di  mana Masjidil Haram sekarang berada, berhentilah unta Nabi Ibrahim mengakhiri  perjalanannya dan disitulah ia meninggalkan Hajar bersama puteranya dengan hanya  dibekali dengan serantang bekal makanan dan minuman sedangkan keadaan sekitarnya  tiada tumbuh-tumbuhan, tiada air mengalir, yang terlihat hanyalah batu dan pasir  kering . Alangkah sedih dan cemasnya Hajar ketika akan ditinggalkan oleh Ibrahim  seorang diri bersama dengan anaknya yang masih kecil di tempat yang sunyi senyap  dari segala-galanya kecuali batu gunung dan pasir. Ia seraya merintih dan  menangis, memegang kuat-kuat baju Nabi Ibrahim memohon belas kasihnya, janganlah  ia ditinggalkan seorang diri di tempat yang kosong itu, tiada seorang manusia,  tiada seekor binatang, tiada pohon dan tidak terlihat pula air mengalir,  sedangkan ia masih menanggung beban mengasuh anak yang kecil yang masih menyusu.  Nabi Ibrahim mendengar keluh kesah Hajar merasa tidak tergamak meninggalkannya  seorang diri di tempat itu bersama puteranya yang sangat disayangi akan tetapi  ia sedar bahwa apa yang dilakukan nya itu adalah kehendak Allah s.w.t. yang  tentu mengandungi hikmat yang masih terselubung baginya dan ia sedar pula bahawa  Allah akan melindungi Ismail dan ibunya dalam tempat pengasingan itu dan segala  kesukaran dan penderitaan. Ia berkata kepada Hajar :"
+                        android:text="Demikianlah Nabi Luth  melaksanakan dakwahnya sesuai dengan tugas risalahnya.Ia tidak henti-henti  menggunakan setiap kesempatan dan dalam tiap pertemuan dengan kaumnya secara  berkelompok atau secara berseorangan mengajak agak mereka beriman dan percaya  kepada Allah menyembah-Nya melakukan amal soleh dan meninggalkan perbuatan  maksiat dan mungkar. Akan tetapi keruntuhan moral dan kerusakan akhlak sudah  berakar sgt di dalam pergaulan hidup mereka dan pengaruh hawa nafsu dan  penyesatan syaitan sudah begitu kuat menguasai tindak-tanduk mereka, maka dakwah  dan ajakkan Nabi Luth yyang dilaksanakan dengan kesabaran dan ketekunan tidak  mendapat tanah yang subur di dalam hati dan fikiran mereka dan berlalu laksana  suasana teriakan di tengah-tengah padang pasir .Telinga-telinga mereka sudah  menjadi pekak bagi ajaran-ajaran Nabi Luth sedang hati dan fikiran mereka sudah  tersumbat rapat dengan ajaran -ajaran syaitan dan iblis."
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -137,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="''Bertawakkallah  kepada Allah yang telah menentukan kehendak-Nya, percayalah kepada kekuasaan-Nya  dan rahmat-Nya. Dialah yang memerintah aku membawa kamu ke sini dan Dialah yang  akan melindungi mu dan menyertaimu di tempat yang sunyi ini. Sesungguh kalau  bukan perintah dan wahyunya, tidak sesekali aku tergamak meninggalkan kamu di  sini seorang diri bersama puteraku yang sangat ku cintai ini. Percayalah wahai  Hajar bahwa Allah Yang Maha Kuasa tidak akan melantarkan kamu berdua tanpa  perlindungan-Nya. Rahmat dan barakah-Nya akan tetap turun di atas kamu untuk  selamanya, insya-Allah.''"
+                        android:text="Akhirnya kaum  Luth merasa dan kesal hati mendengar dakwah dan nasihat-nasihat Nabi Luth yang  tidak putus-putus itu dan minta agar ia menghentikan aksi dakwahnya atau  menghadapi pengusir dirinya dari sadum bersama semua keluarganya. dari pihak  Nabi Luth pun sudah tidak ada harapan lagi masyarakat Sadum dapat terangkat dari  lembah kesesatan dan keruntuhan moral mereka dan bahawa meneruskan dakwah kepada  mereka yang sudah buta-tuli hati dan fikiran serta mensia-siakan masa. Ubat  satu-satunya, menurut fikiran Nabi Luth untuk mencegah penyakit akhlak itu yang  sudah parah itu menular kepada tetangga-tetangga dekatnya, ialah dengan  membasmikan mereka dari atas bumi sebagai pembalasan ke atas terhadap kekerasan  kepala mereka juga untuk menjadi ibrah dan pengajaran umat-umat disekelilingnya.  beliau memohon kepada Allah agar kepada kaumnya masyarakat Sadum diberi  pengajaran berupa azab di dunia sebelum azab yang menanti mereka di akhirat  kelak."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -146,26 +146,26 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mendengar kata-kata Ibrahim itu segeralah Hajar  melepaskan genggamannya pada baju Ibrahim dan dilepaskannyalah beliau menunggang  untanya kembali ke Palestin dengan iringan air mata yang bercurahan membasahi  tubuh Ismail yang sedang menetak. Sedang Nabi Ibrahim pun tidak dapat menahan  air matanya keetika ia turun dari dataran tinggi meninggalkan Makkah menuju  kembali ke Palestin di mana isterinya Sarah dengan puteranya yang kedua Ishak  sedang menanti. Ia tidak henti-henti selama dalam perjalanan kembali memohon  kepada Allah perlindungan, rahmat dan barakah serta kurniaan rezeki bagi putera  dan ibunya yang ditinggalkan di tempat terasing itu. Ia berkata dalam doanya:&quot;  Wahai Tuhanku! Aku telah tempatkan puteraku dan anak-anak keturunannya di dekat  rumah-Mu { Baitullahil Haram } di lembah yang sunyi dari tanaman dan manusia  agar mereka mendirikan solat dan beribadat kepada-Mu. Jadikanlah hati sebahagian  manusia cenderung kepada mereka dan berilah mereka rezeki dari buah-buahan yang lazat,  mudah-mudahan mereka bersyukur kepada-Mu.&quot;"
+                        android:text="Para Malaikat  Tamunya Nabi Ibrahim Bertamu Kepada Nabi Luth."
                         android:textColor="#000000"
-                        android:textSize="16sp" />
+                        android:textStyle="bold"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mata Air Zamzam"
+                        android:text="Permohonan Nabi Luth dan doanya diperkenankan dan  dikabulkan oleh Allah s.w.t. Dikirimkanlah kepadanya tiga orang malaikat  menyamar sebagai manusia biasa. mereka adalah malaikat yang bertamu kepada Nabi  Ibrahim dengan membawa berita gembira atas kelahiran Nabi Ishaq, dan memberitahu  kepada mereka bahwa dia adalah utusan Allah dengan tugas menurunkan azab kepada  kaum Luth penduduk kota Sadum. Dalam kesempatan pertemuan mana Nabi Ibrahim  telah mohon agar penurunan azab keatas kaum Sadum ditunda ,kalau-kalau mereka  kembali sedar mendebgarkan dan mengikuti ajakan Luth serta bertaubat dari segala  maksiat dan perbuatan mungkar. Juga dalam pertemuan itu Nabi Ibrahim mohon agar  anaksaudaranya, Luth diselamatkan dari azab yang akan diturunkan keatas kaum  Saum permintaan mana oleh para malaikat itu diterima dan dijamin bahwa Luth dan  keluarganya tidak akan terkena azab."
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="20sp" />
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sepeninggal Nabi Ibrahim tinggallah Hajar dan  puteranya di tempat yang terpencil dan sunyi itu. Ia harus menerima nasib yang  telah ditakdirkan oleh Allah atas dirinya dengan kesabaran dan keyakinan penuh  akan perlindungan-Nya. Bekalan makanan dan minuman yang dibawanya dalam  perjalanan pada akhirnya habis dimakan selama beberapa hari sepeninggalan Nabi  Ibrahim. Maka mulailah terasa oleh Hajar beratnya beban hidup yang harus  ditanggungnya sendiri tanpa bantuan suaminya. Ia masih harus meneteki anaknya,  namun air teteknya makin lama makin mengering disebabkan kekurangan makan .Anak  yang tidak dapat minuman yang memuaskan dari tetek ibunya mulai menjadi cerewet  dan tidak henti-hentinya menangis. Ibunya menjadi panik, bingung dan cemas  mendengar tangisan anaknya yang sgt menyayat hati itu. Ia menoleh ke kanan dan  ke kiri serta lari ke sana ke sini mencari sesuap makanan atau seteguk air yang  dpt meringankan kelaparannya dan meredakan tangisan anaknya, namun sia-sialah  usahanya. Ia pergi berlari harwalah menuju bukit Shafa kalau-kalau ia boleh  mendapatkan sesuatu yang dapat menolongnya tetapi hanya batu dan pasir yang  didapatnya disitu, kemudian dari bukit Shafa ia melihat bayangan air yang  mengalir di atas bukit Marwah dan larilah ia berharwahlah ke tempat itu namun  ternyata bahawa yang disangkanya air adalha fatamorangana {bayangan} belaka dan  kembalilah ke bukit Shafa karena mendengar seakan-akan ada suara yang  memanggilnya tetapi gagal dan melesetlah dugaannya. Demikianlah maka karena  dorongan hajat hidupnya dan hidup anaknya yang sangat disayangi, Hajar  mundar-mundir berlari sampai tujuh kali antara bukit Shafa dan Marwah yang pada  akhirnya ia duduk termenung merasa penat dan hampir berputus  asa."
+                        android:text="Para malaikat itu sampai di Sadum  dengan menyamar sebagai lelaki remaja yang berparas tampan dan bertubuh yang  elok dan bagus. Dalam perjalanan mereka hendak memasuki kota, mereka berselisih dengan  seorang gadis yang cantik dan ayu sedang mengambil dari sebuah perigi. Para  malaikat atau lelaki remaja itu bertanya kepada si gadis kalau-kalau mereka  diterima ke rumah sebagai tetamu. Si gadis tidak berani memberi keputusan  sebelum ia beruding terlebih dahulu dengan keluarganya. Maka ditngglkanlah para  lelaki remaja itu oleh si gadis seraya ia pulang ke rumah cepat-cepat untuk  memberitahu ayahnya."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -174,7 +174,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Diriwayatkan bahawa selagi Hajar berada dalam keadaan tidak berdaya  dan hampir berputus asa kecuali dari rahmat Allah dan pertolongan-Nya datanglah  kepadanya malaikat Jibril bertanya:&quot; Siapakah sebenarnya engkau ini?&quot; &quot; Aku  adalah hamba sahaya Ibrahim&quot;. Jawab Hajar.&quot; Kepada siapa engkau dititipkan di  sini?&quot;tanya Jibril.&quot; Hanya kepad Allah&quot;,jawab Hajar.Lalu berkata Jibril:&quot; Jika  demikian, maka engkau telah dititipkan kepada Dzat Yang Maha Pemurah Lagi Maha  Pengasih, yang akan melindungimu, mencukupi keperluan hidupmu dan tidak akan  mensia-siakan kepercayaan ayah puteramu kepada-Nya.&quot;"
+                        android:text="Si ayah iaitu Nabi Luth sendiri mendengar lapuran  puterinya menjadi binggung jawapan apa yang harus ia berikan kepada para  pendatang yang ingin bertamu ke rumahnya untuk beberapa waktu, namun menerima  tamu-tamu remaja yang berparas tampan dan kacak akan mengundang risiko gangguan  kepadanya dan kepada tamu-tamunya dari kaumnya yang tergila-gila oleh  remaja-remaja yang mempunyai tubuh bagus dan wajah elok. Sedang kalau hal yang  demikian itu terjadi ia sebagai tuan rumah harus bertanggungjawab terhadap  keselamatan tamunya, padahal ia merasa bahwa ia tidak akan berdaya menghadapi  kaumnya yang bengis-bengis dan haus maksiat itu."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -183,7 +183,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kemudian diajaklah  Hajar mengikuti-nya pergi ke suatu tempat di mana Jibril menginjakkan telapak  kakinya kuat-kuat di atas tanah dan segeralah memancur dari bekas telapak kaki  itu air yang jernih dengan kuasa Allah .Itulah dia mata air Zamzam yang sehingga  kini dianggap keramat oleh jemaah haji, berdesakan sekelilingnya bagi  mendapatkan setitik atau seteguk air daripadanya dan kerana sejarahnya mata air  itu disebut orang &quot; Injakan Jibril &quot;."
+                        android:text="Timbang punya timbang  dan fikir punya fikir akhirnya diputuskan oleh Nabi Luth bahwa ia akan menerima  mereka sebagai tamu di rumahnya apa pun yang akan terjadi sebagai akibat  keputusannya ia pasrahkan kepada Allah yang akan melindunginya. Lalu pergilah ia  sendiri menjemput tamu-tamu yang sedang menanti di pinggir kota dan diajaklah  mereka bersama-sama ke rumah pada saat kota Sadum sudah diliputi kegelapan dan  manusianya sudah nyenyak tidur di rumah masing-masing. Nabi Luth berusah dab  berpesan kepada isterinya dan kedua puterinya agar merahasiakan kedatangan  tamu-tamu, jangan sampai terdengar dan diketahui oleh kaumnya. Akan tetapi  isteri Nabi Luth yang memang sehaluan dan sependirian dengan penduduk Sadum  telah membocorkan berita kedatangan para tamu dan terdengarlah oleh  pemuka-pemuka mereka bahwa Luth ada tetamu terdiri daripada remaja-remaja yang  tampan parasnya dan memiliki tubuh yang sangat menarik bagi para penggemar  homoseks."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -192,7 +192,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Alngkah gembiranya dan lega dada Hajar  melihat air yang mancur itu. Segera ia membasahi bibir puteranya dengan air  keramat itu dan segera pula terlihat wajah puteranya segar kembali, demikian  pula wajah si ibu yang merasa sgt bahagia dengan datangnya mukjizat dari sisi  Tuhan yang mengembalikan kesegaran hidup kepadanya dan kepada puteranya sesudah  dibayang-bayangi oleh bayangan mati kelaparan yang mencekam  dada."
+                        android:text="Terjadilah apa yang dikhuatirkan oleh Nabi Luth. Begitu tersiar  dari mulut ke mulut berita kedatangan tamu-tamu remaja di rumah Luth,  berdatanglah mereka ke rumahnya untuk melihat para tamunya dan memuaskan  nafsunya. Nabi Luth tidak membuka pintu bagi mereka dan berseru agar mereka kembali ke  rumah masing-masing dan jgn menggunggu tamu-tamu yang datangnya dari jauh yang  sepatutnya dihormati dan dimuliakan .mereka diberi nasihat agar meninggalkan adat  kebiasaan yang keji itu yang bertentangan dengan fitrah manusia dan kudrat alam  di mana Tuhan telah menciptkan manusia berpasangan antara lelaki dengan  perempuan untuk menjaga kelangsungan perkembangan umat manusia sebagai makhluk  yang termulia di atas bumi. nabi Luth berseru agar mereka kembali kepada  isteri-isteri mereka dan meninggalkan perbuatan maksiat dan mungkar yang tidak  senonoh, sebelum mereka dilanda azab dan seksaan Allah."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -201,7 +201,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mancurnya air Zamzam telah menarik burung-burung berterbangan  mengelilingi daerah itu menarik pula perhatian sekelompok bangsa Arab dari suku  Jurhum yang merantau dan sedang berkhemah di sekitar Makkah. Mereka mengetahui  dari pengalaman bahwa di mana ada terlihat burung di udara, nescaya dibawanya  terdapat air, maka diutuslah oleh mereka beberapa orang untuk memeriksa kebenaran  teori ini. Para pemeriksa itu pergi mengunjungi daerah di mana Hajar berada,  kemudian kembali membawa berita gembira kepada kaumnya tentang mata air Zamzam  dan keadaan Hajar bersama puteranya. Segera sekelompok suku Jurhum itu  memindahkan perkhemahannya ke tempat sekitar Zamzam ,dimana kedatangan mereka  disambut dengan gembira oleh Hajar karena adanya sekelompok suku Jurhum di  sekitarnya, ia memperolehi jiran-jiran yang akan menghilangkan kesunyian dan  kesepian yang selama ini dirasakan di dalam hidupnya berduaan dengan puteranya  saja."
+                        android:text="Seruan dan  nasihat-nasihat Nabi Luth dihiraukan dan dipedulikan ,mereka bahkan mendesak akan  menolak pintu rumahnya dengan paksa dan kekerasan kalau pintu tidak di buka  dengan sukarela. Merasa bahwa dirinya sudah tidak berdaya untuk menahan arus  orang-orang penyerbu dari kaumnya itu yang akan memaksakan kehendaknya dengan  kekerasan berkatalah Nabi Luth secara terus terang kepada para tamunya:&quot;  Sesungguhnya aku tidak berdaya lagi menahan orang-orang itu menyerbu ke dalam  .Aku tidak memiliki senjata dan kekuatan fizikal yang dapat menolak kekerasan  mereka , tidak pula mempunyai keluarga atau sanak saudara yang disegani mereka yang  dapat aku mintai pertolongannya, maka aku merasa sangat kecewa, bahwa sebagai  tuan rumah aku tidak dapat menghalaukan gangguan terhadap tamu-tamuku dirumahku  sendiri."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -210,7 +210,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Hajar bersyukur kepada Allah yang dengan rahmatnya telah membuka  hati orang-orang itu cenderung datang meramaikan dan memecahkan kesunyian lembah  di mana ia ditinggalkan sendirian oleh Ibrahim."
+                        android:text="Begitu Nabi Luth selesai mengucapkan keluh-kesahnya para tamu  segera mengenalkan diri kepadanya dan memberi identitinya, bahawa mereka adalah  malaikat-malaikat yang menyamar sebagai manusia yang bertamu kepadanya dan bahwa  mereka datang ke Sadum untuk melaksanakan tugas menurunkan azab dan seksa atas  rakyatnya yang membangkang dan enggan membersihkan masyarakatnya dari segala  kemungkaran dan kemaksiat yang keji dan kotor. Kepad Nabi Luth para malaikat  itu menyarankan agar pintu rumahnya dibuka lebar-lebar untuk memberi kesempatan  bagi orang -orang yang haus homoseks itu masuk. Namun malangnya apabila pintu  dibuka dan para penyerbu menindakkan kaki untuk masuk, tiba-tiba gelaplah  pandangan mereka dan tidak dapat melihat sesuatu. mereka mengusap-usap mata, tetapi  ternyata sudah menjadi buta."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -219,17 +219,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Ismail Sebagai Qurban"
+                        android:text="Sementara para penyerbu rumah Nabi Luth  berada dalam keadaan kacau bilau berbentur antara satu dengan lain  berteriak-teriak menanya-nanya gerangan apa yang menjadikan mereka buta dengan  mendadak para berseru kepada Nabi Luth agar meninggalkan segera perkampungan itu  bersam keluarganya, karena masanya telah tiba bagi azab Allah yang akan  ditimpakan. Para malaikat berpesan kepada Nabi Luth dan keluarganya agar  perjalanan ke luar kota jangan seorang pun dari mereka menoleh ke  belakang."
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="20sp" />
+                        android:textSize="16sp"/>
 
                     <TextView
                         android:id="@+id/textView25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Ibrahim dari masa ke semasa pergi  ke Makkah untuk mengunjungi dan menjenguk Ismail di tempat pengasingannya bagi  menghilangkan rasa rindu hatinya kepada puteranya yang ia sayangi serta  menenangkan hatinya yang selalu rungsing bila mengenangkan keadaan puteranya  bersama ibunya yang ditinggalkan di tempat yang tandus, jauh dari masyarakat  kota dan pengaulan umum."
+                        android:text="Nabi Luth keluar dari rumahnya sehabis tengah malam, bersama  keluarganya terdiri dari seorang isteri dan dua puterinya berjalan cepat menuju  keluar kota, tidak menoleh ke kanan mahupun kekiri sesuai dengan petunjuk para  malaikat yang menjadi tamunya.Akan tetapi si isteri yang menjadi musuh dalam  selimut bagi Nabi Luth tidak tergamak meninggalkan kaumnya. Ia berada dibelakang  rombongan Nabi Luth berjalan perlahan-lahan tidak secepat langkah suaminya dan  tidak henti-henti menoleh ke belakang karena ingin mengetahui apa yang akan  menimpa atas kaumnya, seakan-akan menragukan kebenaran ancaman para malaikat  yang telah didengarnya sendiri. Dan begitu langkah Nabi Luth berserta kedua  puterinya melewati batas kota Sadum, sewaktu fajar menyingsing, bergetarlah bumi  dengan dahsyatnya di bawah kaki rakyat Sadum, tidak terkecuali isteri Nabi Luth  yang munafiq itu. Getaran itu mendahului suatu gempa bumi yang kuat dan hebat  disertai angin yang kencang dan hujan batu sijjil yang menghancurkan dengan  serta-merta kota Sadum berserta semua pemghuninya .Demikianlah mukjizat dan ayat  Allah yang diturunkan untuk menjadi pengajaran dan ibrah bagi hamba-hamba-Nya  yang mendatang."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -238,52 +237,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sewaktu Nabi Ismail mencapai usia remajanya Nabi  Ibrahim a.s. mendapat mimpi bahwa ia harus menyembelih Ismail puteranya. Dan  mimpi seorang nabi adalah salah satu dari cara-cara turunnya wahyu Allah , maka  perintah yang diterimanya dalam mimpi itu harus dilaksanakan oleh Nabi Ibrahim.  Ia duduk sejurus termenung memikirkan ujian yang maha berat yang ia hadapi.  Sebagai seorang ayah yang dikurniai seorang putera yang sejak puluhan tahun  diharap-harapkan dan didambakan ,seorang putera yang telah mencapai usia di mana  jasa-jasanya sudah dapat dimanfaatkan oleh si ayah , seorang putera yang  diharapkan menjadi pewarisnya dan penyampung kelangsungan keturunannya,  tiba-tiba harus dijadikan qurban dan harus direnggut nyawa oelh tangan si ayah  sendiri."
-                        android:textColor="#000000"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView27"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Namun ia sebagai seorang Nabi, pesuruh Allah dan pembawa agama  yang seharusnya menjadi contoh dan teladan bagi para pengikutnya dalam bertaat  kepada Allah ,menjalankan segala perintah-Nya dan menempatkan cintanya kepada  Allah di atas cintanya kepada anak, isteri, harta benda dan lain-lain. Ia harus  melaksanakan perintah Allah yang diwahyukan melalui mimpinya, apa pun yang akan  terjadi sebagai akibat pelaksanaan perintah itu."
-                        android:textColor="#000000"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView28"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Sungguh amat berat ujian  yang dihadapi oleh Nabi Ibrahim, namun sesuai dengan firman Allah yang  bermaksud:&quot; Allah lebih mengetahui di mana dan kepada siapa Dia mengamanatkan  risalahnya.&quot; Nabi Ibrahim tidak membuang masa lagi, berazam {niat} tetap akan  menyembelih Nabi Ismail puteranya sebagai qurban sesuai dengan perintah Allah  yang telah diterimanya.Dan berangkatlah serta merta Nabi Ibrahim menuju ke  Makkah untuk menemui dan menyampaikan kepada puteranya apa yang Allah  perintahkan."
-                        android:textColor="#000000"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView29"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Nabi Ismail sebagai anak yang soleh yang sgt taat kepada  Allah dan bakti kepada orang tuanya, ketika diberitahu oleh ayahnya maksud  kedatangannya kali ini tanpa ragu-ragu dan berfikir panjang berkata kepada  ayahnya:&quot; Wahai ayahku! Laksanakanlah apa yang telah diperintahkan oleh Allah  kepadamu. Engkau akan menemuiku insya-Allah sebagai seorang yang sabar dan patuh  kepada perintah. Aku hanya meminta dalam melaksanakan perintah Allah itu , agar  ayah mengikatku kuat-kuat supaya aku tidak banyak bergerak sehingga menyusahkan  ayah, kedua agar menanggalkan pakaianku supaya tidak terkena darah yang akan  menyebabkan berkurangnya pahalaku dan terharunya ibuku bila melihatnya, ketiga  tajamkanlah parangmu dan percepatkanlah perlaksanaan penyembelihan agar  menringankan penderitaan dan rasa pedihku, keempat dan yang terakhir  sampaikanlah salamku kepada ibuku berikanlah kepadanya pakaian ku ini untuk  menjadi penghiburnya dalam kesedihan dan tanda mata serta kenang-kenangan  baginya dari putera tunggalnya.&quot;Kemudian dipeluknyalah Ismail dan dicium pipinya  oleh Nabi Ibrahim seraya berkata:&quot; Bahagialah aku mempunyai seorang putera yang  taat kepada Allah, bakti kepada orang tua yang dengan ikhlas hati menyerahkan  dirinya untuk melaksanakan perintah Allah.&quot;"
-                        android:textColor="#000000"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView30"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Saat penyembelihan yang  mengerikan telah tiba. Diikatlah kedua tangan dan kaki Ismail, dibaringkanlah ia  di atas lantai, lalu diambillah parang tajam yang sudah tersedia dan sambil  memegang parang di tangannya, kedua mata nabi Ibrahim yang tergenang air  berpindah memandang dari wajah puteranya ke parang yang mengilap di tangannya,  seakan-akan pada masa itu hati beliau menjadi tempat pertarungan antara perasaan  seorang ayah di satu pihak dan kewajiban seorang rasul di satu pihak yang lain.  Pada akhirnya dengan memejamkan matanya, parang diletakkan pada leher Nabi  Ismail dan penyembelihan di lakukan . Akan tetapi apa daya, parang yang sudah  demikian tajamnya itu ternyata menjadi tumpul dileher Nabi Ismail dan tidak  dapat berfungsi sebagaimana mestinya dan sebagaimana diharapkan."
-                        android:textColor="#000000"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView31"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Kejadian  tersebut merupakan suatu mukjizat dari Allah yang menegaskan bahwa perintah  pergorbanan Ismail itu hanya suatu ujian bagi Nabi Ibrahim dan Nabi Ismail  sampai sejauh mana cinta dan taat mereka kepada Allah. Ternyata keduanya telah  lulus dalam ujian yang sangat berat itu. Nabi Ibrahim telah menunjukkan  kesetiaan yang tulus dengan pergorbanan puteranya. untuk berbakti melaksanakan  perintah Allah sedangkan Nabi Ismail tidak sedikit pun ragu atau bimbang dalam  memperagakan kebaktiannya kepada Allah dan kepada orang tuanya dengan  menyerahkan jiwa raganya untuk dikorbankan, sampai-sampai terjadi seketika  merasa bahwa parang itu tidak lut memotong lehernya, berkatalah ia kepada  ayahnya:&quot; Wahai ayahku! Rupa-rupanya engkau tidak sampai hati memotong leherku  karena melihat wajahku, cubalah telangkupkan aku dan laksanakanlah tugasmu tanpa  melihat wajahku.&quot;Akan tetapi parang itu tetap tidak berdaya mengeluarkan setitik  darah pun dari daging Ismail walau ia telah ditelangkupkan dan dicuba memotong  lehernya dari belakang."
+                        android:text="Kisah  Nabi Luth Di Dalam Al-Quran"
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -292,7 +246,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="150dp"
-                        android:text="Dalam keadaan bingung dan sedih hati, karena  gagal dalam usahanya menyembelih puteranya, datanglah kepada Nabi Ibrahim wahyu  Allah dengan firmannya:&quot; Wahai Ibrahim! Engkau telah berhasil melaksanakan  mimpimu, demikianlah Kami akan membalas orang-orang yang berbuat kebajikkan  .&quot;Kemudian sebagai tebusan ganti nyawa Ismail telah diselamatkan itu, Allah  memerintahkan Nabi Ibrahim menyembelih seekor kambing yang telah tersedia di  sampingnya dan segera dipotong leher kambing itu oleh beliau dengan parang yang  tumpul di leher puteranya Ismail itu. Dan inilah asal permulaan sunnah berqurban  yang dilakukan oleh umat Islam pada tiap hari raya Idul Adha di seluruh pelosok  dunia."
+                        android:text="Kisah Nabi Luth dalam Al-Quran terdapat pada 85 ayat dalam 12  surah diantaranya surah &quot;Al-Anbiyaa&quot; ayat 74 dan 75 , surah &quot;Asy-Syu'ara&quot; ayat  160 sehingga ayat 175 , surah &quot;Hud&quot; ayat 77 sehingga ayat 83 , surah &quot;Al-Qamar&quot;  ayat 33 sehingga 39 dan surah &quot;At-Tahrim&quot; ayat 10."
                         android:textColor="#040404"
                         android:textSize="16sp" />
 
