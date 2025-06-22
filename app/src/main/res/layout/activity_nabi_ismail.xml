@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiIsmailActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiIsmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI ISMAIL AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kisah perdebatan nabi Ibrahim dengan raja Namrud dikisahkan dalam Al-Quran surat Al-Baqarah ayat 258, Allah Swt berfirman, “Apakah kamu tidak memperhatikan orang berdebat tentang Tuhannya (Allah), karena Allah telah memberikan kepada orang itu pemerintahan (kekuasaan). Ketika nabi Ibrahim mengatakan ialah yang menghidupkan dan mematikan. Orang itu berkata “saya dapat menghidupkan dan mematikan”, Nabi Ibrahim berkata, “Sesungguhnya Allah menerbitkan matahari dari timur dan terbenam di sebalah barat, lalu terdiamlah orang kafir itu dan Allah tidak memberi petunjuk kepada orang-orang yang Zalim”"
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sesudah nabi Ibrahim di bakar maka semakin bersemangat untuk melakukan berdakwah, Sementara itu penguasa wilayah Babilonia, raja Namrud sangat risau. Ia khawatir dengan pengaruh nabi Ibrahim yang semakin besar."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada suatu ketika, raja Namrud mengundang nabi Ibrahim ke istananya, setelah sampai di istana raja Namrud, Raja Namrud berkata “Wahai nabi Ibrahim siapakah Tuhan Mu”? Nabi Ibraham menjawab pertanyaan raja Namrud, Tuhan ku adalah Allah Swt yang mampu menghidupkan dan mematikan semua mahluk Nya”. "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tidak ingin di kalah, maka raja Namrud berkata “Aku juga mampu melakukannya seperti yang dikatakan nabi Ibrahim. Jika ada orang yang menjalani hukuman mati aku ampuni, ia akan tetap hidup dan bila aku menetapkan hukuman mati kepadanya, orang itu akan mati. Kalau begitu apa bedanya antara diriku dengan Tuhan mu”? Nabi Ibrahim menjawab Tuhan ku telah menciptakan matahari ytang terbit dari sebelah timur dan terbenam disebelah barat. Jika Engkau benar –benar berkuasa, cobalah untuk menerbitkannya matahari dari sebelah barat."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mendengar permintaan nabi Ibrahim, raja Namrud hanya terdiam ia tidak dapat melawan lagi pendapat nabi Ibrahim. Yang terjadi setelah pertanyaan diberikan kepada raja Namrud adalah kebencian kepada nabi Ibrahim yang menjadi musuh. Raja Namrud tidak mampu mematahkan perkataan nabi Ibrahim karena perkataan nabi Ibrahim mengandung kebenaran. Allah adalah Tuhan Yang Maha Perkasa."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Raja Namrud Dikalahkan Oleh Nyamuk"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Raja Namrud sangat marah karena nabi Ibrahim dapat mematahkan pendapat-pendapatnya. Dia menganggap nabi Ibrahim sebagai musuh yang harus dihancurkan dan dia berkata dengan sangat kasar kepada nabi Ibrahim. “Hai nabi Ibrahim, aku mau menantang Tuhan mu. Buktikan kalau dia bisa mengalahkanku”. Nabi Ibrahim sangat terkejut mendengar tentangan dari raja Namrud, maka beliau takut bilamana azab Allah akan segera datang di wilayah babilonia nantinya. Setelah beberapa hari kemudian raja Namrud mengumpulkan bala tentaranya, dengan seruan kepada nabi Ibrahim yaitu Suruh Tuhan mu dan tentaranya melawan aku dan pasukanku, tantang raja Namrud dengan bahasa yang tegar dan sombong.  "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada saat itu, tiba- tiba di langit tampak awan hitam yang datang mendekat, setelah makin dekat, mereka baru menyadari bahwa itu bukanlah awan hitam, melainkan kawanan nyamuk yang datang menyerbu. Ribuan nyamuk langsung menyerang raja Namrud dan pasukan nya. Mereka sangat panik menerima serangan dari makhluk-makhluk yang kecil itu. Tubuh mereka menjadi lemah dan tidak lagi bertenaga untuk melawan binatang yang kecil itu ( Nyamuk ). "
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Raja Namrud yang berada di tengah-tengah pasukan menjadi panik juga, serangan dari makhluk nyamuk itu yang sangat dahsyat sehingga dia tidak berdaya dan tidak mampu berbuat apa-apa terhadap serangan makhluk nyamuk itu. sehingga raja namrud dan pasukannya lari tunggang langgang dari serangan makhluk nyamuk. Itu pun ada nyamuk besar yang berhasil untuk mengejar dan nyamuk besar itu masuk ke dalam hidung raja Namrud lalu menggigitnya, dan dia berteriak dengan suara yang cukup keras dan kesakitan atas gigitan nyamuk, kepalanya terasa mau pecah dan tubuhnya merasa kesakitan yang luar biasa Akhirnya raja Namrud yang bisa melawan Tuhan itu menggelepar dan mati, semua pasukan tentaranya tidak mampu bertahan mereka tewas yang sangat mengenaskan. Nabi Ibrahim dan pengikutnya telah bersyukur karena dihindarkan oleh Allah dari serangan makhluk nyamuk-nyamuk itu."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
