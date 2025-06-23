@@ -31,7 +31,7 @@ class NabiYaqubActivity : AppCompatActivity() {
         val buttonSelanjutnya: Button = findViewById(R.id.selanjutnyake11)
 
         buttonSelanjutnya.setOnClickListener {
-            val intent = Intent(this, NabiYaqubActivity::class.java)
+            val intent = Intent(this, NabiYusufActivity::class.java)
             startActivity(intent)
         }
 

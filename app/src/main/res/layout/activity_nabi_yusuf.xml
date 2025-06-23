@@ -1547,93 +1547,84 @@
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView170"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="&quot;87.~ Berkatalah Ya'qub: &quot; Hai  anak-anakku, pergilah kamu maka carilah berita tentang Yusuf dan saudaranya dan  jangan kamu berputus asa dari rahmat Allah. Sesungguhnya tiada berputus asa dari  rahmat Allah, melainkan kamu kafir.&quot;88.~ Maka ketika mereka masuk ke {Tempat}  Yusuf, mereka berkata : &quot;Hai Al-Aziz, kami dan keluarga kami telah ditimpa  kesengsaraan dan kami datang membawa barang-barang yang tidak berharga, maka  sempurnakanlah sukatan untuk kami dan bersedekahlah kepada kami, sesungguhnya  Allah memberi balasan kepada orang-orang yang bersedekah.&quot;89.~ Yusuf berkata:  &quot;Apakah kamu mengetahui {keburukan} apa yang kamu lakukan terhadap Yusuf dan  saudaranya ketika kamu tidak mengetahui {akibat} perbuatanmu itu?&quot;90.~ Mereka  berkata: &quot;Apakah kamu ini benar-benar Yusuf?&quot; Yusuf menjawab: &quot;Akulah Yusuf dan  ini saudaraku. Sesungguhnya Allah telah melimpahkan kurnia-Nya kepada kami&quot;.  Sesungguhnya barangsiapa yang bertakwa dan bersabar, maka sesungguhnya Allah  tidak mensia-siakan pahala orang-orang yang berbuat baik&quot;.91.~ Mereka berkata:  &quot;Demi Allah, sesungguhnya Allah telah melebihkankamu atas kami dan sesungguhnya  kami adalah orang-orang yang bersalah {berdosa}&quot;.92.~ Dia {Yusuf} berkata: &quot;Pada  hari ini tidak ada cercaan terhadap kamu, mudah-mudahan Allah mengampuni {kamu}  dan Dia adalah Maha Penyayang di antara para penyayang&quot;.93.~ Pergilah kamu  dengan membawa baju kemejaku ini, lalu lekatkanlah ia ke wajah ayahku, nanti ia  akan melihat kembali, dan bawalah keluargamu semuanya kepadaku&quot;.94.~ Tatkala  kafilah itu telah keluar {dari negeri Mesir} berkata ayah mereka: &quot; Sesungguhnya  aku mencium bau Yusuf sekiranya kamu tidak menuduhku lemah akal {tentu kamu  membenarkan aku}&quot;.95.~ Keluarganya berkata: &quot;Demi Allah kamu sesungguhnya masih  dalam kekeliruanmu yang dahulu&quot;.96.~ Tatkala telah tiba pembawa berita gembira  itu, maka diletakkannya baju itu ke wajah Ya'qub, lalu kembalilah dia dapat  melihat. Berkata Ya'qub: &quot;Tidakkah aku katakan kepadamu, bahwa aku mengetahui  dari Allah apa yang kamu tidak mengetahuinya&quot;.97.~ Mereka berkata: &quot;Wahai ayah  kami! Mohonkanlah ampun bagi kami terhadap dosa-dosa kami, sesungguhnya kami  adalah orang-orang yang bersalah {berdosa}&quot;.98.~ Ya'qub berkata: &quot;Kelak aku akan  memohonkan ampun bagimu kepada Tuhanku. Sesungguhnya Dialah Yang Maha Pengampun  lagi Maha Penyayang&quot;.99.~ Maka tatkala mereka masuk ke {tempat } Yusuf, Yusuf  merangkul ibu bapanya dan dia berkata: &quot;Masuklah kamu di negeri Mesir,  insya-Allah dalam keadaan aman&quot;.100.~ Dan ia menaikkan kedua ibu bapanya ke atas  singahsana. Dan mereka {semuanya} merebahkan diri seraya sujud kepada Yusuf. Dan  berkata Yusuf: &quot;Wahai ayahku! Inilah takbir mimpiku yang dahulu itu,  sesungguhnya Tuhanku telah menjadikannya suatu kenyataan. Dan sesungguhnya  Tuhanku telah berbuat baik kepadaku, ketika Dia membebaskan aku dari penjara dan  ketika membawa kamu dari dusun padang pasir, setelah syaitan merusakkan  {hubungan} antaraku dan saudara-saudaraku. Sesungguhnya Tuhanku Maha Lembut  terhadap apa yang Dia kehendaki. Sesungguhnya Dialah Yang Maha Mengetahui lagi  Maha Bijaksana&quot;.101.~ Ya Tuhanku, sesungguhnya Engkau telah menganugerahkan  kepadaku sebahagian kerajaan dan telah mengajarkan kepadaku sebahagian takbir  mimpi {ya Tuhanku} Pencipta langit dan bumi. Engkaulah Pelindungku di dunia dan  di akhirat, wafatkanlah aku dalam keadaan Islam dan gabungkanlah aku dengan  orang-orang yang soleh.&quot; { Yusuf : 87 ~ 101 }"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView171"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="Pelajaran yang didapat  dari kisah Nabi Yusuf A.S."
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView172"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Banyak ajaran dan ibrah  yang dapat dipetik dari Kisah Nabi Yusuf yang penuh dengan pengalaman hidup yang  kontriversi itu. Di antaranya ialah :"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView173"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="Bahwasanya penderitaan seseorang yang  nampaknya merupakan suatu musibah dan bencana, pd hakikatnya dalam banyak hal  bahkan merupakan rahmat dan barakah yang masih terselubung bagi  penderitaannya.Karena selalunya bahwa penderitaan yang di anggapkan itu suatu  musibah adalah menjadi permulaan dari kebahagiaan dan menjadi kesejahteraan yang  tidak diduga semula. Demikianlah apa yang telah dialami oleh Nabi Yusuf dengan  pelemparan dirinya ke dalam sebuah perigi oleh saudara-saudaranya sendiri,  disusuli dengan pemenjaraannya oleh para penguasa Mesir. Semuanya itu merupakan  jalan yang harus ditempuh oleh beliau untuk mencapai puncak kebesaran dan  kemuliaan sebagai nabi serta tngkat hidup yang mewah dan sejahtera sebagai  seorang penguasa dalam sebuah kearajaan yang besar yang dengan kekuasaannya  sebagai wakil raja, dapat menghimpunkan kembali seluruh anggota keluarganya  setelah sekian lama berpisah dan bercerai-berai."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView174"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="Maka seseorang mukmin  yang percaya kepada takdir, tidak sepatutnya merasa kecewa dan berkecil hati  bila tertimpa sesuatu musibah dalam harta kekayaannya, kesihatan jasmaninya atau  keadaan keluarganya. Ia harus menerima percubaan Allah itu dengan penuh  kesabaran dan tawakkal seraya memohon kepada Yang Maha Kuasa agar melindunginya  dan mengampuni segala dosanya, kalau-kalau musibah yang ditimpakan kepadanya itu  merupakan peringatan dari Allah kepadanya untuk bertaubat."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView175"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="Dan sebaliknya  bila seseorang mukmin memperoleh nikmat dan kurinia Allah berupa perluasan  rezeki, kesempurnaan kesihatan dan kesejahteraan keluarga, ia tidak sepatutnya  memperlihatkan sukacita dan kegembiraan yang berlebih-lebihan. Ia bahkan harus  bersyukur kepada Allah dengan melipat gandakan amal solehnya sambil menyedarkan  diri bahwa apa yang diperolehnya itu kadang-kadang boleh tercabut kembali bila  Allah menghendakinya. Lihatlah sebagaimana teladan Nabi Yusuf yang telah  kehilangan iman dan tawakkalnya kepada Allah sewaktu berada seorang diri di  dalam perigi mahupun sewaktu merengkok di dalam penjara, demikian pula sewaktu  dia berada dalam suasana kebesarannya sebagai Penguasa Kerajaan Mesir, ia tidak  disilaukan oleh kenikmatan duniawinya dan kekuasaan besar yang berada di  tangannya. Dalam kedua keadaan itu ia tidak melupakan harapan, syukru dan pujaan  kepada Allah dan sedar bahwa dirinya sebagai makhluk yang lemah tidak berkuasa  mempertahankan segala kenikmatan yang diperolehnya atau menghindarkan diri dari  musibah dan penderitaan yang Allah limpahkan kepadanya. Ia mengembalikan  semuanya itu kepada takdir dan kehendak Allah Yang Maha Kuasa."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView176"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="Nabi Yusuf  telah memberi contoh dan teladan bagi kemurnian jiwanya dan keteguhan hatinya  tatkala menghadapi godaan Zulaikha, isteri ketua Polis Mesir, majikannya. Ia  diajak berbuat maksiat oleh Zulaikha seorang isteri yang masih muda belia,  cantik dan berpengaruh, sedang ia sendiri berada dalam puncak kemudaannya, di  mana biasanya nafsu berahi seseorang masih berada di tingkat puncaknya. Akan  tetapi ia dapat menguasai dirinya dan dapat mengawal nafsu kemudaannya, menolak  ajak isteri yang menjadi majikannya itu, karena ia takut kepada Allah dan tidak  mahu mengkhianati majikannya yang telah berbuat budi kepadanya dirinya dan  memperlakukannya seolah-olah anggota keluarganya sendiri. Sebagai akibat  penolakannnya itu ia rela dipenjarakan demi mempertahankan keluhuran budinya,  keteguhan imannya dan kemurnian jiwanya."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
+                        android:id="@+id/textView177"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
+                        android:text="Nabi Yusuf memberi contoh  tentang sifat seorang kesatria yang enggan dikeluarkan dari penjara sebelum  persoalannya dengan Zulaikha dijernihkan. Ia tidak mahu dikeluarkan dari penjara  kerana memperoleh pengampunan dari Raja, tetapi ia ingin dikeluarkan sebagai  orang yang bersih, suci dan tidak berdosa. Karenanya ia sebelum menerima  undangan raja kepadanya untuk datang ke istana, ia menuntut agar diselidik lebih  dahulu tuduhan-tuduhan palsu dan fitnahan-fitnahan yang dilekatkan orang kepada  dirinya dan dijadikannya alasan untuk memenjarakannya. Terpaksalah raja Mesir  yang memerlukan Yusuf sebagai penasihatnya, memerintahkan pengusutan kembali  peristiwa Yusuf dengan Zulaikha yang akhirnya dengan terungkapnya kejadian yang  sebenar, di mana mereka bersalah dan memfitnah mengakui bahawa Yusuf adalah  seorang yang bersih suci dan tidak berdosa dan bahwa apa yang dituduhkan  kepadanya itu adalah palsu belaka."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/textView140"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView140"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Kafilah berhenti di tempat dan dengan hairan berkatalah  jurucakap mereka: &quot;Demi Allah kami dtg kemari bukannya untuk mengacau dan sgt tidak  mungkin bahwa salah seorang drp kami akan mencuri piala itu. Kami adalah  putera-putera Ya'qub pesuruh Allah. Kami sudah merasa berhutang budi kepada raja  dan banyak berterimakasih atas bantuan yang telah diberikan kepada kami. Masakan  kami akan membalas kebaikan hati raja dengan mencuri brg-brgnya? Namun untuk  membenarkan kata-kata kami, kami tidak berkeberatan karung-karung dan brg-brg  kami dibongkar dan digeledah sepuas-puasnya. Dan bila ternyata ada salah seorang  drp kami yang kedapatan piala itu di dalam kumpulan brg-brgnya, kami rela  menyerahkannya kepada raja untuk diberi ganjaran yang  setimpal.&quot;"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-
-                    <TextView
-                        android:id="@+id/textView1000"
+                        android:id="@+id/textView178"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="150dp"
-                        android:text="berpeluk-pelukanlah dengan mesranya si bapa saudara dengan  anak saudara, menandakan kegembiraan masing-masing dengan pertemuan yang tidak  disangka-sangka itu dan mengalirlah pada pipi masing-masing air mata yang  dicucurkan oleh rasa terharu dan sukcita. Maka disapkanlah oleh Laban bin  Batu'il tempat dan bilik khas untuk anak saudaranya Ya'qub yang tidak berbeda  dengan tempat-tempat anak kandungnya sendiri di mana ia dapat tinggal sesuka  hatinya seperti di rumahnya sendiri. "
+                        android:text="Suatu sifat utama pembawaan jiwa besar  Nabi Yusuf menonjol tatkala ia menerima saudara-saudaranya yang datang ke Mesir  untuk memperolehi hak pembelian gandum dari gudang pemerintah karajaan Mesir.  Nabi Yusuf pada masa itu, kalau ia mahu ia dapat melakukan pembalasan terhadap  saudara-saudaranya yang telah melemparkannya ke dalam sebuah perigi dan  memisahkannya dari ayahnya yang sangat dicintai. Namun sebaliknya ia bahkan  menerima mereka dengan ramah-tamah dan melayani keperluan mereka dengan penuh  kasih sayang, seolah-olah tidak pernah terjadi apa yang telah dialami akibat  tindakan saudara-saudaranya yang kejam dan tidak berperikemanusiaan. Demikianlah  Nabi Yusuf dengan jiwa besarnya telah melupakan semua penderitaan pahit yang  telah dialaminya akibat tindakan saudara-saudaranya itu dengan memberi  pengampunan kepada mereka, padahal ia berada dalam keadaan yang memungkinkannya  melakukan pembalasan yang setimpal. Dan pengampunan yang demikian itulah yang  akan berkesan kepada orang yang diampuni dan yang telah dianjurkan oleh Allah  dan Rasul-Nya dalam beberapa ayat Al-Quran dan beberapa hadis  nabawi.  "
                         android:textColor="#040404"
                         android:textSize="16sp" />
 
@@ -1653,7 +1644,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/sebelumnyake9"
+            android:id="@+id/sebelumnyake10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -1667,7 +1658,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/selanjutnyake11"
+            android:id="@+id/selanjutnyake12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
