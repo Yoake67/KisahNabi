@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiMusaActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiMusa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI MUSA AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kaum Madyam, kaumnya Nabi Syu'ib, adalah segolongan bangsa Arab yang tinggal di  sebuah daerah bernama &quot;Ma'an&quot; di pinggir negeri Syam. Mereka terdiri dari  orang-orang kafir tidak mengenal Tuhan Yang Maha Esa. Mereka mentembah kepada  &quot;Aikah&quot; iaitu sebidang padang pasir yang ditumbuhi beberapa pohon dan  tanam-tanaman. Cara hidup dan istiadat mereka sudah sgt jauh dari ajaran agama  dan pengajaran nabi-nabi sebelum Nabi Syu'aib a.s."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kemungkaran, kemaksiatan  dan tipu menipu dalam pengaulan merupakan perbuatan dan perilaku yang lumrah dan  rutin. Kecurangan dan perkhianatan dalam hubungan dagang seperti pemalsuan  barang, kecurian dalam takaran dan timbangan menjadi ciri yang sudah sebati  dengan diri mereka. Para pedagang dan petani kecil selalu menjadi korban  permainan para pedagang-pedagang besar dan para pemilik modal, sehingga dengan  demikian yang kaya makin bertambah kekayaannya, sedangkan yang lemah semakin  merosot modalnya dan semakin melarat hidupnya. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sesuai dengan sunnah Allah  sejak Adam diturunkan ke bumi bahwa dari waktu ke waktu bila manusia sudah  lupakan kepada-Nya dan sudah jauh menyimpang dair ajaran-ajaran nabi-nabi-Nya,  dan bila Iblis serta syaitan sudah menguasai sesuatu masyarakat dengan ajaran  dan tuntutannya yang menyesatkan maka Allah mengutuskan seorang rasul dan nabi  untuk memberi penerangan serta tuntutan kepada mereka agar kembali ke jalan yang  lurus dan benar, jalan iman dan tauhid yang bersih dari segala rupa syirik dan  persembahan yang bathil."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kepada kaum Madyan diutuslah oleh Allah seorang  Rasul iaitu Nabi Syu'aib, seorang drpd mereka sendiri, sedarah dan sedaging dengan  mereka. Ia mengajak mereka meninggalkan persembahan kepada Aikah, sebuah benda  mati yang tidak bermanfaat atau bermudharat dan sebagai gantinya melakukan  persembahan dan sujud kepada Allah Yang Maha Esa, Pencipta langit dan bumi  termasuk sebidang tanah yang mereka puja sebagai tuhan mereka. Nabi Syu'aib  kepada mereka agar meninggalkan perbuatan-perbuatan dan kelakukan-kelakuan yang  dilarang oleh Allah serta membawa kerugian bagi sesama manusia serta mengakibat  kerusakan dan kebinasaan masyarakat. Mereka diajak agar berlaku adil dan jujur  terhadap diri sendiri dan terutama terhadap orang lain, meninggalkan perkhianat  dan kezaliman serta perbuatan curang dalam hubungan dagang, perampasan hak milik  seseorang dan penindasan terhadap orang-orang yang lemah dan  miskin."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Diingatkan oleh Nabi Syu'aib akan nikmat Allah dan kurniaan-Nya  yang telah memberi mereka tanah subu serta sarana-sarana kemakmuran yang  berlimpah-limpah dengan pertumbuhan jumlah penduduk dan anak cucu yang pesat.  Semuanya itu menurut seruan Nabi Syu'aib, patut diimbangi dengan rasa bersyukur  dan bersembah kepada Allah Maha Pencipta yang akan melipat gandakan nikmat dan  kurnia-Nya kepada orang-orang yang beriman dan bersyukur."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Diingatkan pula  Nabi Syu'aib bahwa mereka tidak mahu sedar dan kembali kepada jalan yang benar  mengikuti ajaran dan perintah Allah yang dibawanya, nescaya Allah akan mencabut  nikmat dan kurnia-Nya kepada mereka, bahkan akan menurunkan azabnya atas mereka  di dunia selain seksa dari azab yang menanti mereka kelak di akhirat bila di  bangkitkan kembali dari kubur."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kepada mereka Nabi Syu'aib dikisahkan  seksa dan azab yang diturunkan oleh Allah terhadap kaum Nuh, kaum Hud, kaum  Saleh dan paling dekat kaum Luth yang kesemua telah menderita dan menjadi binasa  akibat kekafiran, keangkuhan dan keengganan mereka mengikuti ajaran serta  tuntutan nabi-nabi yang diutus Allah kepada Mereka. Diingatkan oleh Nabi Syu'aib  agar mereka beriktibar dan ingat bahwa mereka akan mengalami nasib yang telah  dialami oleh kaum-kaum itu jika mereka tetap melakukan persembahan yang bathil  serta tetap melakukan perbuatan-perbuatan yang buruk dan jahat."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dakwah  dan ajakan Nabi Syu'aib disambut oleh mereka terutama penguasa, pembesar serta  orang-orang kaya dengan ejekan dan olok-olok. Mereka berkata: &quot;Adakah kerana  solatmu, engaku memerintahkan kami menyembah selain apa yang telah kami sembah  sepanjang hayat kami. Persembahan mana pula telah dilakukan oleh nenek moyang  kami dan diwariskan kepada kami. Dan apakah juga karena solatmu engkau  menganjurkan kami meninggalkan cara-cara hidup sehari-hari yang nyata telah  membawa kemakmuran dan kebahagian bagi kami bahkan sudah menjadi adat istiadat  kami turun temurun. Sungguh kami tidak mengerti apa apa tujuanmu dan apa  maksudmu dengan ajaran-ajaran baru yang engkau bawa kepada kami. Sungguh kami  menyaksikan kesempurnaan akalmu dan keberesan otakmu!&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ejekan dan  olok-olok mereka didengar dan diterima oleh Syu'aib dengan kesabran dan kelapangan  dada. Ia sesekali tidak menyambut kata-kata kasar mereka dengan marah atau  membalasnya dengan kata-kata yang kasar pula. Ia bahkan makin bersikap lemah  lembut dalam dakwahnya dengan menggugah hati nurani dan akal mereka supaya  memikirkan dan merenungkan apa yang dikatakan dan dinasihatkan kepada mereka.  Dan sesekali ia menonjolkan hubungan darah dan kekeluargaannya dengan mereka,  sebagai jaminan bahwa ia menghendaki perbaikan bagi hidup mereka di dunia dan  akhirat dan bukan sebaliknya. Ia tidak mengharapkan sesuatu balas jasa atas  usaha dakwahnya. Ia tidak pula memerlukan kedudukan atau menginginkan kehormatan  bagi dirinya dari kaumnya. Ia akan cukup merasa puas jika kaumnya kembali kepada  jalan Allah, masyarakatnya akan menjadi masyarakat yang bersih dari segala  kemaksiatan dan adt-istiadat yang buruk. Ia akan menerima upahnya dari Allah  yang telah mengutuskannya sebagai rasul yang dibebani amanat untuk menyampaikan  risalah-Nya kepada kaumnya sendiri. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kaum Syu'aib akhirnya merasa jengkel  dan jemu melihat Nabi Syu'aib tidak henti-hentinya berdakwah bertabligh pada  setiap kesempatan dan di mana saja ia menemui orang berkumpul. Penghinaan dan  ancaman dilontar kepada Nabi Syu'aib dan para pengikutnya akan diusir dan akan  dikeluarkan dari Madyan jika mereka mahu menghentikan dakwahnya atau tidak mahu  mengikuti agama adn cara-cara hidup mereka. Berkata mereka kepada Nabi  Syu'aib dengan nada mengejek: &quot;Kami tidak mengerti apa yang kamu katakan.  Nasihat-nasihatmu tidak mempunyai tempat di dalam hati dan kalbu kami. Engkau  adalah seorang yang lemah fizikalnya, rendah kedudukan dalam pengaulan maka  tidak mungkin engkau dapat mempengaruhi atau memimpin kami yang berfizikal lebih  kuat dan berkedudukan yang lebih tinggi drpmu. Cuba tidak kerana kerabatmu yang  kami segani dan hormati, nescaya engkau telah kami rejam dan sisihkan dari  pengaulan kami.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Syu'aib menjawab: &quot;aku tidak akan hentikan dakwahku  kepada risalah Allah yang telah diamanahkan kepadaku dan jgnlah kamu  mengharapkan bahwa aku mahupun para pengikutku akan kembali mengikuti agamamu  dan adt-istiadatmu setelah Allah memberi hidayahnya kepada kami. Pelindunganku  adalah Allah Yang Maha Berkuasa dan bukan sanad kerabatku, Dialah yang memberi  tugas kepadaku dan Dia pula akan melindungiku dari segala gangguan dan ancaman.  Adakah sanak saudaraku yang engkau lebih segani drp Allah yang Maha  Berkuasa?&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sejak berdakwah dan bertabligh menyampaikan risalah Allah  kepada kaum Madyan, Nabi Syu'aib berhasil menyedarkan hanya sebahagian kecil  dari kaumnya, sedang bahagian yang terbesar masih tertutup hatinya bagi cahaya  iman dan tauhid yang diajar oleh beliau. Mereka tetap berkeras kepala  mempertahankan tradisi, adt-istiadat dan agama yang mereka warisi dari nenek  moyang mereka. Itulah alasan mereka satu-satunya yang mereka kemukakan untuk  menolak ajaran Nabi Syu'aib dan itulah benteng mereka satu-satunya tempat mereka  berlindung dari serangan Nabi Syu'aib atas persembahan mereka yang bathil dan  adat pengaulan mereka yang mungkar dan sesat. Di samping itu jika mereka sudah  merasa tidak berdaya menghadapi keterangan-keterangan Nabi Syu'aib yang didukung  dengan dahlil dan bukti yang nyata kebenaran, mereka lalu melemparkan  tuduhan-tuduhan kosong seolah-olah Nabi adalah tukang sihir dan ahli sulap yang  ulung. Mereka telah berani menentang Nabi Syu'aib untuk membuktikan kebenaran  risalahnya dengan memdatangkan bencana dari Allah yang ia sembah dan  menganjurkan orang menyembah-Nya pula."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mendengar tentangan kaumnya yang  menandakan hati mereka telah tertutup rapat-rapat bagi sinar agama dan wahyu  yang ia bawa dan bahwa tiada harapan lagi akan menarik mereka ke jalan yang  lurus serta mengangkat mereka dari lembah syirik dan kemaksiatan serta pergaulan  buruk, maka bermohonlah Nabi Syu'aib kepada Allah agak menurunkan azzab seksanya  kepada kaum Madyan bahwa wujud-Nya serta menentang kekuasaannya untuk menjadi  ibrah dan peringatan bagi generasi-generasi yang mendatang."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Allah Yang  Maha berkuasa berkenan menerima permohonan dan doa Syu'aib, maka diturunkanlah  lebih dahulu di atas mereka hawa udara yang sangat panas yang mengeringkan  kerongkongan karena dahaga yang tidak dapat dihilangkan dengan air dan membakar  kulit yang tidak dapat diubati dengan berteduh di bawah atap rumah atau  pohon-pohon."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Di dalam keadaan mereka yang sedang bingung, panik berlari-lari ke  sana ke mari, mencari perlindungan dari terik panasnya matahari yang membakar  kulit dan dari rasa dahaga karena keringnya kerongkong tiba-tiba terlihat di  atas kepala mereka gumpalan awan hitam yang tebal, lalu berlarilah mereka ingin  berteduh dibawahnya. Namun setelah mereka berada di bawah awan hitam itu seraya  berdesak-desak dan berjejal-jejal, jatuhlah ke atas kepala mereka percikan api  dari jurusan awan hitam itu diiringi oleh suara petir dan gemuruh ledakan  dahsyat sementara bumi di bawah mereka bergoyang dengan kuatnya menjadikan  mereka berjatuhan, tertimbun satu di bawah yang lain dan melayanglah jiwa mereka  dengan serta-merta."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Nabi Syu'aib merasa sedih atas kejadian yang menimpa  kaumnya dan berkata kepada para pengikutnya yang telah beriman: &quot;Aku telah  sampaikan kepada mereka risalah Allah, menasihati dan mengajak mereka agar  meninggalkan perbuatan-perbuatan mungkar serta persembahan bathil mereka dan aku  telah memperingatkan mereka akan datangnya seksaan Allah bila mereka tetap  berkeras hati, menutup telinga mereka terhadap suara kebenaran ajaran-ajaran  Allah yang aku bawa, namun mereka tidak menghiraukan nasihatku dan tidak  mempercayai peringatanku. Karenanya tidak patutlah aku bersedih hati atas  terjadinya bencana yang telah membinasakan kaumku yang kafir itu.'"
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
