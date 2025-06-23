@@ -7,4 +7,306 @@
     android:layout_height="match_parent"
     tools:context=".RosulIsaActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahRosul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiIsa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI ISA"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahRosul">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. Kelahiran Ajaib Nabi Isa AS"
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Isa AS dilahirkan secara ajaib dari seorang wanita suci bernama Maryam, tanpa ayah. Peristiwa ini terjadi atas kehendak Allah sebagai mukjizat dan tanda kebesaran-Nya. Saat Maryam sedang menyendiri untuk beribadah, malaikat Jibril datang membawa kabar bahwa ia akan memiliki seorang anak laki-laki yang suci. Meskipun terkejut dan khawatir, Maryam menerima perintah Allah dengan penuh keimanan."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Maryam kemudian melahirkan Nabi Isa di bawah pohon kurma dalam kondisi penuh ujian dan keterasingan. Allah memberinya kekuatan dan ketenangan saat menghadapi tuduhan dari kaumnya. Sebagai pembelaan, bayi Isa yang masih dalam gendongan berbicara dan menyatakan bahwa dirinya adalah hamba Allah dan telah diberi kitab serta dijadikan nabi. Peristiwa ini menunjukkan bahwa sejak lahir, Nabi Isa sudah membawa tanda-tanda kenabian."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="2. Mukjizat Nabi Isa Sejak Kecil"
+                        android:textColor="#070707"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sejak kecil, Nabi Isa menunjukkan banyak mukjizat yang luar biasa sebagai bukti bahwa ia adalah utusan Allah. Mukjizat pertama yang terjadi adalah saat ia masih bayi dan mampu berbicara. Hal ini membuat banyak orang terkejut dan menjadi bukti kebenaran ibunya yang dituduh berbuat dosa. Allah terus menunjukkan kekuasaan-Nya melalui Isa untuk membimbing Bani Israil yang keras kepala."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mukjizat lainnya termasuk menyembuhkan orang buta dan penderita lepra, menghidupkan orang mati, dan menciptakan burung dari tanah liat yang kemudian bisa terbang. Semua mukjizat ini terjadi dengan izin Allah, bukan karena kekuatan Isa sendiri. Nabi Isa tidak pernah mengaku sebagai Tuhan, melainkan selalu menegaskan bahwa dirinya hanyalah hamba dan utusan Allah. Hal ini penting untuk membedakan antara mukjizat seorang nabi dengan kekuasaan Ilahi."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. Diutus sebagai Nabi kepada Bani Israil"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Isa diutus kepada Bani Israil, kaum yang sudah sering kali mengingkari ajaran nabi-nabi sebelumnya. Ia membawa kitab Injil dan menyeru mereka untuk kembali kepada ajaran tauhid yang benar. Nabi Isa juga menegaskan bahwa ia datang bukan untuk membatalkan ajaran Nabi Musa, tetapi untuk menyempurnakannya dengan penuh kasih dan hikmah. Ia mengajak mereka berbuat adil, menyembah Allah, dan meninggalkan kemunafikan."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Namun, sebagian besar kaum Bani Israil menolak dakwah Nabi Isa. Mereka lebih memilih mempertahankan kedudukan dan kekayaan duniawi daripada menerima kebenaran. Nabi Isa menghadapi banyak penolakan dan fitnah, tetapi ia tetap sabar dan terus berdakwah. Ia juga memilih murid-murid setia (Hawariyyun) untuk menyebarkan ajarannya setelah ia tiada."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4. Penolakan dan Rencana Pembunuhan"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Karena ajaran Nabi Isa dianggap mengancam kepentingan para pemuka agama dan penguasa Romawi, mereka bersekongkol untuk menangkap dan membunuhnya. Mereka menyebarkan fitnah dan hasutan, lalu melaporkannya sebagai pemberontak. Rencana jahat ini mendapat dukungan dari sebagian besar rakyat yang telah dibutakan oleh kedengkian dan kebohongan."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Namun, Allah tidak membiarkan nabi-Nya dibunuh oleh orang-orang zalim. Ketika mereka hendak menyalib Isa, Allah menyelamatkannya dengan cara yang luar biasa. Allah menjadikan wajah salah satu pengkhianat mirip dengan Isa, sehingga orang itu yang tertangkap dan disalib. Peristiwa ini menjadi pelajaran bahwa rencana manusia tidak akan pernah mengalahkan takdir Allah."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="5. Diangkat ke Langit oleh Allah"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Setelah peristiwa penyelamatan itu, Allah mengangkat Nabi Isa ke langit dalam keadaan hidup. Ia tidak mati dan tidak disalib sebagaimana yang diyakini sebagian orang. Dalam Islam, hal ini dijelaskan dalam Al-Qur’an dengan tegas bahwa Isa diselamatkan dan tidak dibunuh. Hingga kini, Isa masih hidup di langit dan akan kembali di akhir zaman."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Isa menjadi satu-satunya nabi yang tidak mengalami kematian hingga hari ini. Allah menjadikannya sebagai tanda dan simbol dari rahmat dan perlindungan-Nya terhadap hamba yang taat. Kisah ini sekaligus menguatkan keyakinan umat Islam bahwa Isa bukan Tuhan atau anak Tuhan, melainkan manusia pilihan yang dimuliakan Allah."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. Kembalinya Nabi Isa Menjelang Hari Kiamat"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Isa akan kembali ke bumi menjelang datangnya Hari Kiamat. Ia akan turun untuk membunuh Dajjal, sosok jahat yang menyebarkan fitnah dan kerusakan di muka bumi. Setelah itu, Nabi Isa akan memimpin umat manusia dalam kebenaran, menegakkan keadilan, dan menyatukan umat dalam ajaran tauhid."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dalam masa pemerintahannya, Nabi Isa akan menghancurkan salib, membunuh babi, dan menegakkan hukum Islam. Ia tidak membawa Injil baru, melainkan mengikuti syariat Nabi Muhammad SAW. Setelah menjalani kehidupan di bumi, Nabi Isa akan wafat secara alami dan dimakamkan sebagai manusia biasa. Peristiwa ini menunjukkan akhir dari perjalanan luar biasa seorang nabi yang diberi tugas khusus oleh Allah."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Penutup: Hikmah dari Kisah Nabi Isa AS"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kisah Nabi Isa AS mengandung banyak pelajaran berharga, mulai dari kesabaran dalam menghadapi ujian, keikhlasan dalam berdakwah, hingga keajaiban mukjizat dari Allah. Ia adalah teladan tentang bagaimana seorang hamba tetap taat kepada Allah meskipun menghadapi fitnah dan tekanan yang luar biasa. Keberaniannya menyeru kebenaran dan kesuciannya sebagai manusia pilihan menjadi cermin bagi kita semua."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Isa juga menjadi pengingat bahwa kebenaran akan selalu menang, meskipun pada awalnya ditolak oleh banyak orang. Ia bukan Tuhan, bukan anak Tuhan, tetapi seorang rasul yang diberi tugas mulia untuk membimbing umatnya. Dengan mengenal kisahnya, kita dapat memperkuat iman dan meneladani akhlak para nabi dalam kehidupan sehari-hari."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/kembalikisahnabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Kembali"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
