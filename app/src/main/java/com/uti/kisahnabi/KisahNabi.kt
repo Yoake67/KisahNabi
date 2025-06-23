@@ -112,6 +112,13 @@ class KisahNabi : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val buttonNabiMusa: Button = findViewById(R.id.BtnNabi14)
+
+        buttonNabiMusa.setOnClickListener {
+            val intent = Intent(this, NabiMusaActivity::class.java)
+            startActivity(intent)
+        }
+
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

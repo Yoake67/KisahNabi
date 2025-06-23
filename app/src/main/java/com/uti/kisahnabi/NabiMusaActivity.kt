@@ -8,11 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class NabiSyuaibActivity : AppCompatActivity() {
+class NabiMusaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_nabi_syuaib)
+        setContentView(R.layout.activity_nabi_musa)
 
         val buttonkeKembali: Button = findViewById(R.id.kembalikekisahnabi)
 
@@ -24,7 +24,7 @@ class NabiSyuaibActivity : AppCompatActivity() {
         val buttonSebelumnya: Button = findViewById(R.id.sebelumnyake12)
 
         buttonSebelumnya.setOnClickListener {
-            val intent = Intent(this, NabiAyyubActivity::class.java)
+            val intent = Intent(this, NabiSyuaibActivity::class.java)
             startActivity(intent)
         }
 
