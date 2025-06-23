@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiYusufActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiYaqub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI YAQUB AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Ya'qub adalah putera  dari Nabi Ishaq bin Ibrahim sedang ibunya adalah anak saudara dari Nabi Ibrahim,  bernama Rifqah binti A'zar. Ia adalah saudara kembar dari putera Ishaq yang  kedua bernama Ishu. Antara kedua saudara kembar ini tidak terdapat suasana  rukun dan damai serta tidak ada menaruh kasih-sayang satu terhadap yang lain  bahkan Ishu mendendam dengki dan iri hati terhadap Ya'qub saudara kembarnya yang  memang dimanjakan dan lebih disayangi serta dicintai oleh ibunya. Hubungan  mereka yang renggang dan tidak akrab itu makin buruk dan tegang setelah  diketahui oleh Ishu bahwa Ya'qublah yang diajukan oleh ibunya ketika ayahnya  minta kedatangan anak-anaknya untuk diberkahi dan didoakan, sedangkan dia tidak  diberitahu dan karenanya tidak mendapat kesempatan seperti Ya'qub memperoleh  berkah dan doa ayahnya, Nabi Ishaq."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Melihat sikap saudaranya yang  bersikap kaku dan dingin dan mendengar kata-kata sindirannya yang timbul dari  rasa dengki dan irihati, bahkan ia selalu diancam maka datanglah Ya'qub kepada  ayahnya mengadukan sikap permusuhan itu. Ia berkata mengeluh : &quot; Wahai ayahku!  Tolonglah berikan fikiran kepadaku, bagaimana harus aku menghadapi saudaraku  Ishu yang membenciku mendendam dengki kepadaku dan selalu menyindirku dengan  kata-kata yang menyakitkan hatiku, sehinggakan menjadihubungan persaudaraan kami  ber dua renggang dan tegang tidak ada saling cinta mencintai saling  sayang-menyayangi. Dia marah karena ayah memberkahi dan mendoakan aku agar aku  memperolehi keturunan soleh, rezeki yang mudah dan kehidupan yang makmur serta  kemewahan . Dia menyombongkan diri dengan kedua orang isterinya dari suku  Kan'aan dan mengancam bahwa anak-anaknya dari kedua isteri itu akan menjadi  saingan berat bagi anak-anakku kelak didalam pencarian dan penghidupan dan  macam-macam ancaman lain yang mencemas dan menyesakkan hatiku. Tolonglah ayah  berikan aku fikiran bagaimana aku dapat mengatasi masalah ini serta mengatasinya  dengan cara kekeluargaan."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Berkata si ayah, Nabi Ishaq yang memang sudah  merasa kesal hati melihat hubungan kedua puteranya yang makin hari makin  meruncing:&quot; Wahai anakku, karena usiaku yang sudah lanjut aku tidak dapat  menengahi kamu berdua ubanku sudah menutupi seluruh kepalaku, badanku sudah  membongkok raut mukaku sudah kisut berkerut dan aku sudak berada di ambang pintu  perpisahan dari kamu dan meninggalkan dunia yang fana ini. Aku khuatir bila aku  sudah menutup usia, gangguan saudaramu Ishu kepadamu akan makin meningkat dan ia  secara terbuka akan memusuhimu, berusaha mencari kecelakaan mu dan kebinasaanmu.  Ia dalam usahanya memusuhimu akan mendapat sokongan dan pertolongan dan  saudara-saudara iparnya yang berpengaruh dan berwibawa di negeri ini. Maka jalan  yang terbaik bagimu, menurut fikiranku, engkau harus pergi meninggalkan negeri  ini dan berhijrah engkau ke Fadan A'raam di daerah Irak, di mana bermukin bapa  saudaramu saudara ibumu Laban bin Batu;il. Engkau dapat mengharap dikahwinkan  kepada salah seorang puterinya dan dengan demikian menjadi kuatlah kedudukan  sosialmu disegani dan dihormati orang karena karena kedudukan mertuamu yang  menonjol di mata masyarkat. Pergilah engkau ke sana dengan iringan doa drpku  semoga Allah memberkahi perjalananmu, memberi rezeki murah dan mudah serta  kehidupan yang tenang dan tenteram."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nasihat dan anjuran si ayah mendapat  tempat dalam hati si anak. Ya'qub melihat dalam anjuran ayahnya jalan keluar  yang dikehendaki dari krisis hubungan persaudaraan antaranya dan Ishu, apalagi  dengan mengikuti saranan itu ia akan dapat bertemu dengan bapa saudaranya dan  anggota-anggota keluarganya dari pihak ibunya .Ia segera berkemas-kemas  membungkus barang-barang yang diperlukan dalam perjalanan dan dengan hati yang  terharu serta air mata yang tergenang di matanya ia meminta kepada ayahnya dan  ibunya ketika akan meninggalkan rumah."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Ya'qub Tiba di Irak"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dengan melalui jalan pasir dan Sahara yang luas  dengan panas mataharinya yang terik dan angi samumnya {panas} yang membakar  kulit, Ya'qub meneruskan perjalanan seorang diri, menuju ke Fadan A'ram dimana  bapa saudaranya Laban tinggal. Dalam perjalanan yang jauh itu , ia sesekali  berhenti beristirehat bila merasa letih dan lesu .Dan dalam salah satu tempat  perhentiannya ia berhenti karena sudah sgt letihnya tertidur dibawah teduhan  sebuah batu karang yang besar .Dalam tidurnya yang nyenyak, ia mendapat mimpi  bahwa ia dikurniakan rezeki luas, penghidupan yang aman damai, keluarga dan anak  cucuc yang soleh dan bakti serta kerajaan yang besar dan makmur. Terbangunlah  Ya'qub dari tidurnya, mengusapkan matanya menoleh ke kanan dan ke kiri dan  sedarlah ia bahawa apa yang dilihatnya hanyalah sebuah mimpi namun ia percaya  bahwa mimpinya itu akan menjadi kenyataan di kemudian hari sesuia dengan doa  ayahnya yang masih tetap mendengung di telinganya. Dengan diperoleh mimpi itu  ,ia merasa segala letih yang ditimbulkan oleh perjalanannya menjadi hilang  seolah-olah ia memperolehi tanaga baru dan bertambahlah semangatnya untuk  secepat mungkin tiba di tempat yang di tuju dan menemui sanak-saudaranya dari  pihak ibunya."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tiba pada akhirnya Ya'qub di depan pintu gerbang kota Fadan  A'ram setelah berhari-hari siang dan malam menempuh perjalanan yang membosankan  tiada yang dilihat selain dari langit di atas dan pasir di bawah. Alangkah lega  hatinya ketika ia mulai melihat binatang-binatang peliharaan berkeliaran di atas  ladang-ladang rumput ,burung-burung berterbangan di udara yang cerah dan para  penduduk kota berhilir mundir mencari nafkah dan keperluan hidup  masing-masing."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sesampainya disalah satu persimpangan jalan ia berhenti  sebentar bertanya salah seorang penduduk di mana letaknya rumah saudara ibunya  Laban barada. Laban seorang kaya-raya yang kenamaan pemilik dari suatu  perusahaan perternakan yang terbesar di kota itu tidak sukar bagi seseorang  untuk menemukan alamatnya. Penduduk yang ditanyanya itu segera menunjuk ke arah  seorang gadis cantik yang sedang menggembala kambing seraya berkata kepada  Ya'qub:&quot;Kebetulan sekali, itulah dia puterinya Laban yang akan dapat membawamu  ke rumah ayahnya, ia bernama Rahil."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dengan ahti yang berdebar, pergilah  Ya'qub menghampiri yang ayu itu dan cantik itu, lalu dengan suara yang  terputus-putus seakan-akan ada sesuatu yang mengikat lidahnya ,ia mengenalkan  diri, bahwa ia adalah saudara sepupunya sendiri. Ibunya yang bernama Rifqah  adalah saudara kandung dair ayah si gadis itu. Selanjutnya ia menerangkan kepada  gadis itu bahwa ia datang ke Fadam A'raam dari Kan'aan dengan tujuan hendak  menemui Laban ,ayahnya untuk menyampaikan pesanan Ishaq, ayah Ya'qub kepada  gadis itu. Maka dengan senang hati sikap yang ramah muka yang manis disilakan  ya'qub mengikutinya berjalan menuju rumah Laban bapa  saudaranya."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="berpeluk-pelukanlah dengan mesranya si bapa saudara dengan  anak saudara, menandakan kegembiraan masing-masing dengan pertemuan yang tidak  disangka-sangka itu dan mengalirlah pada pipi masing-masing air mata yang  dicucurkan oleh rasa terharu dan sukcita. Maka disapkanlah oleh Laban bin  Batu'il tempat dan bilik khas untuk anak saudaranya Ya'qub yang tidak berbeda  dengan tempat-tempat anak kandungnya sendiri di mana ia dapat tinggal sesuka  hatinya seperti di rumahnya sendiri. "
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="berpeluk-pelukanlah dengan mesranya si bapa saudara dengan  anak saudara, menandakan kegembiraan masing-masing dengan pertemuan yang tidak  disangka-sangka itu dan mengalirlah pada pipi masing-masing air mata yang  dicucurkan oleh rasa terharu dan sukcita. Maka disapkanlah oleh Laban bin  Batu'il tempat dan bilik khas untuk anak saudaranya Ya'qub yang tidak berbeda  dengan tempat-tempat anak kandungnya sendiri di mana ia dapat tinggal sesuka  hatinya seperti di rumahnya sendiri. "
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
