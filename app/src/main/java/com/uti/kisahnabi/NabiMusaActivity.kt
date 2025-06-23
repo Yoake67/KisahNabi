@@ -21,14 +21,14 @@ class NabiMusaActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val buttonSebelumnya: Button = findViewById(R.id.sebelumnyake12)
+        val buttonSebelumnya: Button = findViewById(R.id.sebelumnyake13)
 
         buttonSebelumnya.setOnClickListener {
             val intent = Intent(this, NabiSyuaibActivity::class.java)
             startActivity(intent)
         }
 
-        val buttonSelanjutnya: Button = findViewById(R.id.selanjutnyake14)
+        val buttonSelanjutnya: Button = findViewById(R.id.selanjutnyake15)
 
         buttonSelanjutnya.setOnClickListener {
             val intent = Intent(this, NabiMusaActivity::class.java)
