@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI NUH"
+            android:text="KISAH NABI NUH AS"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -76,7 +76,7 @@
                         android:text="1. Dakwah Nabi Nuh AS kepada Kaumnya"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -114,7 +114,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Kaum Nabi Nuh terus-menerus mengejek dan menolak ajakan Nuh. Para pemimpin dan orang kaya di antara mereka merasa terganggu karena dakwah Nuh dianggap mengancam status dan pengaruh mereka. Mereka berkata, “Bukankah dia hanya manusia biasa seperti kita? Mengapa kita harus mengikutinya?” Mereka juga mempermasalahkan para pengikut Nuh yang berasal dari kalangan miskin dan dianggap rendah."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -123,7 +123,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Bahkan ayah dan anak Nabi Nuh sendiri termasuk orang yang tidak beriman. Ini menjadi ujian berat bagi seorang nabi, karena orang terdekatnya pun menolak kebenaran. Namun Nuh tetap sabar dan memohon petunjuk dari Allah. Ia tahu bahwa hidayah bukan milik manusia, melainkan semata-mata kehendak Allah SWT. Maka ia terus berdoa agar Allah memberi keputusan yang adil bagi kaumnya yang terus-menerus membangkang."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -142,7 +142,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Suatu hari, Allah mewahyukan kepada Nabi Nuh bahwa tidak akan ada lagi orang dari kaumnya yang beriman selain yang telah mengikuti. Maka Allah memerintahkan Nuh untuk membangun sebuah kapal besar (bahtera) sebagai persiapan atas azab yang akan datang. Pembuatan kapal ini dilakukan di atas tanah kering, jauh dari laut, yang membuat banyak orang mencemooh dan menertawakan Nabi Nuh."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -151,7 +151,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Kaum yang membangkang berkata, “Wahai Nuh, apakah kamu menjadi tukang kayu sekarang? Membuat kapal di tengah padang?” Mereka mengolok-oloknya siang dan malam. Tetapi Nabi Nuh hanya menjawab, “Jika kamu mengejek kami, maka kami juga akan mengejekmu sebagaimana kamu mengejek kami.” Nuh yakin bahwa pertolongan Allah akan datang dan ejekan mereka hanya akan menjadi bukti dari kerasnya hati mereka."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -170,7 +170,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah kapal selesai, Allah memerintahkan Nabi Nuh untuk membawa keluarga yang beriman, para pengikut, dan masing-masing sepasang hewan ke dalam kapal. Ketika perintah Allah tiba, air memancar dari bumi dan hujan turun dengan dahsyat dari langit. Dalam waktu singkat, bumi pun dipenuhi air yang meluap dan menenggelamkan segalanya. Inilah banjir besar sebagai bentuk azab atas kaum yang membangkang."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -179,7 +179,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Orang-orang yang dahulu mencemooh mulai panik, namun sudah terlambat. Mereka tidak bisa menyelamatkan diri dari azab Allah. Gunung-gunung pun tidak cukup tinggi untuk menghindari air bah. Banjir itu adalah bentuk hukuman atas kekufuran mereka, dan hanya orang-orang yang berada di dalam kapal bersama Nabi Nuh yang selamat dari bencana tersebut."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -198,7 +198,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Salah satu momen paling memilukan bagi Nabi Nuh adalah ketika melihat putranya, Kan’an, berada di luar kapal dan menolak ajakannya untuk ikut. Nabi Nuh memanggilnya dengan haru, memintanya untuk naik ke kapal dan menyelamatkan diri. Namun Kan’an bersikeras untuk pergi ke gunung, mengira ia bisa selamat dari banjir yang besar."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -207,7 +207,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Nuh memohon kepada Allah agar anaknya diselamatkan, tetapi Allah menjawab bahwa Kan’an bukan termasuk keluarganya dalam keimanan. Hati Nuh hancur, namun ia menerima keputusan Allah dengan lapang dada. Dari peristiwa ini, kita belajar bahwa hubungan darah tidak menjamin keselamatan, yang paling penting adalah keimanan dan ketaatan kepada Allah SWT.  "
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -226,7 +226,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah bumi ditenggelamkan selama beberapa waktu, Allah memerintahkan bumi untuk menyerap air dan langit untuk berhenti menurunkan hujan. Kapal Nabi Nuh akhirnya berlabuh dengan selamat di Bukit Judi, dan semua penumpangnya selamat. Nabi Nuh dan pengikutnya bersujud syukur kepada Allah atas keselamatan mereka dari azab yang dahsyat."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -235,7 +235,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nuh berdoa agar Allah mengampuni dirinya, keluarganya yang beriman, dan semua yang beriman bersamanya. Ia juga memohon agar orang-orang kafir tidak lagi diberi kesempatan di muka bumi karena mereka hanya akan menyesatkan manusia. Doa-doa Nabi Nuh menunjukkan bahwa beliau adalah sosok nabi yang sangat peduli terhadap umat, penuh kasih, dan teguh dalam iman.  "
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -254,7 +254,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Kisah Nabi Nuh adalah kisah perjuangan dan keteguhan hati dalam menghadapi tantangan dakwah. Meski hanya sedikit yang menerima kebenaran, Nuh tidak pernah putus asa. Ia adalah teladan bagi para pendakwah dan umat manusia tentang arti sabar, istiqamah, dan keyakinan terhadap pertolongan Allah."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -263,7 +263,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Nuh adalah salah satu dari lima Rasul Ulul Azmi, yaitu rasul-rasul yang memiliki keteguhan luar biasa dalam menyampaikan wahyu. Kisahnya menjadi pelajaran penting bahwa kebenaran tidak selalu diterima oleh mayoritas, namun tetap harus disampaikan dengan sabar dan bijak.  "
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
