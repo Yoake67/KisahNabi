@@ -13,6 +13,9 @@
         android:theme="@style/Theme.KisahNabi"
         tools:targetApi="31">
         <activity
+            android:name=".RosulIbrahimActivity"
+            android:exported="false" />
+        <activity
             android:name=".RosulIsaActivity"
             android:exported="false" />
         <activity
