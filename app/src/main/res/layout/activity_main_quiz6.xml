@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity_Quiz5">
+    tools:context=".MainActivity_Quiz6">
 
     <LinearLayout
         android:id="@+id/linearLayout_Quiz"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView_Quiz5"
+            android:id="@+id/textView_Quiz6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/adlam_display"
@@ -50,57 +50,57 @@
             android:gravity="center">
 
             <TextView
-                android:id="@+id/Soal5"
+                android:id="@+id/Soal6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/adlam_display"
                 android:textStyle="bold"
-                android:text="5. Nabi yang dikenal dengan kesabarannya yang luar biasa saat diuji dengan penyakit adalah..."
+                android:text="6. Nabi yang menerima wahyu kitab suci Taurat di Bukit Sinai adalah..."
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
             <RadioGroup
-                android:id="@+id/radioGroup5"
+                android:id="@+id/radioGroup6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
-                    android:id="@+id/opsiA_soal5_jawaban"
+                    android:id="@+id/opsiA_soal6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Ayyub AS"
+                    android:text="Nabi Yunus AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiB_soal5"
+                    android:id="@+id/opsiB_soal6_jawaban"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Ya'qub AS"
+                    android:text="Nabi Musa AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiC_soal5"
+                    android:id="@+id/opsiC_soal6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Zakaria AS"
+                    android:text="Nabi Isa AS"
                     android:textSize="14sp" />
 
                 <RadioButton
-                    android:id="@+id/opsiD_soal5"
+                    android:id="@+id/opsiD_soal6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="@font/adlam_display"
-                    android:text="Nabi Syu'aib AS"
+                    android:text="Nabi Ibrahim AS"
                     android:textSize="14sp" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/submit5"
+                android:id="@+id/submit6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
