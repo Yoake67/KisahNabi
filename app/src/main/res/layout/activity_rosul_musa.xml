@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout_KisahRosul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#AAE06A"
+        android:background="#005B8F"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
             android:padding="10dp"
             android:text="KISAH NABI MUSA AS"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -278,10 +278,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:backgroundTint="#A9DE69"
+            android:backgroundTint="#005B8F"
             android:fontFamily="@font/poppins_bold"
             android:text="Kembali"
-            android:textColor="#050505"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
         <Button
@@ -292,10 +292,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:backgroundTint="#A9DE69"
+            android:backgroundTint="#005B8F"
             android:fontFamily="@font/poppins_bold"
             android:text="Selanjutnya"
-            android:textColor="#050505"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
     </LinearLayout>
 
