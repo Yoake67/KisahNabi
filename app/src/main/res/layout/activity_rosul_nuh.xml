@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RosulIsaActivity">
+    tools:context=".RosulNuhActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout_KisahRosul"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI ISA"
+            android:text="KISAH NABI NUH"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -73,7 +73,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="1. Kelahiran Ajaib Nabi Isa AS"
+                        android:text="1. Dakwah Nabi Nuh AS kepada Kaumnya"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp"
@@ -84,35 +84,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Isa AS dilahirkan secara ajaib dari seorang wanita suci bernama Maryam, tanpa ayah. Peristiwa ini terjadi atas kehendak Allah sebagai mukjizat dan tanda kebesaran-Nya. Saat Maryam sedang menyendiri untuk beribadah, malaikat Jibril datang membawa kabar bahwa ia akan memiliki seorang anak laki-laki yang suci. Meskipun terkejut dan khawatir, Maryam menerima perintah Allah dengan penuh keimanan."
+                        android:text="Nabi Nuh AS diutus oleh Allah kepada kaum yang tenggelam dalam kesyirikan dan penyembahan berhala. Kaum tersebut tidak hanya menyembah patung, tetapi juga menolak segala bentuk peringatan dari Allah. Nabi Nuh berdakwah dengan sabar dan konsisten, mengajak mereka kembali ke jalan tauhid—penyembahan hanya kepada Allah SWT. Ia berbicara dengan lemah lembut dan penuh kasih sayang agar mereka sadar dari kesesatannya."
                         android:textColor="#000000"
                         android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Maryam kemudian melahirkan Nabi Isa di bawah pohon kurma dalam kondisi penuh ujian dan keterasingan. Allah memberinya kekuatan dan ketenangan saat menghadapi tuduhan dari kaumnya. Sebagai pembelaan, bayi Isa yang masih dalam gendongan berbicara dan menyatakan bahwa dirinya adalah hamba Allah dan telah diberi kitab serta dijadikan nabi. Peristiwa ini menunjukkan bahwa sejak lahir, Nabi Isa sudah membawa tanda-tanda kenabian."
-                        android:textColor="#070707"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="2. Mukjizat Nabi Isa Sejak Kecil"
-                        android:textColor="#070707"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sejak kecil, Nabi Isa menunjukkan banyak mukjizat yang luar biasa sebagai bukti bahwa ia adalah utusan Allah. Mukjizat pertama yang terjadi adalah saat ia masih bayi dan mampu berbicara. Hal ini membuat banyak orang terkejut dan menjadi bukti kebenaran ibunya yang dituduh berbuat dosa. Allah terus menunjukkan kekuasaan-Nya melalui Isa untuk membimbing Bani Israil yang keras kepala."
+                        android:text="Namun, mayoritas kaumnya menolak dakwah tersebut. Mereka bahkan menutup telinga, menutupi kepala dengan kain, dan menjauh dari Nabi Nuh. Mereka menuduh Nuh sebagai orang gila, pembohong, dan hanya pengikut orang-orang miskin. Meski demikian, Nuh tidak menyerah. Ia berdakwah selama 950 tahun, namun hanya sedikit yang beriman. Ini menunjukkan betapa besar kesabaran dan ketulusan hati Nabi Nuh dalam menegakkan agama Allah."
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -121,16 +102,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mukjizat lainnya termasuk menyembuhkan orang buta dan penderita lepra, menghidupkan orang mati, dan menciptakan burung dari tanah liat yang kemudian bisa terbang. Semua mukjizat ini terjadi dengan izin Allah, bukan karena kekuatan Isa sendiri. Nabi Isa tidak pernah mengaku sebagai Tuhan, melainkan selalu menegaskan bahwa dirinya hanyalah hamba dan utusan Allah. Hal ini penting untuk membedakan antara mukjizat seorang nabi dengan kekuasaan Ilahi."
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="3. Diutus sebagai Nabi kepada Bani Israil"
+                        android:text="2. Tantangan dan Ejekan dari Kaum yang Membangkang"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -140,7 +112,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Isa diutus kepada Bani Israil, kaum yang sudah sering kali mengingkari ajaran nabi-nabi sebelumnya. Ia membawa kitab Injil dan menyeru mereka untuk kembali kepada ajaran tauhid yang benar. Nabi Isa juga menegaskan bahwa ia datang bukan untuk membatalkan ajaran Nabi Musa, tetapi untuk menyempurnakannya dengan penuh kasih dan hikmah. Ia mengajak mereka berbuat adil, menyembah Allah, dan meninggalkan kemunafikan."
+                        android:text="Kaum Nabi Nuh terus-menerus mengejek dan menolak ajakan Nuh. Para pemimpin dan orang kaya di antara mereka merasa terganggu karena dakwah Nuh dianggap mengancam status dan pengaruh mereka. Mereka berkata, “Bukankah dia hanya manusia biasa seperti kita? Mengapa kita harus mengikutinya?” Mereka juga mempermasalahkan para pengikut Nuh yang berasal dari kalangan miskin dan dianggap rendah."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -149,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Namun, sebagian besar kaum Bani Israil menolak dakwah Nabi Isa. Mereka lebih memilih mempertahankan kedudukan dan kekayaan duniawi daripada menerima kebenaran. Nabi Isa menghadapi banyak penolakan dan fitnah, tetapi ia tetap sabar dan terus berdakwah. Ia juga memilih murid-murid setia (Hawariyyun) untuk menyebarkan ajarannya setelah ia tiada."
+                        android:text="Bahkan ayah dan anak Nabi Nuh sendiri termasuk orang yang tidak beriman. Ini menjadi ujian berat bagi seorang nabi, karena orang terdekatnya pun menolak kebenaran. Namun Nuh tetap sabar dan memohon petunjuk dari Allah. Ia tahu bahwa hidayah bukan milik manusia, melainkan semata-mata kehendak Allah SWT. Maka ia terus berdoa agar Allah memberi keputusan yang adil bagi kaumnya yang terus-menerus membangkang."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -158,7 +130,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="4. Penolakan dan Rencana Pembunuhan"
+                        android:text="3. Perintah Membangun Kapal di Atas Tanah"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -168,7 +140,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Karena ajaran Nabi Isa dianggap mengancam kepentingan para pemuka agama dan penguasa Romawi, mereka bersekongkol untuk menangkap dan membunuhnya. Mereka menyebarkan fitnah dan hasutan, lalu melaporkannya sebagai pemberontak. Rencana jahat ini mendapat dukungan dari sebagian besar rakyat yang telah dibutakan oleh kedengkian dan kebohongan."
+                        android:text="Suatu hari, Allah mewahyukan kepada Nabi Nuh bahwa tidak akan ada lagi orang dari kaumnya yang beriman selain yang telah mengikuti. Maka Allah memerintahkan Nuh untuk membangun sebuah kapal besar (bahtera) sebagai persiapan atas azab yang akan datang. Pembuatan kapal ini dilakukan di atas tanah kering, jauh dari laut, yang membuat banyak orang mencemooh dan menertawakan Nabi Nuh."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -177,7 +149,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Namun, Allah tidak membiarkan nabi-Nya dibunuh oleh orang-orang zalim. Ketika mereka hendak menyalib Isa, Allah menyelamatkannya dengan cara yang luar biasa. Allah menjadikan wajah salah satu pengkhianat mirip dengan Isa, sehingga orang itu yang tertangkap dan disalib. Peristiwa ini menjadi pelajaran bahwa rencana manusia tidak akan pernah mengalahkan takdir Allah."
+                        android:text="Kaum yang membangkang berkata, “Wahai Nuh, apakah kamu menjadi tukang kayu sekarang? Membuat kapal di tengah padang?” Mereka mengolok-oloknya siang dan malam. Tetapi Nabi Nuh hanya menjawab, “Jika kamu mengejek kami, maka kami juga akan mengejekmu sebagaimana kamu mengejek kami.” Nuh yakin bahwa pertolongan Allah akan datang dan ejekan mereka hanya akan menjadi bukti dari kerasnya hati mereka."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -186,7 +158,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="5. Diangkat ke Langit oleh Allah"
+                        android:text="4. Banjir Besar sebagai Azab dari Allah"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -196,7 +168,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Setelah peristiwa penyelamatan itu, Allah mengangkat Nabi Isa ke langit dalam keadaan hidup. Ia tidak mati dan tidak disalib sebagaimana yang diyakini sebagian orang. Dalam Islam, hal ini dijelaskan dalam Al-Qur’an dengan tegas bahwa Isa diselamatkan dan tidak dibunuh. Hingga kini, Isa masih hidup di langit dan akan kembali di akhir zaman."
+                        android:text="Setelah kapal selesai, Allah memerintahkan Nabi Nuh untuk membawa keluarga yang beriman, para pengikut, dan masing-masing sepasang hewan ke dalam kapal. Ketika perintah Allah tiba, air memancar dari bumi dan hujan turun dengan dahsyat dari langit. Dalam waktu singkat, bumi pun dipenuhi air yang meluap dan menenggelamkan segalanya. Inilah banjir besar sebagai bentuk azab atas kaum yang membangkang."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -205,7 +177,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Isa menjadi satu-satunya nabi yang tidak mengalami kematian hingga hari ini. Allah menjadikannya sebagai tanda dan simbol dari rahmat dan perlindungan-Nya terhadap hamba yang taat. Kisah ini sekaligus menguatkan keyakinan umat Islam bahwa Isa bukan Tuhan atau anak Tuhan, melainkan manusia pilihan yang dimuliakan Allah."
+                        android:text="Orang-orang yang dahulu mencemooh mulai panik, namun sudah terlambat. Mereka tidak bisa menyelamatkan diri dari azab Allah. Gunung-gunung pun tidak cukup tinggi untuk menghindari air bah. Banjir itu adalah bentuk hukuman atas kekufuran mereka, dan hanya orang-orang yang berada di dalam kapal bersama Nabi Nuh yang selamat dari bencana tersebut."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -214,7 +186,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="6. Kembalinya Nabi Isa Menjelang Hari Kiamat"
+                        android:text="5. Kesedihan Nabi Nuh atas Putranya"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -224,7 +196,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Isa akan kembali ke bumi menjelang datangnya Hari Kiamat. Ia akan turun untuk membunuh Dajjal, sosok jahat yang menyebarkan fitnah dan kerusakan di muka bumi. Setelah itu, Nabi Isa akan memimpin umat manusia dalam kebenaran, menegakkan keadilan, dan menyatukan umat dalam ajaran tauhid."
+                        android:text="Salah satu momen paling memilukan bagi Nabi Nuh adalah ketika melihat putranya, Kan’an, berada di luar kapal dan menolak ajakannya untuk ikut. Nabi Nuh memanggilnya dengan haru, memintanya untuk naik ke kapal dan menyelamatkan diri. Namun Kan’an bersikeras untuk pergi ke gunung, mengira ia bisa selamat dari banjir yang besar."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -233,7 +205,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Dalam masa pemerintahannya, Nabi Isa akan menghancurkan salib, membunuh babi, dan menegakkan hukum Islam. Ia tidak membawa Injil baru, melainkan mengikuti syariat Nabi Muhammad SAW. Setelah menjalani kehidupan di bumi, Nabi Isa akan wafat secara alami dan dimakamkan sebagai manusia biasa. Peristiwa ini menunjukkan akhir dari perjalanan luar biasa seorang nabi yang diberi tugas khusus oleh Allah."
+                        android:text="Nabi Nuh memohon kepada Allah agar anaknya diselamatkan, tetapi Allah menjawab bahwa Kan’an bukan termasuk keluarganya dalam keimanan. Hati Nuh hancur, namun ia menerima keputusan Allah dengan lapang dada. Dari peristiwa ini, kita belajar bahwa hubungan darah tidak menjamin keselamatan, yang paling penting adalah keimanan dan ketaatan kepada Allah SWT.  "
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -242,7 +214,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Penutup: Hikmah dari Kisah Nabi Isa AS"
+                        android:text="6. Akhir Perjalanan dan Doa Syukur Nabi Nuh"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -252,7 +224,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kisah Nabi Isa AS mengandung banyak pelajaran berharga, mulai dari kesabaran dalam menghadapi ujian, keikhlasan dalam berdakwah, hingga keajaiban mukjizat dari Allah. Ia adalah teladan tentang bagaimana seorang hamba tetap taat kepada Allah meskipun menghadapi fitnah dan tekanan yang luar biasa. Keberaniannya menyeru kebenaran dan kesuciannya sebagai manusia pilihan menjadi cermin bagi kita semua."
+                        android:text="Setelah bumi ditenggelamkan selama beberapa waktu, Allah memerintahkan bumi untuk menyerap air dan langit untuk berhenti menurunkan hujan. Kapal Nabi Nuh akhirnya berlabuh dengan selamat di Bukit Judi, dan semua penumpangnya selamat. Nabi Nuh dan pengikutnya bersujud syukur kepada Allah atas keselamatan mereka dari azab yang dahsyat."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -261,7 +233,35 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Isa juga menjadi pengingat bahwa kebenaran akan selalu menang, meskipun pada awalnya ditolak oleh banyak orang. Ia bukan Tuhan, bukan anak Tuhan, tetapi seorang rasul yang diberi tugas mulia untuk membimbing umatnya. Dengan mengenal kisahnya, kita dapat memperkuat iman dan meneladani akhlak para nabi dalam kehidupan sehari-hari."
+                        android:text="Nuh berdoa agar Allah mengampuni dirinya, keluarganya yang beriman, dan semua yang beriman bersamanya. Ia juga memohon agar orang-orang kafir tidak lagi diberi kesempatan di muka bumi karena mereka hanya akan menyesatkan manusia. Doa-doa Nabi Nuh menunjukkan bahwa beliau adalah sosok nabi yang sangat peduli terhadap umat, penuh kasih, dan teguh dalam iman.  "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. Warisan dan Teladan dari Nabi Nuh AS"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kisah Nabi Nuh adalah kisah perjuangan dan keteguhan hati dalam menghadapi tantangan dakwah. Meski hanya sedikit yang menerima kebenaran, Nuh tidak pernah putus asa. Ia adalah teladan bagi para pendakwah dan umat manusia tentang arti sabar, istiqamah, dan keyakinan terhadap pertolongan Allah."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Nuh adalah salah satu dari lima Rasul Ulul Azmi, yaitu rasul-rasul yang memiliki keteguhan luar biasa dalam menyampaikan wahyu. Kisahnya menjadi pelajaran penting bahwa kebenaran tidak selalu diterima oleh mayoritas, namun tetap harus disampaikan dengan sabar dan bijak.  "
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
