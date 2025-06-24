@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RosulMusaActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahRosul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiMusa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI MUSA"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahRosul">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="1. Kelahiran Nabi Musa dan Mukjizat di Sungai Nil"
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada masa kekuasaan Fir’aun di Mesir, ia mengeluarkan perintah kejam untuk membunuh setiap bayi laki-laki dari Bani Israil, karena ia khawatir akan datang seorang anak yang akan menggulingkan kekuasaannya. Di tengah kondisi inilah, Nabi Musa dilahirkan."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ibunya, atas wahyu dari Allah, menghanyutkannya ke Sungai Nil dalam sebuah peti kecil agar selamat dari pembunuhan. Dengan kuasa Allah, peti itu ditemukan oleh istri Fir’aun, Asiyah, yang kemudian mengangkat Musa sebagai anak angkat, meskipun Fir’aun sempat menolak."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" 2. Masa Muda Musa dan Pengembaraan ke Madyan"
+                        android:textColor="#070707"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Saat dewasa, Nabi Musa menyaksikan seorang Mesir menindas seorang dari Bani Israil. Ia membela saudaranya dan tanpa sengaja membunuh orang Mesir itu. Karena takut akan dibunuh oleh Fir’aun, ia melarikan diri ke negeri Madyan."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Di Madyan, Musa menolong dua perempuan yang kesulitan memberi minum ternak mereka. Karena kebaikannya, ia diundang ke rumah mereka dan akhirnya menikah dengan salah satu dari mereka, anak Nabi Syu’aib. Ia tinggal di sana selama beberapa tahun, hidup sebagai penggembala."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. Wahyu Pertama di Bukit Thur (Gunung Sinai)"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Saat kembali ke Mesir bersama keluarganya, Nabi Musa melihat api dari kejauhan di Bukit Thur. Ketika ia mendekat, Allah berbicara kepadanya langsung dari pohon yang terbakar—di sanalah Musa diangkat sebagai nabi dan rasul. Allah memerintahkannya untuk kembali ke Mesir dan menyeru Fir’aun agar menyembah Allah. Sebagai bentuk bantuan, Allah mengutus saudaranya, Harun, untuk mendampinginya dalam berdakwah."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4. Dakwah kepada Fir’aun dan Mukjizat Allah"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Musa menghadap Fir’aun dan mengajak agar ia menyembah Allah. Fir’aun menolak dengan sombong dan menuduh Musa sebagai penyihir. Maka Allah memberikan beberapa mukjizat: tongkat Musa berubah menjadi ular besar, tangannya bercahaya terang, dan berbagai bencana menimpa Mesir seperti banjir, katak, belalang, darah, dan kutu.  Namun, Fir’aun tetap membangkang dan tidak mau beriman."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" 5. Peristiwa Terbelahnya Laut Merah"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Akhirnya, Allah memerintahkan Nabi Musa untuk membawa Bani Israil keluar dari Mesir. Fir’aun dan pasukannya mengejar mereka hingga ke Laut Merah. Atas perintah Allah, Nabi Musa memukulkan tongkatnya ke laut, dan laut pun terbelah menjadi jalan. Bani Israil berhasil menyeberang."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ketika Fir’aun dan tentaranya ikut masuk, laut kembali menutup dan menenggelamkan mereka. Fir’aun pun binasa di tempat itu."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="6. Ujian dan Peringatan untuk Bani Israil"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Setelah bebas dari Fir’aun, Nabi Musa memimpin kaumnya di padang pasir. Namun, Bani Israil berkali-kali membangkang: mereka meminta patung untuk disembah, menyembah anak sapi emas saat Musa pergi bermunajat, dan sering meragukan ajaran Nabi Musa."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Meski begitu, Nabi Musa tetap sabar dalam membimbing mereka, menunjukkan keteguhan dan kepemimpinan seorang nabi.  "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="7. Wafatnya Nabi Musa AS"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Musa wafat di usia tua setelah mengemban tugas berat sebagai pembebas dan pembimbing kaumnya. Ia dikenal sebagai Ulul Azmi, yaitu nabi yang memiliki ketabahan luar biasa. Warisan perjuangannya menjadi inspirasi bagi banyak generasi setelahnya."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Penutup:"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kisah Nabi Musa AS mengajarkan kita tentang keberanian menghadapi kezaliman, kepasrahan kepada perintah Allah, serta pentingnya kesabaran dalam menghadapi ujian umat. Kisah ini juga menjadi bukti bahwa pertolongan Allah akan selalu datang bagi mereka yang benar dan taat."
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/kembalikisahnabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Kembali"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
