@@ -106,7 +106,7 @@
                 android:layout_marginTop="16dp"
                 android:backgroundTint="#F6E3C1"
                 android:fontFamily="@font/adlam_display"
-                android:text="SELESAI KUIS"
+                android:text="SUBMIT"
                 android:textStyle="bold"
                 android:textColor="@color/black" />
 
