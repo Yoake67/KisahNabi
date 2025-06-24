@@ -28,11 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-<<<<<<< HEAD
-            android:id="@+id/KisahNabiIsa"
-=======
             android:id="@+id/KisahNabi"
->>>>>>> ac62fbc3222a01de4c9761fa14bf493ee5aa555c
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
