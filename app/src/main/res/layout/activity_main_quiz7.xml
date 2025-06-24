@@ -5,6 +5,114 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity_Quiz7">
 
+    <LinearLayout
+        android:id="@+id/linearLayout_Quiz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0020FF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView_Quiz7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="QUIZ"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout_Quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_Quizvert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E7F3F5"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <!-- Soal Nomor 7 -->
+            <TextView
+                android:id="@+id/Soal7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/adlam_display"
+                android:textStyle="bold"
+                android:text="7. Nabi yang dianugerahi mukjizat dapat melunakkan besi dengan tangan kosong adalah..."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <!-- Pilihan Jawaban untuk Soal 7 -->
+            <RadioGroup
+                android:id="@+id/radioGroup7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/opsiA_soal7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="Nabi Sulaiman AS"
+                    android:textSize="14sp" />
+
+                <!-- Jawaban yang Benar -->
+                <RadioButton
+                    android:id="@+id/opsiB_soal7_jawaban"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="Nabi Daud AS"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/opsiC_soal7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="Nabi Ilyas AS"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/opsiD_soal7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="Nabi Harun AS"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#F6E3C1"
+                android:fontFamily="@font/adlam_display"
+                android:text="SUBMIT"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
