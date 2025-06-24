@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabinuh"
+            android:id="@+id/KisahNabiibrahim"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI ISA"
+            android:text="KISAH NABI IBRAHIM"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
