@@ -1,4 +1,4 @@
-package com.uti.kisahnabi
+package com.uti.kisahnabi // Pastikan package name ini sesuai
 
 import android.content.Intent
 import android.os.Bundle
@@ -17,7 +17,7 @@ class MainActivity_Quiz5 : AppCompatActivity() {
         // Menggunakan ID view yang benar dari activity_main_quiz5.xml
         val radioGroupSoal5 = findViewById<RadioGroup>(R.id.radioGroup5)
         val buttonSubmit5 = findViewById<Button>(R.id.submit5)
-        val idJawabanBenarSoal5 = R.id.opsiA_soal5_jawaban
+        val idJawabanBenarSoal5 = R.id.opsiA_soal5_jawaban // Jawaban benar adalah Nabi Ayyub AS
 
         buttonSubmit5.setOnClickListener {
             val idJawabanTerpilih = radioGroupSoal5.checkedRadioButtonId
@@ -35,8 +35,6 @@ class MainActivity_Quiz5 : AppCompatActivity() {
                 // Mengarahkan ke soal nomor 6 setelah menjawab
                 val intent = Intent(this, MainActivity_Quiz6::class.java)
                 startActivity(intent)
-                // Menutup activity ini agar tidak bisa kembali
-                finish()
             }
         }
     }

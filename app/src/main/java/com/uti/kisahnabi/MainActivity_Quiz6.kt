@@ -33,10 +33,9 @@ class MainActivity_Quiz6 : AppCompatActivity() {
                 }
 
                 // --- BAGIAN YANG DIUBAH ---
-                // Mengarahkan ke soal nomor 7 setelah menjawab
+                // Mengarahkan ke soal nomor 5
                 val intent = Intent(this, MainActivity_Quiz7::class.java)
                 startActivity(intent)
-                // Baris finish() tidak ditambahkan agar bisa kembali ke soal ini
             }
         }
     }
