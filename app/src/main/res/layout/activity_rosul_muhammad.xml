@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabiibrahim"
+            android:id="@+id/KisahRosulmuhammad"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI ISA AS"
+            android:text="KISAH NABI MUHAMMAD"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -76,7 +76,7 @@
                         android:text="1. Kelahiran dan Masa Kecil Nabi Muhammad SAW"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -104,7 +104,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="2. Masa Remaja dan Pernikahan dengan Khadijah"
                         android:textColor="#070707"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -123,7 +123,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Khadijah kemudian meminangnya, dan mereka menikah saat Nabi Muhammad berusia 25 tahun, sementara Khadijah berusia 40 tahun. Dari pernikahan itu, mereka dikaruniai beberapa anak, di antaranya Fatimah Az-Zahra. Kehidupan rumah tangga mereka penuh kasih sayang, dan Khadijah selalu mendukung Nabi Muhammad dalam segala hal, terutama saat beliau menerima wahyu."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -142,7 +142,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pada usia 40 tahun, Muhammad sering menyendiri di Gua Hira untuk merenung. Di sana, beliau merenungi kondisi masyarakat Mekah yang penuh penyembahan berhala dan keburukan moral. Suatu malam di bulan Ramadhan, datanglah malaikat Jibril yang membawa wahyu pertama dari Allah, yakni surat Al-‘Alaq ayat 1-5."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -151,7 +151,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Wahyu tersebut membuat Nabi Muhammad sangat terkejut dan ketakutan. Beliau pulang dalam keadaan gemetar dan meminta diselimuti oleh istrinya. Khadijah menenangkan beliau dan membawanya menemui Waraqah bin Naufal, seorang pendeta Nasrani yang mengatakan bahwa Muhammad adalah nabi terakhir yang telah disebutkan dalam kitab-kitab sebelumnya."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -170,7 +170,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Muhammad mulai berdakwah secara diam-diam selama tiga tahun, kemudian secara terang-terangan. Beliau mengajak masyarakat untuk meninggalkan berhala dan menyembah Allah yang Esa. Namun dakwah ini mendapat perlawanan keras dari kaum Quraisy, terutama para pemuka yang merasa terancam oleh ajaran Islam."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -179,7 +179,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Meski dihina, disiksa, dan diboikot, Nabi Muhammad tetap sabar dan tabah. Banyak pengikutnya, terutama yang miskin dan lemah, mengalami siksaan berat. Salah satunya adalah Bilal bin Rabah yang disiksa majikannya karena memeluk Islam. Namun semangat dakwah Rasulullah tidak pernah padam, dan beliau terus menyampaikan ajaran Islam dengan kelembutan dan keberanian."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -198,7 +198,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah masa-masa berat, termasuk wafatnya Khadijah dan pamannya Abu Thalib, Allah memberikan penghiburan kepada Nabi Muhammad dengan peristiwa Isra’ Mi’raj. Dalam satu malam, beliau diperjalankan dari Masjidil Haram ke Masjidil Aqsa (Isra’), lalu naik ke langit (Mi’raj) untuk menerima perintah salat lima waktu langsung dari Allah SWT."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -207,7 +207,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Peristiwa ini menjadi penguatan spiritual bagi Nabi Muhammad. Meski banyak yang tidak percaya, beliau tetap menyampaikan kebenarannya dengan tegas. Perjalanan itu menunjukkan keistimewaan beliau sebagai utusan terakhir, sekaligus memperlihatkan berbagai tanda kekuasaan Allah di langit dan bumi."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -226,7 +226,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah dakwah di Mekah semakin sulit, Nabi Muhammad menerima tawaran dari penduduk Yatsrib (Madinah) untuk berhijrah dan memimpin mereka. Kaum Muhajirin (dari Mekah) dan Anshar (penduduk Madinah) bersatu membangun masyarakat Islam yang damai dan adil. Di Madinah, Rasulullah membentuk Piagam Madinah, yaitu perjanjian hidup bersama antara kaum Muslimin, Yahudi, dan kabilah lainnya."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -235,7 +235,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Hijrah menjadi titik balik dalam sejarah Islam. Di Madinah, Islam berkembang pesat, dan Nabi Muhammad memimpin berbagai peperangan untuk mempertahankan diri, seperti Perang Badar, Uhud, dan Khandaq. Beliau menunjukkan kepemimpinan yang adil, bijak, dan penuh kasih terhadap umatnya, bahkan terhadap musuh sekalipun."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -254,7 +254,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah beberapa tahun di Madinah, akhirnya Nabi Muhammad dan kaum Muslimin kembali ke Mekah dalam peristiwa Fathu Makkah (Penaklukan Mekah) tanpa pertumpahan darah. Beliau memaafkan para musuh yang dahulu menyakitinya. Patung-patung berhala di sekitar Ka’bah dihancurkan, dan masyarakat Mekah mulai masuk Islam secara berbondong-bondong."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -263,7 +263,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah menyempurnakan risalahnya, Nabi Muhammad melaksanakan Haji Wada’ (haji perpisahan) dan menyampaikan Khutbah Wada’ yang penuh nasihat. Tidak lama setelah itu, beliau wafat pada usia 63 tahun di Madinah. Umat Islam sangat kehilangan, namun beliau telah meninggalkan Al-Qur’an dan sunnah sebagai petunjuk sepanjang zaman."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
