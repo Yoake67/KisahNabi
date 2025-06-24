@@ -1,20 +1,43 @@
-package com.uti.kisahnabi
+package com.uti.kisahnabi // Pastikan package name ini sesuai
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.widget.Button
+import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity_Quiz8 : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        // Memuat layout untuk soal nomor 8
         setContentView(R.layout.activity_main_quiz8)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        // Menghubungkan view dari layout activity_main_quiz8.xml
+        val radioGroupSoal8 = findViewById<RadioGroup>(R.id.radioGroup8)
+        val buttonSubmit8 = findViewById<Button>(R.id.submit8)
+        val idJawabanBenarSoal8 = R.id.opsiA_soal8_jawaban // Jawaban benar adalah Nabi Ibrahim AS
+
+        buttonSubmit8.setOnClickListener {
+            val idJawabanTerpilih = radioGroupSoal8.checkedRadioButtonId
+
+            if (idJawabanTerpilih == -1) {
+                Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
+            } else {
+                // Menampilkan Toast berdasarkan jawaban benar atau salah
+                if (idJawabanTerpilih == idJawabanBenarSoal8) {
+                    Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
+                }
+
+                // Mengarahkan ke soal nomor 9 setelah menjawab
+                val intent = Intent(this, MainActivity_Quiz9::class.java)
+                startActivity(intent)
+
+                // Tidak ada finish() agar bisa kembali ke soal ini dari soal 9
+            }
         }
     }
 }
