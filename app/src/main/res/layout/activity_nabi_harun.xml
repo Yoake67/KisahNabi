@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kaum Madyam, kaumnya Nabi Syu'ib, adalah segolongan bangsa Arab yang tinggal di  sebuah daerah bernama &quot;Ma'an&quot; di pinggir negeri Syam. Mereka terdiri dari  orang-orang kafir tidak mengenal Tuhan Yang Maha Esa. Mereka mentembah kepada  &quot;Aikah&quot; iaitu sebidang padang pasir yang ditumbuhi beberapa pohon dan  tanam-tanaman. Cara hidup dan istiadat mereka sudah sgt jauh dari ajaran agama  dan pengajaran nabi-nabi sebelum Nabi Syu'aib a.s."
+                        android:text="Mengisahkan nabi Harun tidak lepas dari kisah nabi Musa, kerena ia adalah juru bicara nabi Musa ketika menghadap Fir”aun ataupun umat nabi Musa sendiri. Kisahnya ketika nabi Musa berhasil membawa umatnya keluar dari wilayah Mesir dan selamat dari kejaran Fir”aun yang ingin membunuh mereka."
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp" />
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kemungkaran, kemaksiatan  dan tipu menipu dalam pengaulan merupakan perbuatan dan perilaku yang lumrah dan  rutin. Kecurangan dan perkhianatan dalam hubungan dagang seperti pemalsuan  barang, kecurian dalam takaran dan timbangan menjadi ciri yang sudah sebati  dengan diri mereka. Para pedagang dan petani kecil selalu menjadi korban  permainan para pedagang-pedagang besar dan para pemilik modal, sehingga dengan  demikian yang kaya makin bertambah kekayaannya, sedangkan yang lemah semakin  merosot modalnya dan semakin melarat hidupnya. "
+                        android:text=" Kini tibalah saatnya nabi Musa untuk menerima wahyu dari Allah swt, ia memerintahkan nabi Harun agar menjaga umatnya, jangan sampai mereka kufur, lalu nabi Musa naik gunung Thursina, untuk berkhalwat dan berpuasa sempat empat puluh hari. Diatas gunung nabi Musa kemudian memohon kepada Allah swt “ Ya Tuhan, dapatkah aku melihat Engkau ?” "
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -91,7 +91,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sesuai dengan sunnah Allah  sejak Adam diturunkan ke bumi bahwa dari waktu ke waktu bila manusia sudah  lupakan kepada-Nya dan sudah jauh menyimpang dair ajaran-ajaran nabi-nabi-Nya,  dan bila Iblis serta syaitan sudah menguasai sesuatu masyarakat dengan ajaran  dan tuntutannya yang menyesatkan maka Allah mengutuskan seorang rasul dan nabi  untuk memberi penerangan serta tuntutan kepada mereka agar kembali ke jalan yang  lurus dan benar, jalan iman dan tauhid yang bersih dari segala rupa syirik dan  persembahan yang bathil."
+                        android:text=" Allah swt berfirman:”Engkau tidak akan sanggup melihat Ku, tetapi cobalah lihat bukit itu. Jika tetap berdiri tegak di tempatnya maka kau akan dapat melihat Ku”. Lalu nabi Musa menoleh kearah bukit atau gunung yang dimaksud, seketika gunung yang dilihat hancur luluh tanpa meninggalkan bekas, lalu masuk ke dalam perut bumi. "
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -100,7 +100,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kepada kaum Madyan diutuslah oleh Allah seorang  Rasul iaitu Nabi Syu'aib, seorang drpd mereka sendiri, sedarah dan sedaging dengan  mereka. Ia mengajak mereka meninggalkan persembahan kepada Aikah, sebuah benda  mati yang tidak bermanfaat atau bermudharat dan sebagai gantinya melakukan  persembahan dan sujud kepada Allah Yang Maha Esa, Pencipta langit dan bumi  termasuk sebidang tanah yang mereka puja sebagai tuhan mereka. Nabi Syu'aib  kepada mereka agar meninggalkan perbuatan-perbuatan dan kelakukan-kelakuan yang  dilarang oleh Allah serta membawa kerugian bagi sesama manusia serta mengakibat  kerusakan dan kebinasaan masyarakat. Mereka diajak agar berlaku adil dan jujur  terhadap diri sendiri dan terutama terhadap orang lain, meninggalkan perkhianat  dan kezaliman serta perbuatan curang dalam hubungan dagang, perampasan hak milik  seseorang dan penindasan terhadap orang-orang yang lemah dan  miskin."
+                        android:text=" Nabi Musa terperanjat, gemetar seluruh tubuhnya dan jatuh pingsan, setelah itu sadar ia bertasbih dan bertahmid seraya memohon ampun atas kelancangannya itu, “ maha besar Engkau Wahai Tuhan, ampunilah aku dan terimalah taubatku dan aku akan menjadi orang pertama yang beriman kepada Mu”. Selanjutnya Allah swt menurunkan Kitab Taurat yang berupa kepingan – kepingan batu, di dalamnya tertulis pedoman hidup dan penuntun beribadah kepada Allah Swt."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -109,16 +109,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Diingatkan oleh Nabi Syu'aib akan nikmat Allah dan kurniaan-Nya  yang telah memberi mereka tanah subu serta sarana-sarana kemakmuran yang  berlimpah-limpah dengan pertumbuhan jumlah penduduk dan anak cucu yang pesat.  Semuanya itu menurut seruan Nabi Syu'aib, patut diimbangi dengan rasa bersyukur  dan bersembah kepada Allah Maha Pencipta yang akan melipat gandakan nikmat dan  kurnia-Nya kepada orang-orang yang beriman dan bersyukur."
+                        android:text="Patung Anak Sapi"
                         android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Diingatkan pula  Nabi Syu'aib bahwa mereka tidak mahu sedar dan kembali kepada jalan yang benar  mengikuti ajaran dan perintah Allah yang dibawanya, nescaya Allah akan mencabut  nikmat dan kurnia-Nya kepada mereka, bahkan akan menurunkan azabnya atas mereka  di dunia selain seksa dari azab yang menanti mereka kelak di akhirat bila di  bangkitkan kembali dari kubur."
+                        android:text=" Ketika nabi Musa turun dari bukit Thursina ia terkejut, kaumnya lelah tersesat. Mereka berpesta pora dan menyembah patung anak sapi yang terbuat dari emas. Nabi Musa menegur saudaranya yaitu Harun yang telah dititipi agar menjaga umatnya. Nabi Harun berkata bahwa ia sudah memperingatkan mereka, namun mereka tak menganggapnya sebelah mata. Nabi Harun dianggap orang yang lemah."
                         android:textColor="#000000"
                         android:textSize="16dp" />
 
@@ -127,7 +128,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kepada mereka Nabi Syu'aib dikisahkan  seksa dan azab yang diturunkan oleh Allah terhadap kaum Nuh, kaum Hud, kaum  Saleh dan paling dekat kaum Luth yang kesemua telah menderita dan menjadi binasa  akibat kekafiran, keangkuhan dan keengganan mereka mengikuti ajaran serta  tuntutan nabi-nabi yang diutus Allah kepada Mereka. Diingatkan oleh Nabi Syu'aib  agar mereka beriktibar dan ingat bahwa mereka akan mengalami nasib yang telah  dialami oleh kaum-kaum itu jika mereka tetap melakukan persembahan yang bathil  serta tetap melakukan perbuatan-perbuatan yang buruk dan jahat."
+                        android:text=" Setelah diselidiki ternyata Samiri-lah orang yang mengajak orang – orang itu membuat patung anak sapi dan menyembahnya. Nabi Musa marah sekali sehingga Samiri diusir, dan tidak boleh bergaul dengan masyarakat, sebab Samiri terkena kutukan, jika ia disentuh atau menyentuh manusia maka badannya akan menjadi demam panas itulah siksaan di dunia, adapun nanti di akhirat ia akan di masukkan ke dalam neraka. "
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -136,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Dakwah  dan ajakan Nabi Syu'aib disambut oleh mereka terutama penguasa, pembesar serta  orang-orang kaya dengan ejekan dan olok-olok. Mereka berkata: &quot;Adakah kerana  solatmu, engaku memerintahkan kami menyembah selain apa yang telah kami sembah  sepanjang hayat kami. Persembahan mana pula telah dilakukan oleh nenek moyang  kami dan diwariskan kepada kami. Dan apakah juga karena solatmu engkau  menganjurkan kami meninggalkan cara-cara hidup sehari-hari yang nyata telah  membawa kemakmuran dan kebahagian bagi kami bahkan sudah menjadi adat istiadat  kami turun temurun. Sungguh kami tidak mengerti apa apa tujuanmu dan apa  maksudmu dengan ajaran-ajaran baru yang engkau bawa kepada kami. Sungguh kami  menyaksikan kesempurnaan akalmu dan keberesan otakmu!&quot;"
+                        android:text=" Kemudian nabi Musa memerintahkan kaumnya yang telah tersesat menyembah patung anak sapi supaya bertaubat kepada Allah Swt dengan sebenar – benarnya taubat. Tujuh puluh orang diantara kaumnya diajak ke bukit Thursina, untuk mereka adalah orang – orang terbaik. Di ajak nabi Musa untuk memohonkan ampun buat kaumnya yang berdosa. Setibanya diatas bukit, datanglah awan tebal yang meliputi seluruih bukit nabi Musa dan kaumnya masuk ke dalam awan itu dan mereka segera bersujud. Selagi bersujud mereka mendengar percakapan nabi Musa dengan Tuhan-Nya. Pada saat itu timbullah keinginan di benak mereka untuk melihat Allah Swt. "
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -145,7 +146,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ejekan dan  olok-olok mereka didengar dan diterima oleh Syu'aib dengan kesabran dan kelapangan  dada. Ia sesekali tidak menyambut kata-kata kasar mereka dengan marah atau  membalasnya dengan kata-kata yang kasar pula. Ia bahkan makin bersikap lemah  lembut dalam dakwahnya dengan menggugah hati nurani dan akal mereka supaya  memikirkan dan merenungkan apa yang dikatakan dan dinasihatkan kepada mereka.  Dan sesekali ia menonjolkan hubungan darah dan kekeluargaannya dengan mereka,  sebagai jaminan bahwa ia menghendaki perbaikan bagi hidup mereka di dunia dan  akhirat dan bukan sebaliknya. Ia tidak mengharapkan sesuatu balas jasa atas  usaha dakwahnya. Ia tidak pula memerlukan kedudukan atau menginginkan kehormatan  bagi dirinya dari kaumnya. Ia akan cukup merasa puas jika kaumnya kembali kepada  jalan Allah, masyarakatnya akan menjadi masyarakat yang bersih dari segala  kemaksiatan dan adt-istiadat yang buruk. Ia akan menerima upahnya dari Allah  yang telah mengutuskannya sebagai rasul yang dibebani amanat untuk menyampaikan  risalah-Nya kepada kaumnya sendiri. "
+                        android:text=" Setelah nabi Musa selesai bercakap – cakap dengan Allah Swt , mereka berkata kepada nabi Musa:”Kami tidak akan beriman kepadamu sebelum kami dapat melihat Allah dengan terang dan nyata”. "
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -154,66 +155,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kaum Syu'aib akhirnya merasa jengkel  dan jemu melihat Nabi Syu'aib tidak henti-hentinya berdakwah bertabligh pada  setiap kesempatan dan di mana saja ia menemui orang berkumpul. Penghinaan dan  ancaman dilontar kepada Nabi Syu'aib dan para pengikutnya akan diusir dan akan  dikeluarkan dari Madyan jika mereka mahu menghentikan dakwahnya atau tidak mahu  mengikuti agama adn cara-cara hidup mereka. Berkata mereka kepada Nabi  Syu'aib dengan nada mengejek: &quot;Kami tidak mengerti apa yang kamu katakan.  Nasihat-nasihatmu tidak mempunyai tempat di dalam hati dan kalbu kami. Engkau  adalah seorang yang lemah fizikalnya, rendah kedudukan dalam pengaulan maka  tidak mungkin engkau dapat mempengaruhi atau memimpin kami yang berfizikal lebih  kuat dan berkedudukan yang lebih tinggi drpmu. Cuba tidak kerana kerabatmu yang  kami segani dan hormati, nescaya engkau telah kami rejam dan sisihkan dari  pengaulan kami.&quot;"
+                        android:text=" Sebagai jawaban kontan atas kelancangan mereka itu Allah Swt mengirim halilintar yang menyambar dan merenggut nyawa mereka sekaligus. Nabi Musa sedih melihat nasib kelompok tujuh puluh itu, mereka adalah orang – orang terbaik yang dikumpulkan dari kaumnya. Ia memohon kepada Allah Swt agar mereka diampuni dosa-dosa mereka dan dihidupkan lagi. "
                         android:textColor="#070707"
                         android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView16"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Nabi Syu'aib menjawab: &quot;aku tidak akan hentikan dakwahku  kepada risalah Allah yang telah diamanahkan kepadaku dan jgnlah kamu  mengharapkan bahwa aku mahupun para pengikutku akan kembali mengikuti agamamu  dan adt-istiadatmu setelah Allah memberi hidayahnya kepada kami. Pelindunganku  adalah Allah Yang Maha Berkuasa dan bukan sanad kerabatku, Dialah yang memberi  tugas kepadaku dan Dia pula akan melindungiku dari segala gangguan dan ancaman.  Adakah sanak saudaraku yang engkau lebih segani drp Allah yang Maha  Berkuasa?&quot;"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-
-                    <TextView
-                        android:id="@+id/textView17"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Sejak berdakwah dan bertabligh menyampaikan risalah Allah  kepada kaum Madyan, Nabi Syu'aib berhasil menyedarkan hanya sebahagian kecil  dari kaumnya, sedang bahagian yang terbesar masih tertutup hatinya bagi cahaya  iman dan tauhid yang diajar oleh beliau. Mereka tetap berkeras kepala  mempertahankan tradisi, adt-istiadat dan agama yang mereka warisi dari nenek  moyang mereka. Itulah alasan mereka satu-satunya yang mereka kemukakan untuk  menolak ajaran Nabi Syu'aib dan itulah benteng mereka satu-satunya tempat mereka  berlindung dari serangan Nabi Syu'aib atas persembahan mereka yang bathil dan  adat pengaulan mereka yang mungkar dan sesat. Di samping itu jika mereka sudah  merasa tidak berdaya menghadapi keterangan-keterangan Nabi Syu'aib yang didukung  dengan dahlil dan bukti yang nyata kebenaran, mereka lalu melemparkan  tuduhan-tuduhan kosong seolah-olah Nabi adalah tukang sihir dan ahli sulap yang  ulung. Mereka telah berani menentang Nabi Syu'aib untuk membuktikan kebenaran  risalahnya dengan memdatangkan bencana dari Allah yang ia sembah dan  menganjurkan orang menyembah-Nya pula."
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-
-                    <TextView
-                        android:id="@+id/textView18"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Mendengar tentangan kaumnya yang  menandakan hati mereka telah tertutup rapat-rapat bagi sinar agama dan wahyu  yang ia bawa dan bahwa tiada harapan lagi akan menarik mereka ke jalan yang  lurus serta mengangkat mereka dari lembah syirik dan kemaksiatan serta pergaulan  buruk, maka bermohonlah Nabi Syu'aib kepada Allah agak menurunkan azzab seksanya  kepada kaum Madyan bahwa wujud-Nya serta menentang kekuasaannya untuk menjadi  ibrah dan peringatan bagi generasi-generasi yang mendatang."
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-
-                    <TextView
-                        android:id="@+id/textView19"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Allah Yang  Maha berkuasa berkenan menerima permohonan dan doa Syu'aib, maka diturunkanlah  lebih dahulu di atas mereka hawa udara yang sangat panas yang mengeringkan  kerongkongan karena dahaga yang tidak dapat dihilangkan dengan air dan membakar  kulit yang tidak dapat diubati dengan berteduh di bawah atap rumah atau  pohon-pohon."
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-
-                    <TextView
-                        android:id="@+id/textView20"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Di dalam keadaan mereka yang sedang bingung, panik berlari-lari ke  sana ke mari, mencari perlindungan dari terik panasnya matahari yang membakar  kulit dan dari rasa dahaga karena keringnya kerongkong tiba-tiba terlihat di  atas kepala mereka gumpalan awan hitam yang tebal, lalu berlarilah mereka ingin  berteduh dibawahnya. Namun setelah mereka berada di bawah awan hitam itu seraya  berdesak-desak dan berjejal-jejal, jatuhlah ke atas kepala mereka percikan api  dari jurusan awan hitam itu diiringi oleh suara petir dan gemuruh ledakan  dahsyat sementara bumi di bawah mereka bergoyang dengan kuatnya menjadikan  mereka berjatuhan, tertimbun satu di bawah yang lain dan melayanglah jiwa mereka  dengan serta-merta."
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
 
                     <TextView
                         android:id="@+id/textView38"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="150dp"
-                        android:text="Nabi Syu'aib merasa sedih atas kejadian yang menimpa  kaumnya dan berkata kepada para pengikutnya yang telah beriman: &quot;Aku telah  sampaikan kepada mereka risalah Allah, menasihati dan mengajak mereka agar  meninggalkan perbuatan-perbuatan mungkar serta persembahan bathil mereka dan aku  telah memperingatkan mereka akan datangnya seksaan Allah bila mereka tetap  berkeras hati, menutup telinga mereka terhadap suara kebenaran ajaran-ajaran  Allah yang aku bawa, namun mereka tidak menghiraukan nasihatku dan tidak  mempercayai peringatanku. Karenanya tidak patutlah aku bersedih hati atas  terjadinya bencana yang telah membinasakan kaumku yang kafir itu.'"
+                        android:text=" Allah Swt mengabulkan do”anya, tujuh puluh orang yang sudah mati itu dihidupkan kembali, nabi Musa kemudian menyuruh orang – orang itu bersumpah untuk berpegang teguh dengan kitab Taurat sebagai pedoman hidup. Melaksanakan perintah – Nya dan menjauhi larangan- Nya."
                         android:textColor="#040404"
                         android:textSize="16sp" />
 
