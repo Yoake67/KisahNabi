@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RosulMusaActivity">
+    tools:context=".RosulNuhActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout_KisahRosul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#005B8F"
+        android:background="#AAE06A"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabiMusa"
+            android:id="@+id/KisahRosulIsa"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,9 +36,9 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI MUSA AS"
+            android:text="KISAH NABI NUH AS"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="1. Kelahiran Nabi Musa dan Mukjizat di Sungai Nil"
+                        android:text="1. Dakwah Nabi Nuh AS kepada Kaumnya"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="20sp"
@@ -84,53 +84,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Pada masa kekuasaan Fir’aun di Mesir, ia mengeluarkan perintah kejam untuk membunuh setiap bayi laki-laki dari Bani Israil, karena ia khawatir akan datang seorang anak yang akan menggulingkan kekuasaannya. Di tengah kondisi inilah, Nabi Musa dilahirkan."
+                        android:text="Nabi Nuh AS diutus oleh Allah kepada kaum yang tenggelam dalam kesyirikan dan penyembahan berhala. Kaum tersebut tidak hanya menyembah patung, tetapi juga menolak segala bentuk peringatan dari Allah. Nabi Nuh berdakwah dengan sabar dan konsisten, mengajak mereka kembali ke jalan tauhid—penyembahan hanya kepada Allah SWT. Ia berbicara dengan lemah lembut dan penuh kasih sayang agar mereka sadar dari kesesatannya."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Ibunya, atas wahyu dari Allah, menghanyutkannya ke Sungai Nil dalam sebuah peti kecil agar selamat dari pembunuhan. Dengan kuasa Allah, peti itu ditemukan oleh istri Fir’aun, Asiyah, yang kemudian mengangkat Musa sebagai anak angkat, meskipun Fir’aun sempat menolak."
-                        android:textColor="#070707"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text=" 2. Masa Muda Musa dan Pengembaraan ke Madyan"
-                        android:textColor="#070707"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Saat dewasa, Nabi Musa menyaksikan seorang Mesir menindas seorang dari Bani Israil. Ia membela saudaranya dan tanpa sengaja membunuh orang Mesir itu. Karena takut akan dibunuh oleh Fir’aun, ia melarikan diri ke negeri Madyan."
+                        android:text="Namun, mayoritas kaumnya menolak dakwah tersebut. Mereka bahkan menutup telinga, menutupi kepala dengan kain, dan menjauh dari Nabi Nuh. Mereka menuduh Nuh sebagai orang gila, pembohong, dan hanya pengikut orang-orang miskin. Meski demikian, Nuh tidak menyerah. Ia berdakwah selama 950 tahun, namun hanya sedikit yang beriman. Ini menunjukkan betapa besar kesabaran dan ketulusan hati Nabi Nuh dalam menegakkan agama Allah."
                         android:textColor="#070707"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Di Madyan, Musa menolong dua perempuan yang kesulitan memberi minum ternak mereka. Karena kebaikannya, ia diundang ke rumah mereka dan akhirnya menikah dengan salah satu dari mereka, anak Nabi Syu’aib. Ia tinggal di sana selama beberapa tahun, hidup sebagai penggembala."
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="3. Wahyu Pertama di Bukit Thur (Gunung Sinai)"
+                        android:text="2. Tantangan dan Ejekan dari Kaum yang Membangkang"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -140,16 +112,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Saat kembali ke Mesir bersama keluarganya, Nabi Musa melihat api dari kejauhan di Bukit Thur. Ketika ia mendekat, Allah berbicara kepadanya langsung dari pohon yang terbakar—di sanalah Musa diangkat sebagai nabi dan rasul. Allah memerintahkannya untuk kembali ke Mesir dan menyeru Fir’aun agar menyembah Allah. Sebagai bentuk bantuan, Allah mengutus saudaranya, Harun, untuk mendampinginya dalam berdakwah."
+                        android:text="Kaum Nabi Nuh terus-menerus mengejek dan menolak ajakan Nuh. Para pemimpin dan orang kaya di antara mereka merasa terganggu karena dakwah Nuh dianggap mengancam status dan pengaruh mereka. Mereka berkata, “Bukankah dia hanya manusia biasa seperti kita? Mengapa kita harus mengikutinya?” Mereka juga mempermasalahkan para pengikut Nuh yang berasal dari kalangan miskin dan dianggap rendah."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="4. Dakwah kepada Fir’aun dan Mukjizat Allah"
+                        android:text="Bahkan ayah dan anak Nabi Nuh sendiri termasuk orang yang tidak beriman. Ini menjadi ujian berat bagi seorang nabi, karena orang terdekatnya pun menolak kebenaran. Namun Nuh tetap sabar dan memohon petunjuk dari Allah. Ia tahu bahwa hidayah bukan milik manusia, melainkan semata-mata kehendak Allah SWT. Maka ia terus berdoa agar Allah memberi keputusan yang adil bagi kaumnya yang terus-menerus membangkang."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="3. Perintah Membangun Kapal di Atas Tanah"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -159,16 +140,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Musa menghadap Fir’aun dan mengajak agar ia menyembah Allah. Fir’aun menolak dengan sombong dan menuduh Musa sebagai penyihir. Maka Allah memberikan beberapa mukjizat: tongkat Musa berubah menjadi ular besar, tangannya bercahaya terang, dan berbagai bencana menimpa Mesir seperti banjir, katak, belalang, darah, dan kutu.  Namun, Fir’aun tetap membangkang dan tidak mau beriman."
+                        android:text="Suatu hari, Allah mewahyukan kepada Nabi Nuh bahwa tidak akan ada lagi orang dari kaumnya yang beriman selain yang telah mengikuti. Maka Allah memerintahkan Nuh untuk membangun sebuah kapal besar (bahtera) sebagai persiapan atas azab yang akan datang. Pembuatan kapal ini dilakukan di atas tanah kering, jauh dari laut, yang membuat banyak orang mencemooh dan menertawakan Nabi Nuh."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" 5. Peristiwa Terbelahnya Laut Merah"
+                        android:text="Kaum yang membangkang berkata, “Wahai Nuh, apakah kamu menjadi tukang kayu sekarang? Membuat kapal di tengah padang?” Mereka mengolok-oloknya siang dan malam. Tetapi Nabi Nuh hanya menjawab, “Jika kamu mengejek kami, maka kami juga akan mengejekmu sebagaimana kamu mengejek kami.” Nuh yakin bahwa pertolongan Allah akan datang dan ejekan mereka hanya akan menjadi bukti dari kerasnya hati mereka."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="4. Banjir Besar sebagai Azab dari Allah"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -178,25 +168,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Akhirnya, Allah memerintahkan Nabi Musa untuk membawa Bani Israil keluar dari Mesir. Fir’aun dan pasukannya mengejar mereka hingga ke Laut Merah. Atas perintah Allah, Nabi Musa memukulkan tongkatnya ke laut, dan laut pun terbelah menjadi jalan. Bani Israil berhasil menyeberang."
+                        android:text="Setelah kapal selesai, Allah memerintahkan Nabi Nuh untuk membawa keluarga yang beriman, para pengikut, dan masing-masing sepasang hewan ke dalam kapal. Ketika perintah Allah tiba, air memancar dari bumi dan hujan turun dengan dahsyat dari langit. Dalam waktu singkat, bumi pun dipenuhi air yang meluap dan menenggelamkan segalanya. Inilah banjir besar sebagai bentuk azab atas kaum yang membangkang."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ketika Fir’aun dan tentaranya ikut masuk, laut kembali menutup dan menenggelamkan mereka. Fir’aun pun binasa di tempat itu."
+                        android:text="Orang-orang yang dahulu mencemooh mulai panik, namun sudah terlambat. Mereka tidak bisa menyelamatkan diri dari azab Allah. Gunung-gunung pun tidak cukup tinggi untuk menghindari air bah. Banjir itu adalah bentuk hukuman atas kekufuran mereka, dan hanya orang-orang yang berada di dalam kapal bersama Nabi Nuh yang selamat dari bencana tersebut."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="6. Ujian dan Peringatan untuk Bani Israil"
+                        android:text="5. Kesedihan Nabi Nuh atas Putranya"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -206,54 +196,74 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Setelah bebas dari Fir’aun, Nabi Musa memimpin kaumnya di padang pasir. Namun, Bani Israil berkali-kali membangkang: mereka meminta patung untuk disembah, menyembah anak sapi emas saat Musa pergi bermunajat, dan sering meragukan ajaran Nabi Musa."
+                        android:text="Salah satu momen paling memilukan bagi Nabi Nuh adalah ketika melihat putranya, Kan’an, berada di luar kapal dan menolak ajakannya untuk ikut. Nabi Nuh memanggilnya dengan haru, memintanya untuk naik ke kapal dan menyelamatkan diri. Namun Kan’an bersikeras untuk pergi ke gunung, mengira ia bisa selamat dari banjir yang besar."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Meski begitu, Nabi Musa tetap sabar dalam membimbing mereka, menunjukkan keteguhan dan kepemimpinan seorang nabi.  "
+                        android:text="Nabi Nuh memohon kepada Allah agar anaknya diselamatkan, tetapi Allah menjawab bahwa Kan’an bukan termasuk keluarganya dalam keimanan. Hati Nuh hancur, namun ia menerima keputusan Allah dengan lapang dada. Dari peristiwa ini, kita belajar bahwa hubungan darah tidak menjamin keselamatan, yang paling penting adalah keimanan dan ketaatan kepada Allah SWT.  "
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="7. Wafatnya Nabi Musa AS"
+                        android:text="6. Akhir Perjalanan dan Doa Syukur Nabi Nuh"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Musa wafat di usia tua setelah mengemban tugas berat sebagai pembebas dan pembimbing kaumnya. Ia dikenal sebagai Ulul Azmi, yaitu nabi yang memiliki ketabahan luar biasa. Warisan perjuangannya menjadi inspirasi bagi banyak generasi setelahnya."
+                        android:text="Setelah bumi ditenggelamkan selama beberapa waktu, Allah memerintahkan bumi untuk menyerap air dan langit untuk berhenti menurunkan hujan. Kapal Nabi Nuh akhirnya berlabuh dengan selamat di Bukit Judi, dan semua penumpangnya selamat. Nabi Nuh dan pengikutnya bersujud syukur kepada Allah atas keselamatan mereka dari azab yang dahsyat."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Penutup:"
+                        android:text="Nuh berdoa agar Allah mengampuni dirinya, keluarganya yang beriman, dan semua yang beriman bersamanya. Ia juga memohon agar orang-orang kafir tidak lagi diberi kesempatan di muka bumi karena mereka hanya akan menyesatkan manusia. Doa-doa Nabi Nuh menunjukkan bahwa beliau adalah sosok nabi yang sangat peduli terhadap umat, penuh kasih, dan teguh dalam iman.  "
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kisah Nabi Musa AS mengajarkan kita tentang keberanian menghadapi kezaliman, kepasrahan kepada perintah Allah, serta pentingnya kesabaran dalam menghadapi ujian umat. Kisah ini juga menjadi bukti bahwa pertolongan Allah akan selalu datang bagi mereka yang benar dan taat."
+                        android:text="7. Warisan dan Teladan dari Nabi Nuh AS"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kisah Nabi Nuh adalah kisah perjuangan dan keteguhan hati dalam menghadapi tantangan dakwah. Meski hanya sedikit yang menerima kebenaran, Nuh tidak pernah putus asa. Ia adalah teladan bagi para pendakwah dan umat manusia tentang arti sabar, istiqamah, dan keyakinan terhadap pertolongan Allah."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Nuh adalah salah satu dari lima Rasul Ulul Azmi, yaitu rasul-rasul yang memiliki keteguhan luar biasa dalam menyampaikan wahyu. Kisahnya menjadi pelajaran penting bahwa kebenaran tidak selalu diterima oleh mayoritas, namun tetap harus disampaikan dengan sabar dan bijak.  "
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
@@ -278,10 +288,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:backgroundTint="#005B8F"
+            android:backgroundTint="#A9DE69"
             android:fontFamily="@font/poppins_bold"
             android:text="Kembali"
-            android:textColor="#FFFFFF"
+            android:textColor="#050505"
             android:textSize="16sp" />
 
         <Button
@@ -292,10 +302,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:backgroundTint="#005B8F"
+            android:backgroundTint="#A9DE69"
             android:fontFamily="@font/poppins_bold"
             android:text="Selanjutnya"
-            android:textColor="#FFFFFF"
+            android:textColor="#050505"
             android:textSize="16sp" />
     </LinearLayout>
 

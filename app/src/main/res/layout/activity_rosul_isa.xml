@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabiIsa"
+            android:id="@+id/KisahRosulIsa"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI ISA"
+            android:text="KISAH NABI ISA AS"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -76,7 +76,7 @@
                         android:text="1. Kelahiran Ajaib Nabi Isa AS"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -104,7 +104,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="2. Mukjizat Nabi Isa Sejak Kecil"
                         android:textColor="#070707"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -123,7 +123,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Mukjizat lainnya termasuk menyembuhkan orang buta dan penderita lepra, menghidupkan orang mati, dan menciptakan burung dari tanah liat yang kemudian bisa terbang. Semua mukjizat ini terjadi dengan izin Allah, bukan karena kekuatan Isa sendiri. Nabi Isa tidak pernah mengaku sebagai Tuhan, melainkan selalu menegaskan bahwa dirinya hanyalah hamba dan utusan Allah. Hal ini penting untuk membedakan antara mukjizat seorang nabi dengan kekuasaan Ilahi."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -142,7 +142,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Isa diutus kepada Bani Israil, kaum yang sudah sering kali mengingkari ajaran nabi-nabi sebelumnya. Ia membawa kitab Injil dan menyeru mereka untuk kembali kepada ajaran tauhid yang benar. Nabi Isa juga menegaskan bahwa ia datang bukan untuk membatalkan ajaran Nabi Musa, tetapi untuk menyempurnakannya dengan penuh kasih dan hikmah. Ia mengajak mereka berbuat adil, menyembah Allah, dan meninggalkan kemunafikan."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -151,7 +151,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Namun, sebagian besar kaum Bani Israil menolak dakwah Nabi Isa. Mereka lebih memilih mempertahankan kedudukan dan kekayaan duniawi daripada menerima kebenaran. Nabi Isa menghadapi banyak penolakan dan fitnah, tetapi ia tetap sabar dan terus berdakwah. Ia juga memilih murid-murid setia (Hawariyyun) untuk menyebarkan ajarannya setelah ia tiada."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -170,7 +170,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Karena ajaran Nabi Isa dianggap mengancam kepentingan para pemuka agama dan penguasa Romawi, mereka bersekongkol untuk menangkap dan membunuhnya. Mereka menyebarkan fitnah dan hasutan, lalu melaporkannya sebagai pemberontak. Rencana jahat ini mendapat dukungan dari sebagian besar rakyat yang telah dibutakan oleh kedengkian dan kebohongan."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -179,7 +179,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Namun, Allah tidak membiarkan nabi-Nya dibunuh oleh orang-orang zalim. Ketika mereka hendak menyalib Isa, Allah menyelamatkannya dengan cara yang luar biasa. Allah menjadikan wajah salah satu pengkhianat mirip dengan Isa, sehingga orang itu yang tertangkap dan disalib. Peristiwa ini menjadi pelajaran bahwa rencana manusia tidak akan pernah mengalahkan takdir Allah."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -198,7 +198,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah peristiwa penyelamatan itu, Allah mengangkat Nabi Isa ke langit dalam keadaan hidup. Ia tidak mati dan tidak disalib sebagaimana yang diyakini sebagian orang. Dalam Islam, hal ini dijelaskan dalam Al-Qur’an dengan tegas bahwa Isa diselamatkan dan tidak dibunuh. Hingga kini, Isa masih hidup di langit dan akan kembali di akhir zaman."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -207,7 +207,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Isa menjadi satu-satunya nabi yang tidak mengalami kematian hingga hari ini. Allah menjadikannya sebagai tanda dan simbol dari rahmat dan perlindungan-Nya terhadap hamba yang taat. Kisah ini sekaligus menguatkan keyakinan umat Islam bahwa Isa bukan Tuhan atau anak Tuhan, melainkan manusia pilihan yang dimuliakan Allah."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -226,7 +226,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Isa akan kembali ke bumi menjelang datangnya Hari Kiamat. Ia akan turun untuk membunuh Dajjal, sosok jahat yang menyebarkan fitnah dan kerusakan di muka bumi. Setelah itu, Nabi Isa akan memimpin umat manusia dalam kebenaran, menegakkan keadilan, dan menyatukan umat dalam ajaran tauhid."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -235,7 +235,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Dalam masa pemerintahannya, Nabi Isa akan menghancurkan salib, membunuh babi, dan menegakkan hukum Islam. Ia tidak membawa Injil baru, melainkan mengikuti syariat Nabi Muhammad SAW. Setelah menjalani kehidupan di bumi, Nabi Isa akan wafat secara alami dan dimakamkan sebagai manusia biasa. Peristiwa ini menunjukkan akhir dari perjalanan luar biasa seorang nabi yang diberi tugas khusus oleh Allah."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -254,7 +254,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Kisah Nabi Isa AS mengandung banyak pelajaran berharga, mulai dari kesabaran dalam menghadapi ujian, keikhlasan dalam berdakwah, hingga keajaiban mukjizat dari Allah. Ia adalah teladan tentang bagaimana seorang hamba tetap taat kepada Allah meskipun menghadapi fitnah dan tekanan yang luar biasa. Keberaniannya menyeru kebenaran dan kesuciannya sebagai manusia pilihan menjadi cermin bagi kita semua."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -263,7 +263,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Isa juga menjadi pengingat bahwa kebenaran akan selalu menang, meskipun pada awalnya ditolak oleh banyak orang. Ia bukan Tuhan, bukan anak Tuhan, tetapi seorang rasul yang diberi tugas mulia untuk membimbing umatnya. Dengan mengenal kisahnya, kita dapat memperkuat iman dan meneladani akhlak para nabi dalam kehidupan sehari-hari."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 

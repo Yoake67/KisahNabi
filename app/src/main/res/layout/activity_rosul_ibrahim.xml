@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RosulMusaActivity">
+    tools:context=".RosulIbrahimActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout_KisahRosul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#005B8F"
+        android:background="#AAE06A"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabiMusa"
+            android:id="@+id/KisahRosulIsa"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,9 +36,9 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI MUSA AS"
+            android:text="KISAH NABI IBRAHIM AS"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -73,10 +73,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="1. Kelahiran Nabi Musa dan Mukjizat di Sungai Nil"
+                        android:text="1. Kelahiran dan Lingkungan Keluarga"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
-                        android:textSize="20sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -84,27 +84,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Pada masa kekuasaan Fir’aun di Mesir, ia mengeluarkan perintah kejam untuk membunuh setiap bayi laki-laki dari Bani Israil, karena ia khawatir akan datang seorang anak yang akan menggulingkan kekuasaannya. Di tengah kondisi inilah, Nabi Musa dilahirkan."
+                        android:text="Nabi Ibrahim AS lahir di sebuah negeri yang dikuasai oleh Raja Namrud, seorang raja yang zalim dan menganggap dirinya sebagai tuhan. Ayah Nabi Ibrahim bernama Azar, seorang pembuat patung berhala yang sangat dihormati di kalangan masyarakat penyembah berhala. Sejak kecil, Ibrahim sudah merasa tidak nyaman melihat orang-orang menyembah patung yang tidak bisa berbicara, makan, maupun menolong."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Ibunya, atas wahyu dari Allah, menghanyutkannya ke Sungai Nil dalam sebuah peti kecil agar selamat dari pembunuhan. Dengan kuasa Allah, peti itu ditemukan oleh istri Fir’aun, Asiyah, yang kemudian mengangkat Musa sebagai anak angkat, meskipun Fir’aun sempat menolak."
-                        android:textColor="#070707"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" 2. Masa Muda Musa dan Pengembaraan ke Madyan"
+                        android:text="2. Pencarian Tuhan yang Hakiki"
                         android:textColor="#070707"
-                        android:textSize="20sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -112,25 +103,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Saat dewasa, Nabi Musa menyaksikan seorang Mesir menindas seorang dari Bani Israil. Ia membela saudaranya dan tanpa sengaja membunuh orang Mesir itu. Karena takut akan dibunuh oleh Fir’aun, ia melarikan diri ke negeri Madyan."
+                        android:text="Sejak remaja, Nabi Ibrahim merenung tentang keberadaan Tuhan. Ia melihat bintang, bulan, dan matahari lalu berkata dalam hatinya, “Mungkin ini Tuhanku.” Namun ketika semuanya menghilang, ia sadar bahwa Tuhan sejati tidak mungkin lenyap. Dari pencarian itu, Ibrahim yakin bahwa Tuhan adalah Zat Yang Maha Hidup, tidak bergantung pada makhluk, dan tidak pernah padam.  "
                         android:textColor="#070707"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Di Madyan, Musa menolong dua perempuan yang kesulitan memberi minum ternak mereka. Karena kebaikannya, ia diundang ke rumah mereka dan akhirnya menikah dengan salah satu dari mereka, anak Nabi Syu’aib. Ia tinggal di sana selama beberapa tahun, hidup sebagai penggembala."
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="3. Wahyu Pertama di Bukit Thur (Gunung Sinai)"
+                        android:text="3. Menentang Penyembahan Berhala"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -140,7 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Saat kembali ke Mesir bersama keluarganya, Nabi Musa melihat api dari kejauhan di Bukit Thur. Ketika ia mendekat, Allah berbicara kepadanya langsung dari pohon yang terbakar—di sanalah Musa diangkat sebagai nabi dan rasul. Allah memerintahkannya untuk kembali ke Mesir dan menyeru Fir’aun agar menyembah Allah. Sebagai bentuk bantuan, Allah mengutus saudaranya, Harun, untuk mendampinginya dalam berdakwah."
+                        android:text="Dengan keberanian, Nabi Ibrahim mulai berdakwah. Ia mengajak ayahnya dan masyarakat untuk meninggalkan penyembahan berhala. Namun, mereka menolak mentah-mentah, bahkan mengecam dan mengancamnya. Suatu hari, Ibrahim menghancurkan semua patung kecuali satu yang terbesar. Ketika ditanya, Ibrahim menjawab bahwa patung terbesar itulah yang menghancurkan yang lain—mengejek keyakinan mereka secara halus. Namun mereka tahu bahwa patung-patung itu tidak bisa berbuat apa-apa."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -149,7 +131,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="4. Dakwah kepada Fir’aun dan Mukjizat Allah"
+                        android:text="4. Dibakar Hidup-Hidup oleh Raja Namrud"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -159,7 +141,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Musa menghadap Fir’aun dan mengajak agar ia menyembah Allah. Fir’aun menolak dengan sombong dan menuduh Musa sebagai penyihir. Maka Allah memberikan beberapa mukjizat: tongkat Musa berubah menjadi ular besar, tangannya bercahaya terang, dan berbagai bencana menimpa Mesir seperti banjir, katak, belalang, darah, dan kutu.  Namun, Fir’aun tetap membangkang dan tidak mau beriman."
+                        android:text="Raja Namrud sangat marah mendengar tindakan Ibrahim dan memerintahkan agar ia dibakar hidup-hidup. Namun Allah menunjukkan kuasa-Nya. Api yang besar itu tidak membakar Nabi Ibrahim sama sekali. Allah berfirman kepada api: &quot;Wahai api, jadilah dingin dan keselamatan bagi Ibrahim.&quot; (QS. Al-Anbiya: 69) Ini adalah salah satu mukjizat terbesar Nabi Ibrahim."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -168,7 +150,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" 5. Peristiwa Terbelahnya Laut Merah"
+                        android:text="5. Perintah Menyembelih Anak"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -178,7 +160,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Akhirnya, Allah memerintahkan Nabi Musa untuk membawa Bani Israil keluar dari Mesir. Fir’aun dan pasukannya mengejar mereka hingga ke Laut Merah. Atas perintah Allah, Nabi Musa memukulkan tongkatnya ke laut, dan laut pun terbelah menjadi jalan. Bani Israil berhasil menyeberang."
+                        android:text="Setelah bertahun-tahun berdakwah, Nabi Ibrahim dikaruniai seorang anak bernama Ismail dari istrinya Hajar. Saat Ismail remaja, Allah menguji Nabi Ibrahim dengan perintah menyembelih anaknya. Ibrahim dan Ismail menerima perintah ini dengan ikhlas. Namun ketika Ibrahim hendak menyembelih, Allah menggantikan Ismail dengan seekor domba. Kisah ini menjadi dasar ibadah kurban dalam Islam."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -187,16 +169,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ketika Fir’aun dan tentaranya ikut masuk, laut kembali menutup dan menenggelamkan mereka. Fir’aun pun binasa di tempat itu."
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="6. Ujian dan Peringatan untuk Bani Israil"
+                        android:text="6. Membangun Ka'bah"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -206,7 +179,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Setelah bebas dari Fir’aun, Nabi Musa memimpin kaumnya di padang pasir. Namun, Bani Israil berkali-kali membangkang: mereka meminta patung untuk disembah, menyembah anak sapi emas saat Musa pergi bermunajat, dan sering meragukan ajaran Nabi Musa."
+                        android:text="Bersama putranya Ismail, Nabi Ibrahim membangun Ka'bah di Mekkah atas perintah Allah. Mereka berdoa agar Ka'bah menjadi tempat ibadah bagi seluruh manusia dan agar keturunan mereka menjadi umat yang taat. Ka'bah kini menjadi kiblat umat Islam seluruh dunia."
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -215,43 +188,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Meski begitu, Nabi Musa tetap sabar dalam membimbing mereka, menunjukkan keteguhan dan kepemimpinan seorang nabi.  "
+                        android:text="7. Warisan Keimanan"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="7. Wafatnya Nabi Musa AS"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Nabi Musa wafat di usia tua setelah mengemban tugas berat sebagai pembebas dan pembimbing kaumnya. Ia dikenal sebagai Ulul Azmi, yaitu nabi yang memiliki ketabahan luar biasa. Warisan perjuangannya menjadi inspirasi bagi banyak generasi setelahnya."
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Penutup:"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Kisah Nabi Musa AS mengajarkan kita tentang keberanian menghadapi kezaliman, kepasrahan kepada perintah Allah, serta pentingnya kesabaran dalam menghadapi ujian umat. Kisah ini juga menjadi bukti bahwa pertolongan Allah akan selalu datang bagi mereka yang benar dan taat."
+                        android:text="Nabi Ibrahim dikenal sebagai Bapak Para Nabi karena dari keturunannya lahir banyak nabi, termasuk Nabi Ishaq, Ya’qub, Musa, Isa, dan Nabi Muhammad SAW. Ia dikenal dengan gelar Khalilullah (kekasih Allah), karena keimanan dan ketulusannya yang luar biasa.  "
                         android:textColor="#000000"
                         android:textSize="20sp" />
 
@@ -278,10 +225,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:backgroundTint="#005B8F"
+            android:backgroundTint="#A9DE69"
             android:fontFamily="@font/poppins_bold"
             android:text="Kembali"
-            android:textColor="#FFFFFF"
+            android:textColor="#050505"
             android:textSize="16sp" />
 
         <Button
@@ -292,10 +239,10 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:backgroundTint="#005B8F"
+            android:backgroundTint="#A9DE69"
             android:fontFamily="@font/poppins_bold"
             android:text="Selanjutnya"
-            android:textColor="#FFFFFF"
+            android:textColor="#050505"
             android:textSize="16sp" />
     </LinearLayout>
 
