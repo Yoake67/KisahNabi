@@ -1,4 +1,4 @@
-package com.uti.kisahnabi // Pastikan package name ini sesuai
+package com.uti.kisahnabi
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,6 +14,9 @@ class MainActivity_Quiz10 : AppCompatActivity() {
         // Memuat layout untuk soal nomor 10
         setContentView(R.layout.activity_main_quiz10)
 
+        // 1. Terima skor dari Activity sebelumnya (Quiz9)
+        val skorDariSoal9 = intent.getIntExtra("SKOR_SEMENTARA", 0)
+
         // Menghubungkan view dari layout activity_main_quiz10.xml
         val radioGroupSoal10 = findViewById<RadioGroup>(R.id.radioGroup10)
         val buttonSubmit10 = findViewById<Button>(R.id.submit10)
@@ -25,21 +28,20 @@ class MainActivity_Quiz10 : AppCompatActivity() {
             if (idJawabanTerpilih == -1) {
                 Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
             } else {
-                // Menampilkan Toast berdasarkan jawaban benar atau salah
-                if (idJawabanTerpilih == idJawabanBenarSoal10) {
-                    Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
-                } else {
-                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
-                }
+                // Hitung skor untuk soal ini
+                val skorSoalIni = if (idJawabanTerpilih == idJawabanBenarSoal10) 10 else 0
 
-                // Menampilkan pesan bahwa kuis telah selesai
-                Toast.makeText(this, "Selamat, Anda telah menyelesaikan kuis!", Toast.LENGTH_LONG).show()
+                // 3. Jumlahkan skor dari soal sebelumnya dengan skor soal ini untuk mendapatkan skor AKHIR
+                val skorAkhirTotal = skorDariSoal9 + skorSoalIni
 
-                // Menonaktifkan tombol setelah kuis selesai
-                buttonSubmit10.isEnabled = false
+                // 4. Intent untuk pindah ke halaman hasil akhir
+                val intent = Intent(this, MainActivity_Hasil_Quiz::class.java)
 
-                // Di sini Anda bisa menambahkan logika untuk pindah ke halaman utama atau halaman skor
-                // setelah beberapa detik, atau biarkan pengguna menekan tombol kembali.
+                // Kirim skor akhir dengan key "SKOR_AKHIR" agar bisa diterima di HasilQuizActivity
+                intent.putExtra("SKOR_AKHIR", skorAkhirTotal)
+                startActivity(intent)
+
+                finish()
             }
         }
     }
