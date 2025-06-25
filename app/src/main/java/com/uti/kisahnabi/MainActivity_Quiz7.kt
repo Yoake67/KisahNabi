@@ -14,6 +14,9 @@ class MainActivity_Quiz7 : AppCompatActivity() {
         // Memuat layout untuk soal nomor 7
         setContentView(R.layout.activity_main_quiz7)
 
+        // 1. Terima skor dari Activity sebelumnya (Quiz6)
+        val skorDariSoal6 = intent.getIntExtra("SKOR_SEMENTARA", 0)
+
         // Menghubungkan view dari layout activity_main_quiz7.xml
         val radioGroupSoal7 = findViewById<RadioGroup>(R.id.radioGroup7)
         val buttonSubmit7 = findViewById<Button>(R.id.submit7)
@@ -25,18 +28,16 @@ class MainActivity_Quiz7 : AppCompatActivity() {
             if (idJawabanTerpilih == -1) {
                 Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
             } else {
-                // Menampilkan Toast berdasarkan jawaban benar atau salah
-                if (idJawabanTerpilih == idJawabanBenarSoal7) {
-                    Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
-                } else {
-                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
-                }
+                // Hitung skor untuk soal ini
+                val skorSoalIni = if (idJawabanTerpilih == idJawabanBenarSoal7) 10 else 0
 
-                // Mengarahkan ke soal nomor 8 setelah menjawab
+                // 3. Jumlahkan skor dari soal sebelumnya dengan skor soal ini
+                val totalSkorSaatIni = skorDariSoal6 + skorSoalIni
+
+                // 4. Intent untuk pindah ke halaman kuis nomor 8, sambil membawa total skor
                 val intent = Intent(this, MainActivity_Quiz8::class.java)
+                intent.putExtra("SKOR_SEMENTARA", totalSkorSaatIni)
                 startActivity(intent)
-
-                // Tidak ada finish() agar bisa kembali ke soal ini dari soal 8
             }
         }
     }

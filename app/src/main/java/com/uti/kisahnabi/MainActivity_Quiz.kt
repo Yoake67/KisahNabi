@@ -21,9 +21,6 @@ class MainActivity_Quiz : AppCompatActivity() {
             insets
         }
 
-
-        // --- MULAI LOGIKA KUIS DARI SINI ---
-
         // 1. Ambil referensi komponen dari layout XML
         val radioGroupSoal1 = findViewById<RadioGroup>(R.id.radioGroup1)
         val buttonSubmit1 = findViewById<Button>(R.id.submit1)
@@ -41,22 +38,16 @@ class MainActivity_Quiz : AppCompatActivity() {
                 // Jika belum ada yang dipilih, tampilkan pesan peringatan
                 Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
             } else {
-                // Jika sudah ada yang dipilih, tetap lanjutkan.
-                // Pertama, tampilkan apakah jawaban benar atau salah.
-                if (idJawabanTerpilih == idJawabanBenar) {
-                    // Jawaban BENAR
-                    Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
-                } else {
-                    // Jawaban SALAH
-                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
-                }
+                // --- LOGIKA SKOR DIMULAI DI SINI ---
 
-                // Kemudian, selalu pindah ke halaman kuis berikutnya
+                // Hitung skor untuk soal ini
+                val skorSoalIni = if (idJawabanTerpilih == idJawabanBenar) 10 else 0
+
+                // Pindah ke halaman kuis berikutnya, sambil membawa skor
                 val intent = Intent(this, MainActivity_Quiz2::class.java)
+                intent.putExtra("SKOR_SEMENTARA", skorSoalIni)
                 startActivity(intent)
             }
         }
     }
 }
-
-

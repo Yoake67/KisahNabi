@@ -1,4 +1,4 @@
-package com.uti.kisahnabi // Pastikan package name ini sesuai
+package com.uti.kisahnabi
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,6 +14,9 @@ class MainActivity_Quiz8 : AppCompatActivity() {
         // Memuat layout untuk soal nomor 8
         setContentView(R.layout.activity_main_quiz8)
 
+        // 1. Terima skor dari Activity sebelumnya (Quiz7)
+        val skorDariSoal7 = intent.getIntExtra("SKOR_SEMENTARA", 0)
+
         // Menghubungkan view dari layout activity_main_quiz8.xml
         val radioGroupSoal8 = findViewById<RadioGroup>(R.id.radioGroup8)
         val buttonSubmit8 = findViewById<Button>(R.id.submit8)
@@ -25,18 +28,16 @@ class MainActivity_Quiz8 : AppCompatActivity() {
             if (idJawabanTerpilih == -1) {
                 Toast.makeText(this, "Silakan pilih jawaban terlebih dahulu!", Toast.LENGTH_SHORT).show()
             } else {
-                // Menampilkan Toast berdasarkan jawaban benar atau salah
-                if (idJawabanTerpilih == idJawabanBenarSoal8) {
-                    Toast.makeText(this, "Jawaban Anda Benar!", Toast.LENGTH_SHORT).show()
-                } else {
-                    Toast.makeText(this, "Jawaban Anda Salah.", Toast.LENGTH_SHORT).show()
-                }
+                // Hitung skor untuk soal ini
+                val skorSoalIni = if (idJawabanTerpilih == idJawabanBenarSoal8) 10 else 0
 
-                // Mengarahkan ke soal nomor 9 setelah menjawab
+                // 3. Jumlahkan skor dari soal sebelumnya dengan skor soal ini
+                val totalSkorSaatIni = skorDariSoal7 + skorSoalIni
+
+                // 4. Intent untuk pindah ke halaman kuis nomor 9, sambil membawa total skor
                 val intent = Intent(this, MainActivity_Quiz9::class.java)
+                intent.putExtra("SKOR_SEMENTARA", totalSkorSaatIni)
                 startActivity(intent)
-
-                // Tidak ada finish() agar bisa kembali ke soal ini dari soal 9
             }
         }
     }
