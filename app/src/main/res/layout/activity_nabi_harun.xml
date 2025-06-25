@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabiSyuaib"
+            android:id="@+id/KisahNabiHarun"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI SYUAIB AS"
+            android:text="KISAH NABI HARUN AS"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -233,7 +233,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/sebelumnyake12"
+            android:id="@+id/sebelumnyake14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -247,7 +247,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/selanjutnyake14"
+            android:id="@+id/selanjutnyake16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
