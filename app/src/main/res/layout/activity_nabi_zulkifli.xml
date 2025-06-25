@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiZulkifliActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiHarun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI HARUN AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Zulkifli adalah anak Nabi Ayub. Nama sebenarnya adalah Basyar bin Ayub. Nama Zulkifli diperoleh setelah ia sanggup menjalankan perintah raja. Arti Zulkifli adalah yang mempunyai kesanggupan. "
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada waktu itu seorang raja yang telah berusia lanjut. Raja tersebut sudah tidak mampu memimpin negerinya. Sayangnya, raja tidak mempunyai pewaris yang akan menggantikan kedudukkannya sebagai raja. Oleh karena itu raja membuat suatu pengumuman. Barang siapa yang sanggup berpuasa pada siang hari dan beribadah pada malam hari ia akan diangkat menjadi raja. Raja itu juga mengharuskan untuk bersabar dalam menghadapi segala urusan.  Hanya Basyar yang menyanggupi persyaratan tersebut. Lalu, raja memberi gelar Basyar dengan gelar Zulkifli. Nabi Zulkifli adalah seorang raja yang sangat sabar. Pada siang hari Nabi Zulkifli berpuasa dan pada malam hari menjalankan ibadah. Meskipun demikian, dia tetap bertanggung jawab memimpin negerinya.  "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nama Nabi Zulkifli disebut dalam Surat Shaad ayat 48 sebagai orang yang paling baik. “Dan ingatlah akan Ismail, Ilyasa’ dan Zulkifli. Semuanya termasuk orang-orang yang paling baik.”  Pada suatu ketika. Nabi Zulkifli pernah diganggu iblis. Iblis ini menyamar sebagai manusia. Pada malam hari ketika Nabi Zulkifli hendak tidur, iblis yang menjelma sebagai musafir itu bertamu ke istana Nabi Zulkifli.  "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada awalnya, penjaga istana meminta musafir itu kembali pada pagi hari. Namun, musafir tetap berkeinginan untuk bertemu Nabi Zulkifli. Dengan sabar, Nabi Zulkifli menemui musafir itu dan mendengar keluh kesahnya. Musafir itu mengatakan bahwa seseorang telah menganiaya dirinya. Nabi Zulkifli meminta musafir ini untuk datang pada malam hari berikutnya sehingga kedua belah pihak dapat menyelesaikan permasalahan itu.  "
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada hari berikutnya, musafir itu justru datang pada pagi hari. Ia mengeluhkan hal yang sama. Kemudian, Nabi Zulkifli meminta musafir itu untuk datang hari berikutnya pada pagi hari. Namun pada pagi hari berikutnya, musafir itu tidak datang. Ia justru datang pada malam hari. Pada saat itu Nabi Zulkifli masih terus bersabar dengan tingkah laku tamunya. Ia tetap menemui tamu tersebut dengan baik. Iblis merasa kecewa karena Nabi Zulkifli sama sekali tidak marah.  "
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada suatu masa, negeri ini sedang menghadapi peperangan. Nabi Zulkifli memerintahkan seluruh rakyatnya berperang. Namun, mereka tidak mau pergi berperang karena takut mati. Mereka meminta Nabi Zulkifli berdoa kepada Allah swt agar umur mereka masih panjang. Baru setelah itu mereka mau berangkat berperang.  "
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Zulkifli berdoa kepada Allah untuk memanjangkan umur rakyatnya, Allah mengabulkan doanya. Rakyat Nabi Zulkifli berumur panjang. Namun tanah dan makanan tidak mencukupi kebutuhan rakyat yang banyak. Kemudian, rakyat meminta Nabi Zulkifli mengembalikan umur mereka sebelumnya. Nabi Zulkifli berdoa dan Allah mengabulkan doanya.  "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Seperti itulah tingkat kesabaran nabi Zulkifli sehingga Allah memujinya. Dalam Surat Al-Anbiyaa ayat 85, Allah menggolongkan Nabi Zulkifli sebagai orang yang sabar."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
