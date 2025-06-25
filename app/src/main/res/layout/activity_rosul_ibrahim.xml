@@ -124,7 +124,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Dengan keberanian, Nabi Ibrahim mulai berdakwah. Ia mengajak ayahnya dan masyarakat untuk meninggalkan penyembahan berhala. Namun, mereka menolak mentah-mentah, bahkan mengecam dan mengancamnya. Suatu hari, Ibrahim menghancurkan semua patung kecuali satu yang terbesar. Ketika ditanya, Ibrahim menjawab bahwa patung terbesar itulah yang menghancurkan yang lain—mengejek keyakinan mereka secara halus. Namun mereka tahu bahwa patung-patung itu tidak bisa berbuat apa-apa."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -143,7 +143,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Raja Namrud sangat marah mendengar tindakan Ibrahim dan memerintahkan agar ia dibakar hidup-hidup. Namun Allah menunjukkan kuasa-Nya. Api yang besar itu tidak membakar Nabi Ibrahim sama sekali. Allah berfirman kepada api: &quot;Wahai api, jadilah dingin dan keselamatan bagi Ibrahim.&quot; (QS. Al-Anbiya: 69) Ini adalah salah satu mukjizat terbesar Nabi Ibrahim."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -162,7 +162,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Setelah bertahun-tahun berdakwah, Nabi Ibrahim dikaruniai seorang anak bernama Ismail dari istrinya Hajar. Saat Ismail remaja, Allah menguji Nabi Ibrahim dengan perintah menyembelih anaknya. Ibrahim dan Ismail menerima perintah ini dengan ikhlas. Namun ketika Ibrahim hendak menyembelih, Allah menggantikan Ismail dengan seekor domba. Kisah ini menjadi dasar ibadah kurban dalam Islam."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -181,7 +181,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Bersama putranya Ismail, Nabi Ibrahim membangun Ka'bah di Mekkah atas perintah Allah. Mereka berdoa agar Ka'bah menjadi tempat ibadah bagi seluruh manusia dan agar keturunan mereka menjadi umat yang taat. Ka'bah kini menjadi kiblat umat Islam seluruh dunia."
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -200,7 +200,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Ibrahim dikenal sebagai Bapak Para Nabi karena dari keturunannya lahir banyak nabi, termasuk Nabi Ishaq, Ya’qub, Musa, Isa, dan Nabi Muhammad SAW. Ia dikenal dengan gelar Khalilullah (kekasih Allah), karena keimanan dan ketulusannya yang luar biasa.  "
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
