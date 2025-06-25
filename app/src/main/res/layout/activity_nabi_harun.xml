@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiHarunActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiHarun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI HARUN AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mengisahkan nabi Harun tidak lepas dari kisah nabi Musa, kerena ia adalah juru bicara nabi Musa ketika menghadap Fir”aun ataupun umat nabi Musa sendiri. Kisahnya ketika nabi Musa berhasil membawa umatnya keluar dari wilayah Mesir dan selamat dari kejaran Fir”aun yang ingin membunuh mereka."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Kini tibalah saatnya nabi Musa untuk menerima wahyu dari Allah swt, ia memerintahkan nabi Harun agar menjaga umatnya, jangan sampai mereka kufur, lalu nabi Musa naik gunung Thursina, untuk berkhalwat dan berpuasa sempat empat puluh hari. Diatas gunung nabi Musa kemudian memohon kepada Allah swt “ Ya Tuhan, dapatkah aku melihat Engkau ?” "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Allah swt berfirman:”Engkau tidak akan sanggup melihat Ku, tetapi cobalah lihat bukit itu. Jika tetap berdiri tegak di tempatnya maka kau akan dapat melihat Ku”. Lalu nabi Musa menoleh kearah bukit atau gunung yang dimaksud, seketika gunung yang dilihat hancur luluh tanpa meninggalkan bekas, lalu masuk ke dalam perut bumi. "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Nabi Musa terperanjat, gemetar seluruh tubuhnya dan jatuh pingsan, setelah itu sadar ia bertasbih dan bertahmid seraya memohon ampun atas kelancangannya itu, “ maha besar Engkau Wahai Tuhan, ampunilah aku dan terimalah taubatku dan aku akan menjadi orang pertama yang beriman kepada Mu”. Selanjutnya Allah swt menurunkan Kitab Taurat yang berupa kepingan – kepingan batu, di dalamnya tertulis pedoman hidup dan penuntun beribadah kepada Allah Swt."
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Patung Anak Sapi"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Ketika nabi Musa turun dari bukit Thursina ia terkejut, kaumnya lelah tersesat. Mereka berpesta pora dan menyembah patung anak sapi yang terbuat dari emas. Nabi Musa menegur saudaranya yaitu Harun yang telah dititipi agar menjaga umatnya. Nabi Harun berkata bahwa ia sudah memperingatkan mereka, namun mereka tak menganggapnya sebelah mata. Nabi Harun dianggap orang yang lemah."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Setelah diselidiki ternyata Samiri-lah orang yang mengajak orang – orang itu membuat patung anak sapi dan menyembahnya. Nabi Musa marah sekali sehingga Samiri diusir, dan tidak boleh bergaul dengan masyarakat, sebab Samiri terkena kutukan, jika ia disentuh atau menyentuh manusia maka badannya akan menjadi demam panas itulah siksaan di dunia, adapun nanti di akhirat ia akan di masukkan ke dalam neraka. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Kemudian nabi Musa memerintahkan kaumnya yang telah tersesat menyembah patung anak sapi supaya bertaubat kepada Allah Swt dengan sebenar – benarnya taubat. Tujuh puluh orang diantara kaumnya diajak ke bukit Thursina, untuk mereka adalah orang – orang terbaik. Di ajak nabi Musa untuk memohonkan ampun buat kaumnya yang berdosa. Setibanya diatas bukit, datanglah awan tebal yang meliputi seluruih bukit nabi Musa dan kaumnya masuk ke dalam awan itu dan mereka segera bersujud. Selagi bersujud mereka mendengar percakapan nabi Musa dengan Tuhan-Nya. Pada saat itu timbullah keinginan di benak mereka untuk melihat Allah Swt. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Setelah nabi Musa selesai bercakap – cakap dengan Allah Swt , mereka berkata kepada nabi Musa:”Kami tidak akan beriman kepadamu sebelum kami dapat melihat Allah dengan terang dan nyata”. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Sebagai jawaban kontan atas kelancangan mereka itu Allah Swt mengirim halilintar yang menyambar dan merenggut nyawa mereka sekaligus. Nabi Musa sedih melihat nasib kelompok tujuh puluh itu, mereka adalah orang – orang terbaik yang dikumpulkan dari kaumnya. Ia memohon kepada Allah Swt agar mereka diampuni dosa-dosa mereka dan dihidupkan lagi. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text=" Allah Swt mengabulkan do”anya, tujuh puluh orang yang sudah mati itu dihidupkan kembali, nabi Musa kemudian menyuruh orang – orang itu bersumpah untuk berpegang teguh dengan kitab Taurat sebagai pedoman hidup. Melaksanakan perintah – Nya dan menjauhi larangan- Nya."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
