@@ -19,6 +19,21 @@
             android:name=".RosulIbrahimActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity_Quiz10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Quiz9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Quiz8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Quiz7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Quiz6"
+            android:exported="false" />
+        <activity
             android:name=".RosulIsaActivity"
             android:exported="false" />
         <activity

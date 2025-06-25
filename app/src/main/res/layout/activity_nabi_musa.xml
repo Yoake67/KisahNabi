@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kaum Madyam, kaumnya Nabi Syu'ib, adalah segolongan bangsa Arab yang tinggal di  sebuah daerah bernama &quot;Ma'an&quot; di pinggir negeri Syam. Mereka terdiri dari  orang-orang kafir tidak mengenal Tuhan Yang Maha Esa. Mereka mentembah kepada  &quot;Aikah&quot; iaitu sebidang padang pasir yang ditumbuhi beberapa pohon dan  tanam-tanaman. Cara hidup dan istiadat mereka sudah sgt jauh dari ajaran agama  dan pengajaran nabi-nabi sebelum Nabi Syu'aib a.s."
+                        android:text="Nabi Musa A.S. adalah seorang bayi yang dilahirkan dikalangan Bani Isra'il yang  pada ketika itu dikuasai oleh Raja Fir'aun yang bersikap kejam dan zalim. Nabi  Musa bin Imron bin Qahat bin Lawi bin Ya'qub adalah beribukan Yukabad.Setelah  meningkat dewasa Nabi Musa telah beristerikan dengan puteri Nabi Syu'aib yaitu  Shafura.Dalam perjalanan hidup Nabi Musa untuk menegakkan Islam dalam penyebaran  risalah yang telah diutuskan oleh Allah kepadanya ia telah diketemukan beberapa  orang nabi diantaranya ialah bapa mertuanya Nabi Syu'aib, Nabi Harun dan Nabi  Khidhir. Di sini juga diceritakan tentang perlibatan beberapa orang nabi yang  lain di antaranya Nabi Somu'il serta Nabi Daud"
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp" />
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kemungkaran, kemaksiatan  dan tipu menipu dalam pengaulan merupakan perbuatan dan perilaku yang lumrah dan  rutin. Kecurangan dan perkhianatan dalam hubungan dagang seperti pemalsuan  barang, kecurian dalam takaran dan timbangan menjadi ciri yang sudah sebati  dengan diri mereka. Para pedagang dan petani kecil selalu menjadi korban  permainan para pedagang-pedagang besar dan para pemilik modal, sehingga dengan  demikian yang kaya makin bertambah kekayaannya, sedangkan yang lemah semakin  merosot modalnya dan semakin melarat hidupnya. "
+                        android:text="Catatan :"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -91,7 +91,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sesuai dengan sunnah Allah  sejak Adam diturunkan ke bumi bahwa dari waktu ke waktu bila manusia sudah  lupakan kepada-Nya dan sudah jauh menyimpang dair ajaran-ajaran nabi-nabi-Nya,  dan bila Iblis serta syaitan sudah menguasai sesuatu masyarakat dengan ajaran  dan tuntutannya yang menyesatkan maka Allah mengutuskan seorang rasul dan nabi  untuk memberi penerangan serta tuntutan kepada mereka agar kembali ke jalan yang  lurus dan benar, jalan iman dan tauhid yang bersih dari segala rupa syirik dan  persembahan yang bathil."
+                        android:text="Para ahli  tafsir berselisih pendapat tentang Syu'aib, mertua Nabi Musa. Sebagian besar  berpendapat bahwa ia adalah Nabi Syu'aib A.S. yang diutuskan sebagai rasul  kepada kaum Madyan, sedang yang lain berpendapat bahwa ia adalah orang lain  yaitu yang dianggap adalah satu kebetulan namanya Syu'aib juga. Wallahu A'lam  bisshawab"
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -100,16 +100,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kepada kaum Madyan diutuslah oleh Allah seorang  Rasul iaitu Nabi Syu'aib, seorang drpd mereka sendiri, sedarah dan sedaging dengan  mereka. Ia mengajak mereka meninggalkan persembahan kepada Aikah, sebuah benda  mati yang tidak bermanfaat atau bermudharat dan sebagai gantinya melakukan  persembahan dan sujud kepada Allah Yang Maha Esa, Pencipta langit dan bumi  termasuk sebidang tanah yang mereka puja sebagai tuhan mereka. Nabi Syu'aib  kepada mereka agar meninggalkan perbuatan-perbuatan dan kelakukan-kelakuan yang  dilarang oleh Allah serta membawa kerugian bagi sesama manusia serta mengakibat  kerusakan dan kebinasaan masyarakat. Mereka diajak agar berlaku adil dan jujur  terhadap diri sendiri dan terutama terhadap orang lain, meninggalkan perkhianat  dan kezaliman serta perbuatan curang dalam hubungan dagang, perampasan hak milik  seseorang dan penindasan terhadap orang-orang yang lemah dan  miskin."
+                        android:text="Kelahiran  Musa Dan Pengasuhnya"
                         android:textColor="#000000"
-                        android:textSize="16sp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Diingatkan oleh Nabi Syu'aib akan nikmat Allah dan kurniaan-Nya  yang telah memberi mereka tanah subu serta sarana-sarana kemakmuran yang  berlimpah-limpah dengan pertumbuhan jumlah penduduk dan anak cucu yang pesat.  Semuanya itu menurut seruan Nabi Syu'aib, patut diimbangi dengan rasa bersyukur  dan bersembah kepada Allah Maha Pencipta yang akan melipat gandakan nikmat dan  kurnia-Nya kepada orang-orang yang beriman dan bersyukur."
+                        android:text="Raja Fir'aun yang  memerintah Mesir sekitar kelahirannya Nabi Musa, adalah seorang raja yang zalim,  kejam dan tidak berperikemanusiaan. Ia memerintah negaranya dengan kekerasan,  penindasan dan melakukan sesuatu dengan sewenang-wenangnya. Rakyatnya hidup  dalam ketakutan dan rasa tidak aman tentang jiwa dan harta benda mereka,  terutama Bani Isra'il yang menjadi hamba kekejaman, kezaliman dan bertindak  sewenang-wenangnya dari raja dan orang-orangnya. Mereka merasa tidak tenteram  dan selalu dalam keadaan gelisah, walau pun berada dalam rumah mereka sendiri.  Mereka tidak berani mengangkat kepala bila berhadapan dengan seorang hamba raja  dan berdebar hati mereka karena ketakutan bila kedengaran suara pegawai-pegawai  kerajaan lalu di sekitar rumah mereka, apalagi bunyi kasut mereka sudah terdengar di  depan pintu."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -118,7 +119,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Diingatkan pula  Nabi Syu'aib bahwa mereka tidak mahu sedar dan kembali kepada jalan yang benar  mengikuti ajaran dan perintah Allah yang dibawanya, nescaya Allah akan mencabut  nikmat dan kurnia-Nya kepada mereka, bahkan akan menurunkan azabnya atas mereka  di dunia selain seksa dari azab yang menanti mereka kelak di akhirat bila di  bangkitkan kembali dari kubur."
+                        android:text="Raja Fir'aun yang sedang mabuk kuasa yang tidak terbatas  itu, bergelimpangan dalam kenikmatan dan kesenangan duniawi yang tiada taranya,  bahkan mengumumkan dirinya sebagai tuhan yang harus disembah oleh rakyatnya. Pd  suatu hari beliau telah terkejut oleh ramalan oleh seorang ahli nujum kerajaan  yang dengan tiba-tiba dtg menghadap raja dan memberitahu bahwa menurut  firasatnya falaknya, seorang bayi lelaki akan dilahirkan dari kalangan Bani  Isra'il yang kelak akan menjadi musuh kerajaan dan bahkan akan  membinasakannya."
                         android:textColor="#000000"
                         android:textSize="16dp" />
 
