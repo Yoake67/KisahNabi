@@ -24,7 +24,7 @@ class RosulMuhammadActivity : AppCompatActivity() {
         val buttonSelanjutnya: Button = findViewById(R.id.selanjutnyake2)
 
         buttonSelanjutnya.setOnClickListener {
-            val intent = Intent(this, NabiIdrisActivity::class.java)
+            val intent = Intent(this, RosulIsaActivity::class.java)
             startActivity(intent)
         }
 
@@ -34,6 +34,7 @@ class RosulMuhammadActivity : AppCompatActivity() {
             val intent = Intent(this, KisahNabi::class.java)
             startActivity(intent)
         }
+
         setContentView(R.layout.activity_rosul_muhammad)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
