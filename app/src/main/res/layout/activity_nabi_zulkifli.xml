@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mengisahkan nabi Harun tidak lepas dari kisah nabi Musa, kerena ia adalah juru bicara nabi Musa ketika menghadap Fir”aun ataupun umat nabi Musa sendiri. Kisahnya ketika nabi Musa berhasil membawa umatnya keluar dari wilayah Mesir dan selamat dari kejaran Fir”aun yang ingin membunuh mereka."
+                        android:text="Nabi Zulkifli adalah anak Nabi Ayub. Nama sebenarnya adalah Basyar bin Ayub. Nama Zulkifli diperoleh setelah ia sanggup menjalankan perintah raja. Arti Zulkifli adalah yang mempunyai kesanggupan. "
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp" />
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Kini tibalah saatnya nabi Musa untuk menerima wahyu dari Allah swt, ia memerintahkan nabi Harun agar menjaga umatnya, jangan sampai mereka kufur, lalu nabi Musa naik gunung Thursina, untuk berkhalwat dan berpuasa sempat empat puluh hari. Diatas gunung nabi Musa kemudian memohon kepada Allah swt “ Ya Tuhan, dapatkah aku melihat Engkau ?” "
+                        android:text="Pada waktu itu seorang raja yang telah berusia lanjut. Raja tersebut sudah tidak mampu memimpin negerinya. Sayangnya, raja tidak mempunyai pewaris yang akan menggantikan kedudukkannya sebagai raja. Oleh karena itu raja membuat suatu pengumuman. Barang siapa yang sanggup berpuasa pada siang hari dan beribadah pada malam hari ia akan diangkat menjadi raja. Raja itu juga mengharuskan untuk bersabar dalam menghadapi segala urusan.  Hanya Basyar yang menyanggupi persyaratan tersebut. Lalu, raja memberi gelar Basyar dengan gelar Zulkifli. Nabi Zulkifli adalah seorang raja yang sangat sabar. Pada siang hari Nabi Zulkifli berpuasa dan pada malam hari menjalankan ibadah. Meskipun demikian, dia tetap bertanggung jawab memimpin negerinya.  "
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -91,7 +91,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Allah swt berfirman:”Engkau tidak akan sanggup melihat Ku, tetapi cobalah lihat bukit itu. Jika tetap berdiri tegak di tempatnya maka kau akan dapat melihat Ku”. Lalu nabi Musa menoleh kearah bukit atau gunung yang dimaksud, seketika gunung yang dilihat hancur luluh tanpa meninggalkan bekas, lalu masuk ke dalam perut bumi. "
+                        android:text="Nama Nabi Zulkifli disebut dalam Surat Shaad ayat 48 sebagai orang yang paling baik. “Dan ingatlah akan Ismail, Ilyasa’ dan Zulkifli. Semuanya termasuk orang-orang yang paling baik.”  Pada suatu ketika. Nabi Zulkifli pernah diganggu iblis. Iblis ini menyamar sebagai manusia. Pada malam hari ketika Nabi Zulkifli hendak tidur, iblis yang menjelma sebagai musafir itu bertamu ke istana Nabi Zulkifli.  "
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -100,7 +100,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Nabi Musa terperanjat, gemetar seluruh tubuhnya dan jatuh pingsan, setelah itu sadar ia bertasbih dan bertahmid seraya memohon ampun atas kelancangannya itu, “ maha besar Engkau Wahai Tuhan, ampunilah aku dan terimalah taubatku dan aku akan menjadi orang pertama yang beriman kepada Mu”. Selanjutnya Allah swt menurunkan Kitab Taurat yang berupa kepingan – kepingan batu, di dalamnya tertulis pedoman hidup dan penuntun beribadah kepada Allah Swt."
+                        android:text="Pada awalnya, penjaga istana meminta musafir itu kembali pada pagi hari. Namun, musafir tetap berkeinginan untuk bertemu Nabi Zulkifli. Dengan sabar, Nabi Zulkifli menemui musafir itu dan mendengar keluh kesahnya. Musafir itu mengatakan bahwa seseorang telah menganiaya dirinya. Nabi Zulkifli meminta musafir ini untuk datang pada malam hari berikutnya sehingga kedua belah pihak dapat menyelesaikan permasalahan itu.  "
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -109,17 +109,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Patung Anak Sapi"
+                        android:text="Pada hari berikutnya, musafir itu justru datang pada pagi hari. Ia mengeluhkan hal yang sama. Kemudian, Nabi Zulkifli meminta musafir itu untuk datang hari berikutnya pada pagi hari. Namun pada pagi hari berikutnya, musafir itu tidak datang. Ia justru datang pada malam hari. Pada saat itu Nabi Zulkifli masih terus bersabar dengan tingkah laku tamunya. Ia tetap menemui tamu tersebut dengan baik. Iblis merasa kecewa karena Nabi Zulkifli sama sekali tidak marah.  "
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Ketika nabi Musa turun dari bukit Thursina ia terkejut, kaumnya lelah tersesat. Mereka berpesta pora dan menyembah patung anak sapi yang terbuat dari emas. Nabi Musa menegur saudaranya yaitu Harun yang telah dititipi agar menjaga umatnya. Nabi Harun berkata bahwa ia sudah memperingatkan mereka, namun mereka tak menganggapnya sebelah mata. Nabi Harun dianggap orang yang lemah."
+                        android:text="Pada suatu masa, negeri ini sedang menghadapi peperangan. Nabi Zulkifli memerintahkan seluruh rakyatnya berperang. Namun, mereka tidak mau pergi berperang karena takut mati. Mereka meminta Nabi Zulkifli berdoa kepada Allah swt agar umur mereka masih panjang. Baru setelah itu mereka mau berangkat berperang.  "
                         android:textColor="#000000"
                         android:textSize="16dp" />
 
@@ -128,34 +127,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Setelah diselidiki ternyata Samiri-lah orang yang mengajak orang – orang itu membuat patung anak sapi dan menyembahnya. Nabi Musa marah sekali sehingga Samiri diusir, dan tidak boleh bergaul dengan masyarakat, sebab Samiri terkena kutukan, jika ia disentuh atau menyentuh manusia maka badannya akan menjadi demam panas itulah siksaan di dunia, adapun nanti di akhirat ia akan di masukkan ke dalam neraka. "
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text=" Kemudian nabi Musa memerintahkan kaumnya yang telah tersesat menyembah patung anak sapi supaya bertaubat kepada Allah Swt dengan sebenar – benarnya taubat. Tujuh puluh orang diantara kaumnya diajak ke bukit Thursina, untuk mereka adalah orang – orang terbaik. Di ajak nabi Musa untuk memohonkan ampun buat kaumnya yang berdosa. Setibanya diatas bukit, datanglah awan tebal yang meliputi seluruih bukit nabi Musa dan kaumnya masuk ke dalam awan itu dan mereka segera bersujud. Selagi bersujud mereka mendengar percakapan nabi Musa dengan Tuhan-Nya. Pada saat itu timbullah keinginan di benak mereka untuk melihat Allah Swt. "
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text=" Setelah nabi Musa selesai bercakap – cakap dengan Allah Swt , mereka berkata kepada nabi Musa:”Kami tidak akan beriman kepadamu sebelum kami dapat melihat Allah dengan terang dan nyata”. "
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView15"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text=" Sebagai jawaban kontan atas kelancangan mereka itu Allah Swt mengirim halilintar yang menyambar dan merenggut nyawa mereka sekaligus. Nabi Musa sedih melihat nasib kelompok tujuh puluh itu, mereka adalah orang – orang terbaik yang dikumpulkan dari kaumnya. Ia memohon kepada Allah Swt agar mereka diampuni dosa-dosa mereka dan dihidupkan lagi. "
+                        android:text="Nabi Zulkifli berdoa kepada Allah untuk memanjangkan umur rakyatnya, Allah mengabulkan doanya. Rakyat Nabi Zulkifli berumur panjang. Namun tanah dan makanan tidak mencukupi kebutuhan rakyat yang banyak. Kemudian, rakyat meminta Nabi Zulkifli mengembalikan umur mereka sebelumnya. Nabi Zulkifli berdoa dan Allah mengabulkan doanya.  "
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -164,7 +136,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="150dp"
-                        android:text=" Allah Swt mengabulkan do”anya, tujuh puluh orang yang sudah mati itu dihidupkan kembali, nabi Musa kemudian menyuruh orang – orang itu bersumpah untuk berpegang teguh dengan kitab Taurat sebagai pedoman hidup. Melaksanakan perintah – Nya dan menjauhi larangan- Nya."
+                        android:text="Seperti itulah tingkat kesabaran nabi Zulkifli sehingga Allah memujinya. Dalam Surat Al-Anbiyaa ayat 85, Allah menggolongkan Nabi Zulkifli sebagai orang yang sabar."
                         android:textColor="#040404"
                         android:textSize="16sp" />
 
