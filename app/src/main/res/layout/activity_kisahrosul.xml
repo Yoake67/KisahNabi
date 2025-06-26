@@ -11,14 +11,24 @@
         android:id="@+id/linearLayout_KisahRosul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#AAE06A"
+        android:background="#005B8F"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/kembalikemain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
         <TextView
-            android:id="@+id/KisahRosulIsa"
+            android:id="@+id/KisahRosul"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -28,8 +38,8 @@
             android:padding="10dp"
             android:text="KISAH ROSUL ULUL AZMI"
             android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -61,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:background="@drawable/buttonkisahnabi"
+                    android:background="#55A630"
                     android:fontFamily="@font/poppins_bold"
                     android:paddingLeft="10dp"
                     android:text="1. Kisah Nabi Muhammad SAW"
@@ -73,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:background="@drawable/buttonkisahnabi"
+                    android:background="#55A630"
                     android:fontFamily="@font/poppins_bold"
                     android:paddingLeft="10dp"
                     android:text="2. Kisah Nabi Musa AS"
@@ -85,7 +95,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:background="@drawable/buttonkisahnabi"
+                    android:background="#55A630"
                     android:fontFamily="@font/poppins_bold"
                     android:paddingLeft="10dp"
                     android:text="3. Kisah Nabi Isa AS"
@@ -97,7 +107,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:background="@drawable/buttonkisahnabi"
+                    android:background="#55A630"
                     android:fontFamily="@font/poppins_bold"
                     android:paddingLeft="10dp"
                     android:text="4. Kisah Nabi Ibrahim AS"
@@ -109,7 +119,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:background="@drawable/buttonkisahnabi"
+                    android:background="#55A630"
                     android:fontFamily="@font/poppins_bold"
                     android:paddingLeft="10dp"
                     android:text="5. Kisah Nabi Nuh AS"
