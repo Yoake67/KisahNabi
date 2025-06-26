@@ -540,7 +540,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/sebelumnyake15"
+            android:id="@+id/sebelumnyake16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -554,7 +554,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/selanjutnyake17"
+            android:id="@+id/selanjutnyake18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
