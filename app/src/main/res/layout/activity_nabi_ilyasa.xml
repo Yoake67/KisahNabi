@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NabiIlyasActivity">
+    tools:context=".NabiIlyasaActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout_KisahNabi"
@@ -28,7 +28,7 @@
             android:background="@drawable/btnkembali" />
 
         <TextView
-            android:id="@+id/KisahNabiIlyas"
+            android:id="@+id/KisahNabiIlyasa"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI ILYAS AS"
+            android:text="KISAH NABI ILYASA AS"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Ilyas adalah benar-benar seorang Rasul. Hal itu ditegaskan oleh Allah dalam Al-Quran Surat Ash-Shaaffaat ayat 123 : “Dan sesungguhnya Ilyas benar-benar termasuk salah seorang dari rasul-rasul.” Nama Ilyas disebut empat kali dalam Al-Quran, yaitu di Surat Ash-Shaaffaat dan Surat Al-An’aam. Nabi Ilyas adalah seorang yang saleh dan taat menjalankan perintah Allah swt."
+                        android:text="Nabi Ilyasa adalah murid dari Nabi Ilyas as. Ia adalah salah seorang Nabi dan Rasul dari kalangan Bani Israil. "
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp" />
@@ -82,16 +82,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="sumber : hambamuslim.com"
+                        android:text="Dalam Al Quran, nama Ilyasa disebutkan sebagai orang yang dilebihkan derajatnya. “Dan Ismail, Ilyasa, Yunus dan Luth. Masing-masing Kami lebihkan derajatnya di atas umat (di masanya)”. (QS. Al-An’aam : 48). "
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Sekalipun Nabi Ilyas adalah seorang yang bertakwa, ia hidup di tengah-tengah masyarakat yang syirik, yaitu menyembah berhala. Kaum Nabi Ilyas adalah keturunan Bani Israil yang tinggal di Kota Balbek. Kota ini berada di wilayah Lebanon. Mereka menyembah berhala yang dinamakan Baal.  Allah mengutus Nabi Ilyas untuk berdakwah tentang tauhid yang benar. Nabi Ilyas diminta mengajak kaumnya untuk menyembah Allah swt."
+                        android:text="Allah juga menggolongkan Nabi Ilyasa sebagai orang yang paling baik. “Dan ingatlah akan Ismail, Ilyasa dan Zulkifli. Semuanya termasuk orang-orang yang paling baik.” (QS. Shaad : 48). "
                         android:textColor="#070707"
                         android:textSize="16sp" />
 
@@ -100,17 +100,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Dakwah Nabi Ilyas"
+                        android:text="Pertemuan Nabi Ilyas dengan Nabi Ilyasa bermula saat Nabi Ilyas memasuki rumah seorang kaum Bani Israil. Di rumah tersebut terdapat anak kecil yang sedang sakit. Nabi Ilyas berdoa kepada Allah agar anak kecil itu sembuh. "
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Allah telah mengutus Nabi Ilyas kepada kaum Bani Israil di Kota Baalbek. Nabi Ilyas pun melaksanakan perintah Allah dengan penuh kesungguhan.  Nabi Ilyas menyeru kepada kaumnya untuk menyembah Allah. Namun, mereka tidak mau memperdulikannya. Sekalipun begitu, Nabi Ilyas tetap bersabar dan terus berdakwah.  Suatu hari, Nabi Ilyas berkata, “Mengapa kamu tidak bertakwa ? Patutkah kamu menyembah Baal dan kamu tinggalkan sebaik-baik Pencipta, (yaitu) Allah Tuhamu dan Tuhan bapak-bapakmu yang terdahulu ?” Kaum Nabi Ilyas tetap tidak menghiraukan perkataan Nabi Ilyas. "
+                        android:text="Tidak lama kemudian, anak kecil itu sembuh. Anak kecil itu mengikuti ajaran Nabi Ilyas. Ia beriman kpada Allah. Anak kecil itu adalah Nabi Ilyasa."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -119,44 +118,26 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Nabi Ilyas berkata kepada kaum Bani Israil, “Apakah engkau tidak takut dengan azab Allah ? Engkau menyembah berhala Baal, padahal hanya Allah, Tuhan semesta alam, yang patut disembah.” Kaum Bani Israil tetap tidak mengindahkan seruan Nabi Ilyas. Meskipun demikian, Nabi Ilyas tidak berputus asa.  Kaum Bani Israil tetap menyembah berhala, padahal berhala tidak memberikan manfaat sedikit pun kepada mereka. Bagaimana mungkin mereka meminta pertolongan kepada berhala yang tidak bernyawa ? Demikianlah, mereka menjadi kafir karena mereka tetap menyembah berhala."
+                        android:text="Dakwah Nabi Ilyasa"
                         android:textColor="#000000"
-                        android:textSize="16dp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Hukuman Untuk Kaum Nabi Ilyas"
+                        android:text="Ketaatan Nabi Ilyasa telah terlihat sejak ia masih kecil. Nabi Ilyasa telah sering mengikuti Nabi Ilyas berdakwah. Oleh karena itu, Nabi Ilyasa mendapat kepercayaan dari Nabi Ilyas untuk menggantikannya.  Setelah Nabi Ilyas wafat, Nabi Ilyasa meneruskan dakwahnya. Ketika itu, sebagian kaum Nabi Ilyas masih ada yang menyembah berhala. Mereka melakukan hal-hal yang dilarang oleh Allah. Mereka tidak mau menerima agama yang dibawa oleh Nabi Ilyasa. Meskipun demikian, Nabi Ilyasa tetap sabar dan tidak berputus asa. Nabi Ilyasa tetap bertekad untuk membawa kaumnya hanya menyembah kepada Allah swt. "
                         android:textColor="#070707"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Nabi Ilyas terus-menerus meminta kaum Bani Israil untuk menyembah Allah. Namun, kaum Bani Israil tetap menolak dakwah Nabi Ilyas. Nabi Ilyas tetap bersabar.  Suatu ketika, Nabi Ilyas berdoa kepada Allah supaya menghentikan hujan. Allah memperkenankan doa Nabi Ilyas. Selama tiga tahun wilayah tersebut tidak turun hujan. Akibatnya, hewan-hewan ternak dan tumbuhan banyak yang mati. Kaum Nabi Ilyas mengalami banyak kesusahan. "
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Nabi Ilyas berkata kepada kaumnya apabila mereka meninggalkan berhala, dia akan berdoa kepada Allah untuk menghilangkan kesusahan mereka. Mereka pun membuang berhala-berhala mereka. Setelah itu, Nabi Ilyas berdoa kepada Allah. Allah mengabulkan doa Nabi Ilyas, yaitu menghilangkan kesusahan dan menurunkan hujan.  Meskipun demikian, kaum Nabi Ilyas tetap memelihara kekafiran mereka. Nabi Ilyas berdoa sekali lagi kepada Allah untuk menghentikan hujan. Allah pun mengabulkan kembali doanya. Mereka beriman kepada Allah. Kemudian, Allah mengutus Nabi Ilyasa untuk menggantikan Nabi Ilyas. "
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView55"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="150dp"
-                        android:text="Pada akhirnya, kaum Bani Israil akan menjadi kafir lagi dan azab Allah yang pedih menimpa mereka. “Maka mereka mendustakannya. Oleh karena itu, mereka akan diseret (ke neraka), kecuali hamba-hamba Allah yang dibersihkan (dari dosa).” (QS. Ash-Shaaffaat : 127-128)."
+                        android:text="Sebagian kaum Bani Israil ada yang menjadi pengikut Nabi Ilyasa. Mereka hidup rukun dan damai hingga Nabi Ilyasa wafat. Mereka sangat sedih dengan wafatnya Nabi Ilyasa.  Setelah sekian lama Nabi Ilyasa wafat, mereka mulai meninggalkan ajaran Nabi Ilyasa. Semakin lama, mereka semakin kufur terhadap Allah swt."
                         android:textColor="#040404"
                         android:textSize="16sp" />
 
