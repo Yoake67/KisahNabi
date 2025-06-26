@@ -7,4 +7,266 @@
     android:layout_height="match_parent"
     tools:context=".NabiYahyaActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiZakaria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI ZAKARIA AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada suatu masa, Nabi Zakaria telah berusia lanjut. Usianya ketika itu mencapai sekitar sembilan puluh tahun. Namun, ia dan istrinya belum dikaruniai seorang anak pun. Siang dan malam, Nabi Zakaria dan istrinya terus berdoa memohon kepada Allah agar dirinya diberi seorang anak. Hati Nabi Zakaria mulai risau karena belum memiliki anak. Ia khawatir tidak ada yang meneruskan dakwahnya kepada kaum Bani Israil. Apabila hal itu terjadi, ia cemas kaum bani israil akan kembali pada kekufuran."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Doa Nabi Zakaria terdapat di dalam Al Quran Surat Al Anbiya ayat 89, “Dan ingatlah kisah Zakaria, ketika ia menyeru Tuhannya, Ya Tuhanku, janganlah Engkau membiarkan aku hidup seorang diri. Engkaulah sebaik-baik pewaris.” Setiap harinya, Nabi Zakaria pergi ke mihrab untuk bersembahyang dan menjenguk Maryam. Suatu ketika, Nabi Zakaria berkunjung ke mihram Maryam. Ketika itu, Maryam sedang bersembahyang dengan khusyuk sehingga tidak mengetahui kedatangan Nabi Zakaria. Pada saat itulah, ia merasa heran karena melihat makanan berada di salah satu sudut mihrab Maryam. Dalam hati, Nabi Zakaria bertanya, “Dari mana Maryam mendapatkan makana ini?” "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Setelah Maryam selesai bersembahyang, Nabi Zakaria bertanya tentang asal makanan tersebut. Maryam menjawab, “Makanan itu adalah rezeki pemberian Allah kepadaku setiap hari. Aku tidak pernah meminta, tetapi Allah memberikannya kepadaku.” “Bagaimanakah kamu mendapatkannya?” tanya Nabi Zakaria dengan penuh keheranan. Maryam menjawab bahwa Allah adalah Maha Pemberi Rezeki kepada siapa saja yang dikehendaki-Nya. Nabi Zakaria pun mengerti. "
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Peristiwa itu sangat membekas dalam hati Nabi Zakaria. Dari peristiwa itu, Nabi Zakaria menjadi yakin jika ia berdoa, Allah akan mengabulkan doanya. Setibanya di rumah, Nabi Zakaria menceritakan kejadian itu kepada istrinya. Sejak saat itu, Nabi Zakaria dan istrinya berdoa kepada Allah dan tidak pernah berputus asa."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kabar Gembira Untuk Nabi Zakaria"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Zakaria senantiasa berdoa kepada Allah. Ia berharap Allah akan memberikan keturunan kepadanya. Pada suatu ketika, kabar gembira datang kepada Nabi Zakaria. Doanya akan dikabulkan oleh Allah. Hal itu di kisahkan dalam Al Quran Surat Maryam ayat 7, “Hai Zakaria, sesungguhnya Kami memberi kabar gembira kepadamu akan (beroleh) seorang anak yang namanya Yahya, yang sebelumnya Kami belum pernah menciptakan orang yang serupa dengan dia.” Nabi Zakaria tidak langsung mempercayainya. Dengan penuh keheranan, ia berkata, “Ya Tuhanku, bagaimana akan ada anak bagiku, padahal istriku adalah seorang yang mandul dan aku (sendiri) sesungguhnya sudah mencapai umur yang sangat tua.” Tuhan berfirman, “Demikianlah.” Tuhan berfirman, “Hal itu adalah mudah bagi-Ku dan sesungguhnya telah Aku ciptakan kamu sebelum itu, padahal kamu (di waktu itu) belum ada sama sekali.” "
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Zakaria berkata : “Ya Tuhanku, berilah aku suatu tanda.” Tuhan berfirman, “Tanda bagimu ialah bahwa kamu tidak dapat mencakap-cakap dengan manusia selama tiga malam, padahal kamu sehat.” Kemudian Nabi Zakaria keluar dari mihrab menuju kaumnya, lalu ia memberi isyarat kepada mereka agar mereka bertasbih di waktu pagi dan petang. Demikianlah, Nabi Zakaria sangat bahagia mendengar kabar itu. Ia bersyukur karena Allah mengabulkan doanya. Ia mengajak kaumnya untuk senantiasa bertasbih kepada Allah."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kelahiran Nabi Yahya"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Allah swt Yang Maha Mendengar dan Berkuasa mengabulkan doa Nabi Zakaria. Melalui Malaikat Jibril, Allah mmeberikan kabar gembira kepada Nabi Zakaria. Ketika itu, Nabi Zakaria sedang melaksanakan shalat di mihrabnya. Malaikat Jibril memanggil, “Sesungguhnya Allah menggembirakan kamu dengan kelahiran (seorang putramu) Yahya, yang membenarkan kalimat (yang datang) dari Allah, menjadi ikutan, menahan diri (dari hawa nafsu) dan seorang Nabi yang termasuk keturunan orang-orang saleh.” (QS. Ali Imran : 39)  Kemudian Nabi Zakaria berkata, “Ya Tuhanku, bagaimana mungkin aku bisa mendapat anak sedang aku telah sangat tua dan istriku pun seorang yang mandul?” Allah berfirman, “Demikianlah, Aku berbuat apa yang dikehendaki-Nya.” Zakaria berkata, “Berilah aku suatu tanda (bahwa istriku telah mengandung).” Allah berfirman, “Tandanya bagimu, kamu tidak dapat berkata-kata dengan manusia selama tiga hari, kecuali dengan isyarat. Dan sebutlah (nama) Tuhanmu sebanyak-banyaknya serta bertasbihlah di waktu petang dan pagi hari.” (QS. Ali Imran : 40-41)  Akhirnya, lahirlah anak tersebut. Allah memberikan nama anak itu dengan nama Yahya. Sejak masa kanak-kanak, Nabi Yahya mendapatkan kasih sayang yang besar dari kedua orang tuanya. Nabi Yahya dididik dengan pendidikan agama. Selain itu, Allah mengaruniakan Nabi Yahya beberapa keistimewaan, seperti bijak, cepat memahami suatu perkara, lemah lembut, dan terhindar dari bahaya. Nabi Yahya adalah seorang yang berkepribadian baik, bertakwa, dan hidup sederhana. Allah juga menjauhkan Nabi Yahya dari perbuatan maksiat. Nabi Yahya membantu ayahnya berdakwah kepada kaum Bani Israil dengan menegakkan ajaran-ajaran Allah. Ia adalah salah seorang hamba yang saleh."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dakwah Nabi Yahya"
+                        android:textStyle="bold"
+                        android:textColor="#070707"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Al Quran menggambarkan Nabi Yahya sebagai seorang yang diberi ilmu dan hikmah sejak kecil. Selain itu, ia adalah seorang anak yang berbakti kepada orang tuanya, tidak sombong dan tidak durhaka. Nabi Yahya adalah juga seorang yang cerdas dan berpikiran tajam. Ia sangat rajin beribadah pada siang hari dan malam hari.  Sejak masih kecil, Nabi Yahya telah di beri kemampuan untuk memahami kitab Taurat. Penguasaan dan pemahamannya terhadap ilmu agama menjadikan Nabi Yahya sebagai tempat bertanya tentang hukum-hukum agama. Ia tidak hanya menguasai ilmu agama, tetapi ia juga menerapkannya dalam sehari-hari. Ia menegakkan hukum-hukum Allah di kalangan Bani Israil dengan tegas. Dengan berani, ia akan mengungkapkan kebenaran berdasarkan ajaran-ajarannya sekalipun hal itu ditentang oleh pihak penguasa."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sebelum usia 30 tahun, Nabi Yahya telah diangkat Allah menjadi Nabi dan Rasul. Suatu ketika, Allah memberikan wahyu kepada Nabi Yahya. Wahyu itu adalah lima perkara yang harus disampaikan kepada kaum Nabi Yahya. Setelah itu, Nabi Yahya berdakwah kepada kaumnya di sebuah masjid. Ia menyatakan bahwa Allah telah mengutusnya untuk menyampaikan lima perkara kepada kaumnya. “Lima perkara itu adalah hal-hal yang harus kalian laksanakan. Pertama, Kalian harus menyembah Allah dan tidak menyekutukan-Nya. Kedua, kalian diperintahkan untuk mendirikan shalat. Ketiga, kalian disuruh untuk berpuasa. Keempat, kalian diminta untuk bersedekah. Kelima, kalian diperintahkan untuk berzikir dan mengingat Allah. Jika kalian melaksanakan lima perkara tersebut, kalian termasuk golongan orang beriman. Kelak orang-orang beriman akan ditempatkan di surga,” seru Nabi Yahya."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Wafatnya Nabi Yahya"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Yahya adalah Rasul Allah yang taat melaksanakan ketentuan-ketentuan Allah. Ia sangat membenci tindakan-tindakan yang melanggar ketentuan Allah. Pada masa itu, wilayah Palestina dipimpin oleh Herodus. Ketika itu, Herodus berkeinginan untuk menikah dengan anak saudaranya sendiri yang bernama Herodea. Ada juga sumber yang mengatakan bahwa Herodea adalah anak tiri Herodus. Pernikahan seperti itu tidak diperbolehkan dalam syariat ajaran Musa atau melanggar hukum dalam kitab Taurat. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Nabi Yahya menentang pernikahan tersebut. Banyak orang juga menentang pernikahan tersebut. Herodea yang sangat ingin menikah dengan Herodus menjadi marah. Ia merasa khawatir dengan penentangan Nabi Yahya dan orang-orang tersebut akan mempengaruhi keputusan Herodus untuk menikah dengannya. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Penentangan itu membuat Herodea marah. Ia pun berniat membunuh Nabi Yahya. Herodea pun membujuk Herodus untuk membunuh Nabi Yahya. Pada awalnya, Herodus keberatan. Namun akhirnya, Herodus menyanggupinya. Ia memerintahkan pengawalnya untuk menangkap dan membunuh Nabi Yahya. Para pengawal itu diperintahkan untuk membawa kepala Nabi Yahya ke hadapan Herodus. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Akhirnya, para pengawal berhasil menangkap dan memenggal kepala Nabi Yahya. Kepala Nabi Yahya dibawa ke hadapan Herodus dan Herodea. Herodea sangat senang karena keinginannya tercapai. Setelah peristiwa itu, Allah melaknat Herodea dan seluruh kaum Bani Israil. Mereka mendapat kemurkaan Allah."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
