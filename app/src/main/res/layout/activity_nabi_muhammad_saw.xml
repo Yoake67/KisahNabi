@@ -462,7 +462,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/sebelumnyake23"
+            android:id="@+id/sebelumnyake24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -476,7 +476,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/selanjutnyake25"
+            android:id="@+id/kembalikisahnabi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -485,7 +485,7 @@
             android:layout_weight="1"
             android:backgroundTint="#A9DE69"
             android:fontFamily="@font/poppins_bold"
-            android:text="Selanjutnya"
+            android:text="Selesai"
             android:textColor="#050505"
             android:textSize="16sp" />
     </LinearLayout>
