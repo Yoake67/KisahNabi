@@ -36,7 +36,7 @@
             android:fontFamily="@font/adlam_display"
             android:gravity="center"
             android:padding="10dp"
-            android:text="KISAH NABI MUHAMMAD SAW"
+            android:text="KISAH NABI MUHAMMAD S.A.W"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="20dp"
@@ -72,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Seorang lagi Nabi Allah yang diceritakan dari kecil di dalam al-Qur'an ialah Isa. Baginda diutus kepada kaum Bani Israil dengan kitab Injil yang diturunkan sebelum al-Qur'an."
+                        android:text="Pada waktu umat manusia dalam kegelapan dan suasana jahiliyyah, lahirlah  seorang bayi pada 12 Rabiul Awal tahun Gajah di Makkah. Bayi yang dilahirkan  bakal membawa perubahan besar bagi sejarah peradaban manusia. Bapa bayi tersebut  bernama Abdullah bin Abdul Mutallib yang telah wafat sebelum baginda dilahirkan  iaitu sewaktu baginda 7 bulan dalam kandungan ibu. Ibunya bernama Aminah binti  Wahab. Kehadiran bayi itu disambut dengan penuh kasih sayang dan dibawa ke  ka'abah, kemudian diberikan nama Muhammad, nama yang belum pernah wujud  sebelumnya."
                         android:textAlignment="viewStart"
                         android:textColor="#070707"
                         android:textSize="16sp" />
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Di dalam al-Qur'an, Nabi Isa disebut dengan empat panggilan iaitu Isa, Isa putera Mariam, putera Mariam, dan al-Masih. "
+                        android:text="Selepas itu Muhammad disusukan selama beberapa hari oleh  Thuwaiba, budak suruhan Abu Lahab sementara menunggu kedatangan wanita dari Banu  Sa'ad. Adat menyusukan bayi sudah menjadi kebiasaan bagi bangsawan-bangsawan  Arab di Makkah. Akhir tiba juga wanita dari Banu Sa'ad yang bernama Halimah bin  Abi-Dhuaib yang pada mulanya tidak mahu menerima baginda kerana Muhammad seorang  anak yatim. Namun begitu, Halimah membawa pulang juga Muhammad ke pedalaman  dengan harapan Tuhan akan memberkati keluarganya. Sejak diambilnya Muhammad  sebagai anak susuan, kambing ternakan dan susu kambing-kambing tersebut semakin  bertambah. Baginda telah tinggal selama 2 tahun di Sahara dan sesudah itu  Halimah membawa baginda kembali kepada Aminah dan membawa pulang semula ke  pedalaman."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -91,16 +91,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ibunya seorang yang sangat dimuliakan Allah. Dia memilihnya di atas semua perempuan di semua alam. Firman-Nya, &quot;Dan ketika malaikat-malaikat berkata, 'Wahai Mariam, Allah memilih kamu, dan membersihkan kamu, dan Dia memilih kamu di atas semua perempuan di semua alam'&quot; (3:42)."
+                        android:text="Kisah Dua  Malaikat dan Pembedahan Dada Muhammad"
                         android:textColor="#070707"
-                        android:textSize="16sp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mariam, ibu Nabi Isa, telah menempuh satu ujian yang amat berat daripada Allah. Dia dipilih untuk melahirkan seorang Nabi dengan tanpa disentuh oleh seseorang lelaki. Dia adalah seorang perempuan yang suci."
+                        android:text="Pada usia dua tahun, baginda didatangi oleh dua orang malaikat  yang muncul sebagai lelaki yang berpakaian putih. Mereka bertanggungjawab untuk  membedah Muhammad. Pada ketika itu, Halimah dan suaminya tidak menyedari akan  kejadian tersebut. Hanya anak mereka yang sebaya menyaksikan kedatangan kedua  malaikat tersebut lalu mengkhabarkan kepada Halimah. Halimah lantas memeriksa  keadaan Muhammad, namun tiada kesan yang aneh ditemui."
                         android:textColor="#000000"
                         android:textSize="16dp" />
 
@@ -109,17 +110,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kelahiran"
+                        android:text="Muhammad tinggal  di pedalaman bersama keluarga Halimah selama lima tahun. Selama itu baginda  mendapat kasih sayang, kebebasan jiwa dan penjagaan yang baik daripada Halimah  dan keluarganya. Selepas itu baginda dibawa pulang kepada datuknya Abdul  Mutallib di Makkah."
                         android:textColor="#070707"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kelahiran Nabi Isa merupakan suatu mukjizat kerana dilahirkan tanpa bapa. Kisahnya diceritakan di dalam al-Qur'an. Di sini, ceritanya bermula dari kunjungan malaikat kepada Mariam atas perintah Allah. Ketika itu, malaikat menyerupai manusia dengan tanpa cacat. Kemunculan malaikat membuat Mariam menjadi takut lalu berkata, "
+                        android:text="Datuk baginda, Abdul Mutallib amat menyayangi  baginda. Ketika Aminah membawa anaknya itu ke Madinah untuk bertemu dengan  saudara-maranya, mereka ditemani oleh Umm Aiman, budak suruhan perempuan yang  ditinggalkan oleh bapa baginda. Baginda ditunjukkan tempat wafatnya Abdullah  serta tempat dia dikuburkan."
                         android:textColor="#000000"
                         android:textSize="16dp" />
 
@@ -128,7 +128,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Aku berlindung pada Yang Pemurah daripada kamu, jika kamu bertakwa (takut kepada Tuhan)!' Dia (malaikat) berkata, 'Aku hanyalah seorang rasul yang datang daripada Pemelihara kamu, untuk memberi kamu seorang anak lelaki yang suci.'&quot; (19:18-19)"
+                        android:text="Sesudah sebulan mereka berada di Madinah,  Aminah pun bersiap sedia untuk pulang semula ke Makkah. Dia dan rombongannya  kembali ke Makkah menaiki dua ekor unta yang memang dibawa dari Makkah semasa  mereka datang dahulu. Namun begitu, ketika mereka sampai di Abwa, ibunya pula  jatuh sakit dan akhirnya meninggal dunia lalu dikuburkan di situ  juga."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -137,16 +137,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Pada ayat yang lain, diceritakan bahawa malaikat yang datang itu telah memberi nama kepada putera yang bakal dilahirkan. Nama itu diberi oleh Allah, dan dia (Isa) akan menjadi terhormat di dunia dan akhirat sambil berkedudukan dekat dengan Tuhan. Ayatnya berbunyi:"
+                        android:text="Muhammad dibawa pulang ke Makkah oleh Umm Aiman dengan perasaan yang  sangat sedih. Maka jadilah Muhammad sebagai seorang anak yatim piatu. Tinggallah  baginda dengan datuk yang dicintainya dan bapa-bapa saudaranya."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Wahai Mariam, Allah menyampaikan kepada kamu berita gembira dengan satu Kata daripada-Nya, yang namanya al-Masih, Isa putera Mariam, terhormat di dunia dan di akhirat, daripada orang-orang yang didekatkan.&quot; (3:45) Kemudian Mariam bertanya,"
+                        android:text="&quot;Bukankah  Dia mendapatimu sebagai seorang yatim, lalu Dia melindungimu. Dan Dia  mendapatimu sebagai seorang yang bingung lalu Dia memberikan petunjuk&quot; (Surah  Ad-Dhuha, 93: 6-7)"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -155,7 +155,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Bagaimanakah aku akan ada seorang anak lelaki sedang tiada seorang manusia pun menyentuhku, dan bukan juga aku seorang jalang?&quot; (19:20) Malaikat menjawab,"
+                        android:text="Abdul Mutallib Wafat"
                         android:textColor="#070707"
                         android:textSize="20dp"
                         android:textStyle="bold" />
@@ -165,7 +165,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Dia (Allah) berkata, 'Begitulah; Pemelihara kamu telah berkata, 'Itu mudah bagi-Ku; dan supaya Kami membuat dia satu ayat (tanda) bagi manusia, dan satu pengasihan daripada Kami; ia adalah perkara yang telah ditentukan'&quot; (19:21)."
+                        android:text="Kegembiraannya bersama datuk baginda tidak bertahan lama. Ketika  baginda berusia lapan tahun, datuk baginda pula meninggal dunia. Kematian Abdul  Mutallib menjadi satu kehilangan besar buat Bani Hashim. Dia mempunyai keteguhan  hati, berwibawa, pandangan yang bernas, terhormat dan berpengaruh dikalangan  orang Arab. Dia selalu menyediakan makanan dan minuman kepada para tetamu yang  berziarah dan membantu penduduk Makkah yang dalam  kesusahan."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -174,35 +174,35 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Maka lahirlah Isa putera Mariam lebih enam ratus tahun sebelum Nabi Muhammad dilahirkan. Allah membuat Nabi Isa dan ibunya satu ayat (tanda) bagi manusia, iaitu tanda untuk menunjukkan kebesaran-Nya (23:50)."
+                        android:text="Muhammad  diasuh oleh Abu Talib"
                         android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Allah juga menyatakan bahawa Nabi Isa adalah seperti Adam, walaupun Adam diwujudkan tanpa ibu dan bapa. Kesamaan mereka berdua adalah pada ciptaan. Kedua-duanya dicipta daripada tanah (3:59). Itu menunjukkan mereka adalah manusia biasa, kerana manusia dicipta daripada tanah."
+                        android:text="Selepas kewafatan datuk baginda, Abu Talib mengambil alih tugas  bapanya untuk menjaga anak saudaranya Muhammad. Walaupun Abu Talib kurang mampu  berbanding saudaranya yang lain, namun dia mempunyai perasaan yang paling halus  dan terhormat di kalangan orang-orang Quraisy.Abu Talib menyayangi Muhammad  seperti dia menyayangi anak-anaknya sendiri. Dia juga tertarik dengan budi  pekerti Muhammad yang mulia."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Kerasulan dan Kenabian"
+                        android:text="Pada suatu hari, ketika mereka berkunjung  ke Syam untuk berdagang sewaktu Muhammad berusia 12 tahun, mereka bertemu dengan  seorang rahib Kristian yang telah dapat melihat tanda-tanda kenabian pada  baginda. Lalu rahib tersebut menasihati Abu Talib supaya tidak pergi jauh ke  daerah Syam kerana dikhuatiri orang-orang Yahudi akan menyakiti baginda  sekiranya diketahui tanda-tanda tersebut. Abu Talib mengikut nasihat rahib  tersebut dan dia tidaak banyak membawa harta dari perjalanan tersebut. Dia  pulang segera ke Makkah dan mengasuh anak-anaknya yang ramai. Muhammad juga  telah menjadi sebahagian dari keluarganya. Baginda mengikut mereka ke  pekan-pekan yang berdekatan dan mendengar sajak-sajak oleh penyair-penyair  terkenal dan pidato-pidato oleh penduduk Yahudi yang anti Arab."
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Isa adalah seorang Nabi dan juga seorang Rasul. Baginda dan beberapa orang rasul telah dilebihkan Allah daripada rasul-rasul lain. Ada yang Dia berkata-kata kepadanya, ada yang Dia menaikkan darjat, dan bagi Isa, Dia memberi bukti-bukti yang jelas serta mengukuhkannya dengan Roh Suci. Firman-Nya:"
+                        android:text="Baginda  juga diberi tugas sebagai pengembala kambing. Baginda mengembala kambing  keluarganya dan kambing penduduk Makkah. Baginda selalu berfikir dan merenung  tentang kejadian alam semasa menjalankan tugasnya. Oleh sebab itu baginda jauh  dari segala pemikiran manusia nafsu manusia duniawi. Baginda terhindar daripada  perbuatan yang sia-sia, sesuai dengan gelaran yang diberikan iaitu  &quot;Al-Amin&quot;."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -211,7 +211,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Dan rasul-rasul itu, sebahagian Kami melebihkan di atas sebahagian yang lain. Sebahagian ada yang kepadanya Allah berkata-kata, dan sebahagian Dia menaikkan darjat. Dan Kami memberikan Isa putera Mariam bukti-bukti yang jelas, dan Kami mengukuhkan dia dengan Roh Qudus (Suci).&quot; (2:253) Namun begitu, manusia dilarang oleh Allah untuk membeza-bezakan antara para rasul dan Nabi. Larangan itu berbunyi,"
+                        android:text="Selepas baginda mula meningkat dewasa, baginda disuruh oleh  bapa saudaranya untuk membawa barang dagangan Khadijah binti Khuwailid, seorang  peniaga yang kaya dan dihormati. Baginda melaksanakan tugasnya dengan penuh  ikhlas dan jujur. Khadijah amat tertarik dengan perwatakan mulia baginda dan  keupayaan baginda sebagai seorang pedagang. Lalu dia meluahkan rasa hatinya  untuk berkahwin dengan Muhammad yang berusia 25 tahun ketika itu. Wanita  bangsawan yang berusia 40 tahun itu sangat gembira apabila Muhammad menerima  lamarannya lalu berlangsunglah perkahwinan mereka berdua. Bermulalah lembaran  baru dalam hidup Muhammad dan Khadijah sebagai suami isteri."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -220,17 +220,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ajaran"
+                        android:text="Turunnya Wahyu Pertama"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Oleh kerana Isa seorang Nabi baginda diberi sebuah Kitab, Injil, yang mengandungi petunjuk dan cahaya untuk menjadi pegangan Bani Israil. Selain menyuruh Bani Israil menyembah Allah dengan mentaati Injil, baginda mengesahkan kitab Taurat yang diturunkan sebelumnya. Dua firman Allah menjelaskannya di sini, berbunyi:"
+                        android:text="Pada usia 40 tahun, Muhammad telah  menerima wahyu yang pertama dan diangkat sebagai nabi sekelian alam. Ketika itu,  baginda berada di Gua Hira' dan sentiasa merenung dalam kesunyian, memikirkan  nasib umat manusia pada zaman itu. Maka datanglah Malaikat Jibril menyapa dan  menyuruhnya membaca ayat quran yang pertama diturunkan kepada  Muhammad."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -239,7 +239,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Dan Kami mengutus, menyusuli jejak-jejak mereka, Isa putera Mariam, dengan mengesahkan Taurat yang sebelumnya; dan Kami memberinya Injil, di dalamnya petunjuk dan cahaya,&quot; (5:46) dan, &quot;Aku (Isa) hanya mengatakan kepada mereka apa yang Engkau memerintahkan aku dengannya: 'Sembahlah Allah, Pemelihara aku dan Pemelihara kamu.'&quot; (5:117) "
+                        android:text="&quot;Bacalah dengan nama Tuhanmu Yang menciptakan&quot; (Al-'Alaq, 96:  1)"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -248,7 +248,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text=" Turut disebut di dalam Injil (dan Taurat) ialah berita mengenai kedatangan seorang Nabi berbangsa Arab, atau ummiy (7:157), dan janji dikurniakan Taman atau Syurga bagi orang-orang yang berperang di jalan Allah (9:111). Janji itu juga didapati di dalam Taurat dan al-Qur'an."
+                        android:text="Rasulullah pulang dengan penuh rasa gementar lalu diselimuti oleh  Khadijah yang cuba menenangkan baginda. Apabila semangat baginda mulai pulih,  diceritakan kepada Khadijah tentang kejadian yang telah berlaku."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -257,7 +257,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Ketika baginda diutus, manusia sedang berselisih dalam hal agama. Maka kedatangannya adalah juga untuk memperjelaskan apa yang diperselisihkan. Firman Allah:"
+                        android:text="Kemudian  baginda mula berdakwah secara sembunyi-sembunyi bermula dengan kaum kerabatnya  untuk mengelakkan kecaman yang hebat daripada penduduk Makkah yang menyembah  berhala. Khadijah isterinya adalah wanita pertama yang mempercayai kenabian  baginda. Manakala Ali bin Abi Talib adalah lelaki pertama yang beriman dengan  ajaran baginda.Dakwah yang sedemikian berlangsung selama tiga tahun di kalangan  keluarganya sahaja."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -266,16 +266,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;dia (Isa) berkata, 'Aku datang kepada kamu dengan kebijaksanaan, dan supaya aku memperjelaskan kepada kamu sebahagian apa yang dalamnya kamu memperselisihkan; maka kamu takutilah Allah, dan taatlah kepadaku.'&quot; (43:63)"
+                        android:text="Dakwah  Secara Terang-terangan"
                         android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Baginda juga memberitahu tentang kedatangan seorang rasul selepas baginda, yang namanya akan dipuji. Ayat yang mengisahkannya berbunyi: "
+                        android:text="Setelah turunnya wahyu memerintahkan baginda untuk berdakwah  secara terang-terangan, maka Rasulullah pun mula menyebarkan ajaran Islam secara  lebih meluas."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -284,7 +285,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Wahai Bani Israil, sesungguhnya aku (Isa) rasul Allah kepada kamu, mengesahkan Taurat yang sebelum aku, dan memberi berita gembira dengan seorang rasul yang akan datang selepas aku, namanya ahmad (dipuji).u201d (61:6) Pengikut setia"
+                        android:text="&quot;Maka sampaikanlah olehmu secara terang-terangan segala apa  yang diperintahkan (kepadamu) dan berpalinglah dari orang-orang yang musyrik.&quot;  (Al-Hijr, 15:94)"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -293,7 +294,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Seperti Nabi atau Rasul yang lain, baginda mempunyai pengikut-pengikut yang setia dan juga yang tidak setia atau yang menentang. Pengikut-pengikutnya yang setia percaya kepada Allah dan kepadanya. Mereka adalah muslim. Firman Allah:"
+                        android:text="Namun begitu, penduduk Quraisy menentang keras ajaran  yang dibawa oleh baginda. Mereka memusuhi baginda dan para pengikut baginda  termasuk Abu Lahab, bapa saudara baginda sendiri. Tidak pula bagi Abu Talib, dia  selalu melindungi anak saudaranya itu namun dia sangat risau akan keselamatan  Rasulullah memandangkan tentangan yang hebat dari kaum Quraisy itu. Lalu dia  bertanya tentang rancangan Rasulullah seterusnya. Lantas jawab Rasulullah yang  bermaksud:"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -302,7 +303,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Dan ketika Aku mewahyukan pengikut-pengikut yang setia, 'Percayalah kepada-Ku, dan rasul-Ku'; mereka berkata, 'Kami percaya, dan saksilah Engkau akan kemusliman kami.'&quot; (5:111) Pengikut-pengikut yang setia pula menjadi penolong-penolong, bukan baginya tetapi bagi Allah. Firman-Nya:"
+                        android:text="&quot;Wahai bapa saudaraku, andai matahari diletakkan diletakkan di  tangan kiriku dan bulan di tangan kananku, agar aku menghentikan seruan ini, aku  tidak akan menghentikannya sehingga agama Allah ini meluas ke segala penjuru  atau aku binasa kerananya&quot;"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -311,7 +312,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Berkatalah pengikut-pengikutnya yang setia, 'Kami akan menjadi penolong-penolong Allah; kami percaya kepada Allah, dan saksilah kamu akan kemusliman kami.'&quot; (3:52) Begitu juga bagi pengikut-pengikut setia Nabi-Nabi lain, termasuk Muhammad. Semuanya menjadi penolong-penolong Allah, untuk melaksana dan menyampaikan mesej-Nya. Firman Allah:"
+                        android:text="Baginda menghadapi pelbagai tekanan, dugaan,  penderitaan, cemuhan dan ejekan daripada penduduk-penduduk Makkah yang jahil dan  keras hati untuk beriman dengan Allah. Bukan Rasulullah sahaja yang menerima  tentangan yang sedemikian, malah para sahabatnya juga turut merasai penderitaan  tersebut seperti Amar dan Bilal bin Rabah yang menerima siksaan yang  berat."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -320,16 +321,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Wahai orang-orang yang percaya, jadilah kamu penolong-penolong Allah, sebagaimana Isa putera Mariam berkata kepada pengikut-pengikut yang setia, 'Siapakah yang akan menjadi penolong-penolong aku bagi Allah?' Pengikut-pengikut yang setia berkata, 'Kami akan menjadi penolong-penolong Allah.'&quot; (61:14) Walau bagaimana pun, pengikut-pengikut Nabi Isa yang setia memerlukan bukti selanjut untuk megesahkan kebenarannya dan supaya hati mereka menjadi tenteram. Untuk itu mereka memohon sebuah meja hidangan dari langit. Kisahnya berbunyi begini"
+                        android:text="Wafatnya Khadijah  dan Abu Talib"
+                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView34"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Dan apabila pengikut-pengikut yang setia berkata, 'Wahai Isa putera Mariam, bolehkah Pemelihara kamu menurunkan kepada kami sebuah meja hidangan dari langit?' Dia (Isa) berkata, 'Kamu takutilah Allah, jika kamu orang-orang mukmin.'"
+                        android:text="Rasulullah  amat sedih melihat tingkahlaku manusia ketika itu terutama kaum Quraisy kerana  baginda tahu akan akibat yang akan diterima oleh mereka nanti. Kesedihan itu  makin bertambah apabila isteri kesayangannya wafat pada tahun sepuluh  kenabiaannya. Isteri bagindalah yang tidak pernah jemu membantu menyebarkan  Islam dan mengorbankan jiwa serta hartanya untuk Islam. Dia juga tidak jemu  menghiburkan Rasulullah di saat baginda dirundung kesedihan."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -338,7 +340,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mereka berkata, 'Kami menghendaki untuk memakan daripadanya, dan hati kami menjadi tenteram, supaya kami mengetahui bahawa kamu berkata benar kepada kami, dan supaya kami adalah antara para saksinya.'&quot; (5:112-113) Justeru itu, Isa memohon kepada Allah,"
+                        android:text="Pada tahun  itu juga bapa saudara baginda Abu Talib yang mengasuhnya sejak kecil juga  meninggal dunia. Maka bertambahlah kesedihan yang dirasai oleh Rasulullah kerana  kehilangan orang-orang yang amat disayangi oleh baginda."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -347,26 +349,26 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Ya Allah, Pemelihara kami, turunkanlah kepada kami sebuah meja hidangan dari langit, yang akan menjadi bagi kami satu perayaan, yang pertama dan yang akhir bagi kami, dan satu ayat (tanda) daripada Engkau. Dan berilah rezeki untuk kami; Engkau yang terbaik daripada pemberi-pemberi rezeki.&quot; (5:114) Allah mengabulkan permintaannya. Lantas, meja hidangan yang turun menjadi satu lagi mukjizat bagi Nabi Isa. Dan ia juga menjadi nama sebuah surah di dalam al-Qur'an, iaitu surah kelima, al-Maidah."
+                        android:text="Hijrah Ke Madinah"
+                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView37"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Mukjizat "
+                        android:text="Tekanan orang-orang kafir terhadap perjuangan  Rasulullah semakin hebat selepas kepergian isteri dan bapa saudara baginda. Maka  Rasulullah mengambil keputusan untuk berhijrah ke Madinah berikutan ancaman  daripada kafir Quraisy untuk membunuh baginda."
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView38"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Selain daripada kelahiran yang luar biasa dan meja hidangan, Nabi Isa telah dikurniakan dengan beberapa mukjizat lain. Ayat berikut menjelaskannya:"
+                        android:text="Rasulullah disambut dengan  meriahnya oleh para penduduk Madinah. Mereka digelar kaum Muhajirin manakala  penduduk-penduduk Madinah dipanggil golongan Ansar. Seruan baginda diterima baik  oleh kebanyakan para penduduk Madinah dan sebuah negara Islam didirikan di bawah  pimpinan Rasulullas s.a.w sendiri."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -375,16 +377,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Ketika Allah berkata, 'Wahai Isa putera Mariam, ingatlah akan rahmat-Ku ke atas kamu, dan ke atas ibu kamu, apabila Aku mengukuhkan kamu dengan Roh Qudus (Suci), untuk berkata-kata kepada manusia di dalam buaian dan setelah dewasa ..... dan apabila kamu mencipta daripada tanah liat, dengan izin-Ku, yang seperti bentuk burung, dan kamu menghembuskan ke dalamnya, lalu jadilah ia seekor burung, dengan izin-Ku, dan kamu menyembuhkan orang buta, dan orang sakit kusta, dengan izin-Ku, dan kamu mengeluarkan orang yang mati, dengan izin-Ku' ..... lalu orang-orang yang tidak percaya antara mereka berkata, 'Tiadalah ini, melainkan sihir yang nyata.'&quot; (5:110)"
+                        android:text="Negara Islam Madinah"
                         android:textColor="#070707"
-                        android:textSize="16dp" />
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textView40"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Walaupun Nabi Muhammad hanya diberi satu mukjizat, manusia ditegah daripada berkata bahawa Nabi Isa adalah lebih mulia daripada Nabi Muhammad. Kerana, seperti yang sudah maklum, amalan membeza-beza para Nabi dan Rasul dilarang Allah. (Sila rujuk Tidak Mempercayai Mukjizat Nabi?) "
+                        android:text="Negara Islam yang baru dibina di Madinah mendapat tentangan  daripada kaum Quraisy di Makkah dan gangguan dari penduduk Yahudi serta kaum  bukan Islam yang lain. Namun begitu, Nabi Muhammad s.a.w berjaya juga menubuhkan  sebuah negara Islam yang mengamalkan sepenuhnya pentadbiran dan perundangan yang  berlandaskan syariat Islam. Baginda dilantik sebagai ketua agama, tentera dan  negara. Semua rakyat mendapat hak yang saksama. Piagam Madinah yang merupakan  sebuah kanun atau perjanjian bertulis telah dibentuk. Piagam ini mengandungi  beberapa fasal yang melibatkan hubungan antara semua rakyat termasuk kaum bukan  Islam dan merangkumi aspek politik, sosial, agama, ekonomi dan ketenteraan.  Kandungan piagam adalah berdasarkan wahyu dan dijadikan dasar undang-undang  Madinah."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -393,17 +396,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Wafat"
+                        android:text="Islam adalah agama yang mementingkan kedamaian. Namun begitu,  aspek pertahanan amat penting bagi melindungi agama, masyarakat dan negara.  Rasulullah telah menyertai 27 kali ekspedisi tentera untuk mempertahan dan  menegakkan keadilan Islam. Peperangan yang ditempuhi baginda ialah Perang Badar  (623 M/2 H), Perang Uhud (624 M/3 H), Perang Khandak (626 M/5 H) dan Perang  Tabuk (630 M/9 H). Namun tidak semua peperangan diakhiri dengan  kemenangan."
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="16dp"/>
 
                     <TextView
                         android:id="@+id/textView42"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Tidak seperti kepercayaan sesetengah orang iaitu Nabi Isa tidak wafat semasa disalib tetapi diangkat naik ke langit. Sebenarnya, Nabi Isa telah wafat di bumi, namun bukan disalib. Baginda telah wafat selepas peristiwa penyaliban ke atasnya di sebuah tempat lain yang tidak diceritakan di dalam al-Qur'an. Besar kemungkinan baginda telah melarikan diri dari tempat baginda dijatuhkan hukum."
+                        android:text="Pada tahun 625 M/ 4 Hijrah, Perjanjian Hudaibiyah telah  dimeterai antara penduduk Islam Madinah dan kaum Musyrikin Makkah. Maka dengan  itu, negara Islam Madinah telah diiktiraf. Nabi Muhammad s.a.w. juga telah  berjaya membuka semula kota Makkah pada 630 M/9 H bersama dengan 10 000 orang  para pengikutnya."
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -412,7 +414,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="Bukti yang menunjukkan baginda telah wafat di bumi terdapat pada ayat-ayat berikut:"
+                        android:text="Perang terakhir yang disertai oleh Rasulullah ialah  Perang Tabuk dan baginda dan pengikutnya berjaya mendapat kemenangan. Pada tahun  berikutnya, baginda telah menunaikan haji bersama-sama dengan 100 000 orang  pengikutnya. Baginda juga telah menyampaikan amanat baginda yang terakhir pada  tahun itu juga. Sabda baginda yang bermaksud:"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -421,7 +423,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;Apabila Allah berkata, 'Wahai Isa, Aku akan mematikan kamu, dan menaikkan kamu kepada-Ku, dan Aku membersihkan kamu daripada orang-orang yang tidak percaya .....'&quot; (3:55) &quot;Dan aku (Isa) seorang saksi ke atas mereka selama aku di kalangan mereka; tetapi setelah Engkau mematikan aku, Engkau Sendiri adalah penjaga ke atas mereka; Engkau saksi atas segala sesuatu.&quot; (5:117) Akan tetapi, sebahagian daripada kaum Bani Israil mengatakan bahawa mereka telah membunuhnya disalib. Allah mengatakan yang sebaliknya pula. Apa yang berlaku hanya satu kesamaan sahaja. Firman-Nya:"
+                        android:text="&quot;Wahai sekalian manusia,  ketahuilah bahawa Tuhan kamu Maha Esa dan kamu semua adalah daripada satu  keturunan iaitu keturunan Nabi Adam a.s. Semulia-mulia manusia di antara kamu di  sisi Allah s.w.t. ialah orang yang paling bertakwa. Aku telah tinggalkan kepada  kamu dua perkara dan kamu tidak akan sesat selama-lamanya selagi kamu berpegang  teguh dengan dua perkara itu, iaitu kitab al-Quran dan Sunnah  Rasulullah.&quot;"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -430,117 +432,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;ucapan mereka, 'Kami telah membunuh al-Masih, Isa putera Mariam, rasul Allah.' Tetapi mereka tidak membunuhnya, dan tidak juga menyalibnya, tetapi hanya satu kesamaan yang ditunjukkan kepada mereka. Orang-orang yang berselisih mengenainya benar-benar dalam keraguan terhadapnya; mereka tidak ada pengetahuan mengenainya, kecuali mengikuti sangkaan; mereka tidak membunuhnya, yakinlah.&quot; (4:157) Telah wujud lagi kepercayaan terhadap Nabi Isa yang tidak disahkan Allah di dalam al-Qur'an, iaitu baginda akan muncul lagi di bumi buat kali kedua. Itu tidak benar. (Sila rujuk artikel Menanya Ustaz: kedatangan Imam Mahadi, kemudian Nabi Isa dan Imam Mahadi di ruangan Soalan Lazim. Terima kasih.)"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView46"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Terpesong"
+                        android:text="Wafatnya Nabi  Muhammad s.a.w"
                         android:textColor="#070707"
                         android:textStyle="bold"
                         android:textSize="20dp" />
-
-                    <TextView
-                        android:id="@+id/textView47"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Setelah Isa wafat, beberapa perkara telah berlaku. Pertama, orang-orang yang mengaku pengikut baginda telah menubuhkan sistem berahib, atau berpaderi, atau sistem berulama dalam agama. Sistem itu tidak dianjurkan oleh Allah. Firman-Nya:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView48"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="&quot;Dan rahbaniyah (sistem berahib) yang mereka reka - Kami tidak menuliskan (menetapkan) untuk mereka&quot; (57:27). Kemudian, antara mereka bersetuju untuk mengangkat Nabi Isa sebagai Tuhan atau anak Tuhan, mungkin kerana kelahiran yang luar biasa dan mukjizat-mukjizatnya. Mereka yang berbuat demikian telah terpesong dalam kepercayaan lalu menjadi kafir. Firman-Nya:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView49"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="&quot;Merekalah orang-orang yang tidak percaya (kafir), yang berkata, 'Sesungguhnya Allah, Dia ialah al-Masih putera Mariam'&quot; (5:17), dan &quot;orang-orang Kristian berkata, 'Al-Masih ialah putera Allah.' Itu adalah ucapan daripada mulut mereka, menurut ucapan orang-orang yang tidak percaya sebelum mereka. Allah memerangi mereka! Bagaimanakah mereka dipalingkan?&quot; (9:30) Satu bukti telah didatangkan Allah untuk menunjukkan kepalsuan kepercayaan mereka. Buktinya adalah pada amalan memakan makanan, berbunyi:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView50"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="&quot;Al-Masih, putera Mariam, hanyalah seorang rasul; rasul-rasul sebelum dia telah berlalu. Ibunya seorang wanita yang benar; mereka berdua makan makanan. Perhatikanlah bagaimana Kami memperjelaskan ayat-ayat kepada mereka, kemudian perhatikanlah bagaimana mereka berpaling.&quot; (5:75) Nabi Isa dan ibunya makan makanan. Tetapi Tuhan tidak makan. Kalau Dia makan tentu Dia mempunyai sebuah &quot;pintu kecil&quot; untuk mengeluarkan makanan yang tidak diperlukan lagi. Tuhan tidak ada pintu tersebut seperti yang terdapat di bahagian belakang badan manusia atau haiwan."
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView51"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Sekiranya hujah itu disampaikan kepada orang-orang yang mempercayai Nabi Isa itu Tuhan atau anak-Nya, tentu mereka akan berpaling juga dan tetap dengan kepercayaan mereka. Begitulah manusia dengan kepercayaan agamanya. Mereka lupa menggunakan akal."
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView52"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Akhirat"
-                        android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
-
-                    <TextView
-                        android:id="@+id/textView53"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="Kepercayaan serupa itu sungguh berat di sisi Allah sehingga Nabi Isa akan ditanya di akhirat. Baginda akan ditanya sama ada baginda telah menyatakan bahawa baginda dan ibunya adalah tuhan-tuhan selain daripada Allah. Pertanyaan-Nya berbunyi:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView54"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="&quot;Wahai Isa putera Mariam, adakah kamu mengatakan kepada manusia, 'Ambillah aku dan ibuku sebagai tuhan-tuhan selain daripada Allah'?&quot; (5:116) Nabi Isa akan menjawab:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView55"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="&quot;Kepada Engkau sanjungan! Tiadalah bagiku untukku mengatakan apa yang aku tiada hak dengannya. Jika aku mengatakannya, Engkau mengetahuinya, dengan mengetahui apa yang di dalam jiwaku, dan aku tidak mengetahui apa yang di dalam jiwa Engkau; sesungguhnya Engkaulah yang mengetahui yang ghaib.&quot; (5:116) Jawapannya bersambung lagi:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
-
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="&quot;Aku hanya mengatakan kepada mereka apa yang Engkau memerintahkan aku dengannya: 'Sembahlah Allah, Pemelihara aku dan Pemelihara kamu.' Dan aku seorang saksi ke atas mereka selama aku di kalangan mereka; tetapi setelah Engkau mematikan aku, Engkau Sendiri adalah penjaga ke atas mereka; Engkau saksi atas segala sesuatu.&quot; (5:117) Nabi Muhammad juga akan ditanya di akhirat atas sesuatu yang amat berat juga. Baginda ditanya mengenai sambutan kaumnya terhadap al-Qur'an. Jawapan baginda berbunyi:"
-                        android:textColor="#070707"
-                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView57"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="150dp"
-                        android:text="&quot;Wahai Pemeliharaku, sesungguhnya kaumku mengambil al-Qur'an ini sebagai suatu yang tidak dipedulikan.&quot; (25:30) Itulah yang berlaku pada hari ini. Ajaran al-Qur'an tidak dipedulikan. Namun, masa masih ada untuk semua kembali kepada ajaran al-Qur'an."
+                        android:text="Baginda  telah wafat pada bulan Jun tahun 632 M/12 Rabiul Awal tahun 11 Hijrah. Baginda  wafat setelah selesai melaksanakan tugasnya sebagai rasul dan pemimpin negara.  Baginda berjaya membawa manusia ke jalan yang benar dan menjadi seorang pemimpin  yang bertanggungjawab, berilmu dan berkebolehan. Rasulullah adalah contoh  terbaik bagi semua manusia sepanjang zaman."
                         android:textColor="#040404"
                         android:textSize="16sp" />
 
