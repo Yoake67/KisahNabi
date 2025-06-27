@@ -430,7 +430,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="&quot;ucapan mereka, 'Kami telah membunuh al-Masih, Isa putera Mariam, rasul Allah.' Tetapi mereka tidak membunuhnya, dan tidak juga menyalibnya, tetapi hanya satu kesamaan yang ditunjukkan kepada mereka. Orang-orang yang berselisih mengenainya benar-benar dalam keraguan terhadapnya; mereka tidak ada pengetahuan mengenainya, kecuali mengikuti sangkaan; mereka tidak membunuhnya, yakinlah.&quot; (4:157) Telah wujud lagi kepercayaan terhadap Nabi Isa yang tidak disahkan Allah di dalam al-Qur'an, iaitu baginda akan muncul lagi di bumi buat kali kedua. Itu tidak benar. (Sila rujuk artikel Menanya Ustaz: kedatangan Imam Mahadi & Nabi Isa dan Imam Mahadi di ruangan Soalan Lazim. Terima kasih.)"
+                        android:text="&quot;ucapan mereka, 'Kami telah membunuh al-Masih, Isa putera Mariam, rasul Allah.' Tetapi mereka tidak membunuhnya, dan tidak juga menyalibnya, tetapi hanya satu kesamaan yang ditunjukkan kepada mereka. Orang-orang yang berselisih mengenainya benar-benar dalam keraguan terhadapnya; mereka tidak ada pengetahuan mengenainya, kecuali mengikuti sangkaan; mereka tidak membunuhnya, yakinlah.&quot; (4:157) Telah wujud lagi kepercayaan terhadap Nabi Isa yang tidak disahkan Allah di dalam al-Qur'an, iaitu baginda akan muncul lagi di bumi buat kali kedua. Itu tidak benar. (Sila rujuk artikel Menanya Ustaz: kedatangan Imam Mahadi, kemudian Nabi Isa dan Imam Mahadi di ruangan Soalan Lazim. Terima kasih.)"
                         android:textColor="#070707"
                         android:textSize="16dp" />
 
@@ -560,7 +560,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/sebelumnyake22"
+            android:id="@+id/sebelumnyake23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -574,7 +574,7 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/selanjutnyake24"
+            android:id="@+id/selanjutnyake25"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
