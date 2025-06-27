@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,6 +67,12 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabidaud" />
+
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
@@ -84,8 +90,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Daud Dan  Raja Thalout"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView5"
@@ -211,8 +217,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Daud Dinobatkan  Sebagai Raja"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView22"
@@ -319,9 +325,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Daud mendapat Godaan"
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView34"
@@ -411,8 +417,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Hari Sabtunya Bani Isra'il"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -492,9 +498,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Beberapa Kurnia Allah Kepada Nabi  Daud"
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView53"
@@ -512,8 +518,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Beberapa Pelajaran Dari Kisah Nabi Daud  A.S "
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView55"
