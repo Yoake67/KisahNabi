@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabiilyasa" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -102,7 +108,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pertemuan Nabi Ilyas dengan Nabi Ilyasa bermula saat Nabi Ilyas memasuki rumah seorang kaum Bani Israil. Di rumah tersebut terdapat anak kecil yang sedang sakit. Nabi Ilyas berdoa kepada Allah agar anak kecil itu sembuh. "
                         android:textColor="#000000"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView9"
@@ -120,8 +126,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Dakwah Nabi Ilyasa"
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView12"
@@ -130,7 +136,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Ketaatan Nabi Ilyasa telah terlihat sejak ia masih kecil. Nabi Ilyasa telah sering mengikuti Nabi Ilyas berdakwah. Oleh karena itu, Nabi Ilyasa mendapat kepercayaan dari Nabi Ilyas untuk menggantikannya.  Setelah Nabi Ilyas wafat, Nabi Ilyasa meneruskan dakwahnya. Ketika itu, sebagian kaum Nabi Ilyas masih ada yang menyembah berhala. Mereka melakukan hal-hal yang dilarang oleh Allah. Mereka tidak mau menerima agama yang dibawa oleh Nabi Ilyasa. Meskipun demikian, Nabi Ilyasa tetap sabar dan tidak berputus asa. Nabi Ilyasa tetap bertekad untuk membawa kaumnya hanya menyembah kepada Allah swt. "
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView55"

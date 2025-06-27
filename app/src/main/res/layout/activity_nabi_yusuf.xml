@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabiyusuf" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -102,8 +108,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Saudara-saudara Yusuf mengadakan pertemuan"
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView9"
@@ -112,7 +118,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Dalam pertemuan rahasia  yang mereka adakan untuk merundingkan nasib yang mereka alami dan mengatur aksi yang  harus mereka lakukan bagi menyedarkan ayahnya, menuntut perlakuan yang adil dan  saksama, berkata salah seorang drp mereka:&quot; Tidakkah kamu merasakan bahawa  perlakuan terhadap kita sebagai anak-anaknya tidak adil dan berat sebelah? Ia  memanjakan Yusuf dan menyintai serta menyayangi lebih daripada kita, seolah-olah  Yusuf dan Benyamin sahajalah anak-anak kandungnya dan kita anak-anak tirinya ,  padahal kita adalah lebih tua dan lebih cekap daripada mereka berdua serta  kitalah yang selalu mendampingi ayah,mengurus segala keperluannya dan keperluan  rumahtanggannya. Kita merasa hairan mengapa hanya Yusuf dan Benyamin sahaja yang  menjadi keistimewaan disisi ayah. Apakah ibunya lebih dekat kepada hati ayah  berbanding dengan ibu kita? Jika memang itu alasannya ,maka apakah salah kita?  Bahwa kita lahir daripada ibu yang mendapat tempat kedua di hati ayah ataukah  paras Yusuf yang lebih tampan dan lebih cekap drp paras dan wajah kita yang  memang sudah demikian diciptakan oleh Tuhan dan sesekali bukan kehendak atau  hasil usaha kita? Kita amat sesalkan atas perlakuan dan tindakan ayah yang sesal  dan keliru ini serta harus melakukan sesuatu untuk mengakhiri keadaan yang  pincang serta menjengkelkan hati kami semua.&quot;"
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -148,8 +154,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Yusuf  bermimpi"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView15"
@@ -203,8 +209,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf dimasukan kedalam  perigi"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView21"
@@ -294,8 +300,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf dijual sebagai  budak"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView31"
@@ -403,8 +409,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf dalam godaan  nyonya Futhifar"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView43"
@@ -701,8 +707,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf dalam  penjara"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView77"
@@ -810,8 +816,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf dibebaskan dari  penjara"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView89"
@@ -946,8 +952,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf diangkat sebagai  wakil raja Mesir"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView104"
@@ -1064,8 +1070,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pertemuan Yusuf A.S  dengan saudara-saudaranya"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView117"
@@ -1254,8 +1260,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Yusuf menahan Benyamin  sebagai tahanan"
                         android:textColor="#070707"
-                        android:textStyle=""
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="" />
 
                     <TextView
                         android:id="@+id/textView138"
@@ -1399,8 +1405,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pertemuan kembali  keluarga Ya'ub"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView154"
@@ -1562,8 +1568,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pelajaran yang didapat  dari kisah Nabi Yusuf A.S."
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView172"

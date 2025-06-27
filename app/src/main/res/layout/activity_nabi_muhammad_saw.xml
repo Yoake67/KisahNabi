@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabimuhammadsaw" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -93,8 +99,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Kisah Dua  Malaikat dan Pembedahan Dada Muhammad"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView7"
@@ -112,7 +118,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Muhammad tinggal  di pedalaman bersama keluarga Halimah selama lima tahun. Selama itu baginda  mendapat kasih sayang, kebebasan jiwa dan penjagaan yang baik daripada Halimah  dan keluarganya. Selepas itu baginda dibawa pulang kepada datuknya Abdul  Mutallib di Makkah."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -176,8 +182,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Muhammad  diasuh oleh Abu Talib"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -195,7 +201,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pada suatu hari, ketika mereka berkunjung  ke Syam untuk berdagang sewaktu Muhammad berusia 12 tahun, mereka bertemu dengan  seorang rahib Kristian yang telah dapat melihat tanda-tanda kenabian pada  baginda. Lalu rahib tersebut menasihati Abu Talib supaya tidak pergi jauh ke  daerah Syam kerana dikhuatiri orang-orang Yahudi akan menyakiti baginda  sekiranya diketahui tanda-tanda tersebut. Abu Talib mengikut nasihat rahib  tersebut dan dia tidaak banyak membawa harta dari perjalanan tersebut. Dia  pulang segera ke Makkah dan mengasuh anak-anaknya yang ramai. Muhammad juga  telah menjadi sebahagian dari keluarganya. Baginda mengikut mereka ke  pekan-pekan yang berdekatan dan mendengar sajak-sajak oleh penyair-penyair  terkenal dan pidato-pidato oleh penduduk Yahudi yang anti Arab."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView20"
@@ -268,8 +274,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Dakwah  Secara Terang-terangan"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView28"
@@ -322,9 +328,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Wafatnya Khadijah  dan Abu Talib"
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView34"
@@ -350,9 +356,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Hijrah Ke Madinah"
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView37"
@@ -361,7 +367,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Tekanan orang-orang kafir terhadap perjuangan  Rasulullah semakin hebat selepas kepergian isteri dan bapa saudara baginda. Maka  Rasulullah mengambil keputusan untuk berhijrah ke Madinah berikutan ancaman  daripada kafir Quraisy untuk membunuh baginda."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView38"
@@ -379,8 +385,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Negara Islam Madinah"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView40"
@@ -398,7 +404,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Islam adalah agama yang mementingkan kedamaian. Namun begitu,  aspek pertahanan amat penting bagi melindungi agama, masyarakat dan negara.  Rasulullah telah menyertai 27 kali ekspedisi tentera untuk mempertahan dan  menegakkan keadilan Islam. Peperangan yang ditempuhi baginda ialah Perang Badar  (623 M/2 H), Perang Uhud (624 M/3 H), Perang Khandak (626 M/5 H) dan Perang  Tabuk (630 M/9 H). Namun tidak semua peperangan diakhiri dengan  kemenangan."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView42"
@@ -434,8 +440,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Wafatnya Nabi  Muhammad s.a.w"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView57"

@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabiluth" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -148,8 +154,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Para Malaikat  Tamunya Nabi Ibrahim Bertamu Kepada Nabi Luth."
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView17"
@@ -221,7 +227,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Sementara para penyerbu rumah Nabi Luth  berada dalam keadaan kacau bilau berbentur antara satu dengan lain  berteriak-teriak menanya-nanya gerangan apa yang menjadikan mereka buta dengan  mendadak para berseru kepada Nabi Luth agar meninggalkan segera perkampungan itu  bersam keluarganya, karena masanya telah tiba bagi azab Allah yang akan  ditimpakan. Para malaikat berpesan kepada Nabi Luth dan keluarganya agar  perjalanan ke luar kota jangan seorang pun dari mereka menoleh ke  belakang."
                         android:textColor="#000000"
-                        android:textSize="16sp"/>
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView25"
