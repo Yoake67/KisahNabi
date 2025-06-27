@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabiyaqub" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -111,8 +117,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Ya'qub Tiba di Irak"
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -130,7 +136,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Tiba pada akhirnya Ya'qub di depan pintu gerbang kota Fadan  A'ram setelah berhari-hari siang dan malam menempuh perjalanan yang membosankan  tiada yang dilihat selain dari langit di atas dan pasir di bawah. Alangkah lega  hatinya ketika ia mulai melihat binatang-binatang peliharaan berkeliaran di atas  ladang-ladang rumput ,burung-burung berterbangan di udara yang cerah dan para  penduduk kota berhilir mundir mencari nafkah dan keperluan hidup  masing-masing."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView13"
@@ -139,7 +145,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Sesampainya disalah satu persimpangan jalan ia berhenti  sebentar bertanya salah seorang penduduk di mana letaknya rumah saudara ibunya  Laban barada. Laban seorang kaya-raya yang kenamaan pemilik dari suatu  perusahaan perternakan yang terbesar di kota itu tidak sukar bagi seseorang  untuk menemukan alamatnya. Penduduk yang ditanyanya itu segera menunjuk ke arah  seorang gadis cantik yang sedang menggembala kambing seraya berkata kepada  Ya'qub:&quot;Kebetulan sekali, itulah dia puterinya Laban yang akan dapat membawamu  ke rumah ayahnya, ia bernama Rahil."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -148,7 +154,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Dengan ahti yang berdebar, pergilah  Ya'qub menghampiri yang ayu itu dan cantik itu, lalu dengan suara yang  terputus-putus seakan-akan ada sesuatu yang mengikat lidahnya ,ia mengenalkan  diri, bahwa ia adalah saudara sepupunya sendiri. Ibunya yang bernama Rifqah  adalah saudara kandung dair ayah si gadis itu. Selanjutnya ia menerangkan kepada  gadis itu bahwa ia datang ke Fadam A'raam dari Kan'aan dengan tujuan hendak  menemui Laban ,ayahnya untuk menyampaikan pesanan Ishaq, ayah Ya'qub kepada  gadis itu. Maka dengan senang hati sikap yang ramah muka yang manis disilakan  ya'qub mengikutinya berjalan menuju rumah Laban bapa  saudaranya."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView15"
@@ -157,7 +163,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="berpeluk-pelukanlah dengan mesranya si bapa saudara dengan  anak saudara, menandakan kegembiraan masing-masing dengan pertemuan yang tidak  disangka-sangka itu dan mengalirlah pada pipi masing-masing air mata yang  dicucurkan oleh rasa terharu dan sukcita. Maka disapkanlah oleh Laban bin  Batu'il tempat dan bilik khas untuk anak saudaranya Ya'qub yang tidak berbeda  dengan tempat-tempat anak kandungnya sendiri di mana ia dapat tinggal sesuka  hatinya seperti di rumahnya sendiri. "
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView35"
