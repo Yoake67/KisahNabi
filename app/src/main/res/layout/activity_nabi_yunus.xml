@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabiyunus" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -120,7 +126,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Mereka menjawab peringatan Nabi Yunus dengan tentangan seraya mengatakan: &quot;Kami tetap menolak ajakanmu dan tidak akan tunduk pada perintahmu atau mengikut kemahuanmu dan sesekali kami tidak akan takut akan segala ancamanmu. Cubalah datangkan apa yang engkau ancamkan itu kepada kami jika engkau memang benar dalam kata-katamu dan tidak mendustai kami.&quot;"
                         android:textColor="#000000"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView12"
@@ -246,8 +252,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Pelajaran yang dapat dipetik dari kisah Nabi Yunus."
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView26"
