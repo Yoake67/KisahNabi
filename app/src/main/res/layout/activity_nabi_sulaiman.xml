@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/nabisulaiman" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -129,9 +135,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Sulaiman Menduduki  Tahta Kerajaan Ayahnya "
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView13"
@@ -202,9 +208,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Kekuasaan Sulaiman Atas  Jin dan Makhluk Lain"
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView21"
@@ -213,7 +219,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Nabi Sulaiman yang telah  berkuasa penuh atas kerajaan Bani Isra'il yang makin meluas dan melebar, Allah  telah menundukkan baginya makhluk-makhluk lain, iaitu Jin angin dan  burung-burung yang kesemuanya berada di bawah perintahnya melakukan apa yang  dikehendakinya dan melaksanakan segala komandonya. Di samping itu Allah  memberinya pula suatu kurnia berupa mengalirnya cairan tembaga dari bawah tanah  untuk dimanfaatkannya bagi karya pembangunan gedung-gedung, perbuatan  piring-piring sebesar kolam air, periuk-periuk yang tetap berada diatas tungku  yang dikerjakan oleh pasukan Jin-Nya."
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView22"
@@ -239,9 +245,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
                         android:text="Sulaiman dan Ratu  Balqis"
-                        android:textStyle="bold"
                         android:textColor="#070707"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView25"
@@ -322,7 +328,7 @@
                         android:layout_marginBottom="10dp"
                         android:text="Berkata Ifrit, seorang Jin  yang tercerdik: &quot;Aku sanggup membawa tahta itu dari istana Ratu Balqis sebelum  engkau sempat berdiri dari tempat dudukimu. Aku adalah pesuruhmu yang kuat dan  dapat dipercayai. Seorang lain yang mempunyai ilmu dan hikmah nyeletuk  berkata: &quot;Aku akan membawa tahta itu ke sini sebelum engkau sempat memejamkan  matamu.&quot; Ketika Nabi Sulaiman melihat tahta Balqis sudah berada didepannya,  berkatalah ia: Ini adalah salah satu kurnia Tuhan kepadaku untuk mencuba apakah  aku bersyukur atas kurnia-Nya itu atau mengingkari-Nya, kerana barang siapa  bersyukur maka itu adalah semata-mata untuk kebaikan dirinya sendiri dan  barangsiapa mengingkari nikmat dan kurnia Allah, ia akan rugi di dunia dan di  akhirat dan sesungguhnya Allah Maha Kaya lagi Maha Mulia.&quot;"
                         android:textColor="#070707"
-                        android:textSize="16dp"/>
+                        android:textSize="16dp" />
 
                     <TextView
                         android:id="@+id/textView34"
@@ -367,8 +373,8 @@
                         android:layout_marginBottom="10dp"
                         android:text="Wafatnya Nabi  Sulaiman "
                         android:textColor="#070707"
-                        android:textStyle="bold"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView39"
