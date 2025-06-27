@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiIsaActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiIsa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI ISA AS"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Seorang lagi Nabi Allah yang diceritakan dari kecil di dalam al-Qur'an ialah Isa. Baginda diutus kepada kaum Bani Israil dengan kitab Injil yang diturunkan sebelum al-Qur'an."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Di dalam al-Qur'an, Nabi Isa disebut dengan empat panggilan iaitu Isa, Isa putera Mariam, putera Mariam, dan al-Masih. "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ibunya seorang yang sangat dimuliakan Allah. Dia memilihnya di atas semua perempuan di semua alam. Firman-Nya, &quot;Dan ketika malaikat-malaikat berkata, 'Wahai Mariam, Allah memilih kamu, dan membersihkan kamu, dan Dia memilih kamu di atas semua perempuan di semua alam'&quot; (3:42)."
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mariam, ibu Nabi Isa, telah menempuh satu ujian yang amat berat daripada Allah. Dia dipilih untuk melahirkan seorang Nabi dengan tanpa disentuh oleh seseorang lelaki. Dia adalah seorang perempuan yang suci."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kelahiran"
+                        android:textColor="#070707"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kelahiran Nabi Isa merupakan suatu mukjizat kerana dilahirkan tanpa bapa. Kisahnya diceritakan di dalam al-Qur'an. Di sini, ceritanya bermula dari kunjungan malaikat kepada Mariam atas perintah Allah. Ketika itu, malaikat menyerupai manusia dengan tanpa cacat. Kemunculan malaikat membuat Mariam menjadi takut lalu berkata, "
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Aku berlindung pada Yang Pemurah daripada kamu, jika kamu bertakwa (takut kepada Tuhan)!' Dia (malaikat) berkata, 'Aku hanyalah seorang rasul yang datang daripada Pemelihara kamu, untuk memberi kamu seorang anak lelaki yang suci.'&quot; (19:18-19)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Pada ayat yang lain, diceritakan bahawa malaikat yang datang itu telah memberi nama kepada putera yang bakal dilahirkan. Nama itu diberi oleh Allah, dan dia (Isa) akan menjadi terhormat di dunia dan akhirat sambil berkedudukan dekat dengan Tuhan. Ayatnya berbunyi:"
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Wahai Mariam, Allah menyampaikan kepada kamu berita gembira dengan satu Kata daripada-Nya, yang namanya al-Masih, Isa putera Mariam, terhormat di dunia dan di akhirat, daripada orang-orang yang didekatkan.&quot; (3:45) Kemudian Mariam bertanya,"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Bagaimanakah aku akan ada seorang anak lelaki sedang tiada seorang manusia pun menyentuhku, dan bukan juga aku seorang jalang?&quot; (19:20) Malaikat menjawab,"
+                        android:textColor="#070707"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dia (Allah) berkata, 'Begitulah; Pemelihara kamu telah berkata, 'Itu mudah bagi-Ku; dan supaya Kami membuat dia satu ayat (tanda) bagi manusia, dan satu pengasihan daripada Kami; ia adalah perkara yang telah ditentukan'&quot; (19:21)."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Maka lahirlah Isa putera Mariam lebih enam ratus tahun sebelum Nabi Muhammad dilahirkan. Allah membuat Nabi Isa dan ibunya satu ayat (tanda) bagi manusia, iaitu tanda untuk menunjukkan kebesaran-Nya (23:50)."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Allah juga menyatakan bahawa Nabi Isa adalah seperti Adam, walaupun Adam diwujudkan tanpa ibu dan bapa. Kesamaan mereka berdua adalah pada ciptaan. Kedua-duanya dicipta daripada tanah (3:59). Itu menunjukkan mereka adalah manusia biasa, kerana manusia dicipta daripada tanah."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kerasulan dan Kenabian"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Isa adalah seorang Nabi dan juga seorang Rasul. Baginda dan beberapa orang rasul telah dilebihkan Allah daripada rasul-rasul lain. Ada yang Dia berkata-kata kepadanya, ada yang Dia menaikkan darjat, dan bagi Isa, Dia memberi bukti-bukti yang jelas serta mengukuhkannya dengan Roh Suci. Firman-Nya:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dan rasul-rasul itu, sebahagian Kami melebihkan di atas sebahagian yang lain. Sebahagian ada yang kepadanya Allah berkata-kata, dan sebahagian Dia menaikkan darjat. Dan Kami memberikan Isa putera Mariam bukti-bukti yang jelas, dan Kami mengukuhkan dia dengan Roh Qudus (Suci).&quot; (2:253) Namun begitu, manusia dilarang oleh Allah untuk membeza-bezakan antara para rasul dan Nabi. Larangan itu berbunyi,"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ajaran"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Oleh kerana Isa seorang Nabi baginda diberi sebuah Kitab, Injil, yang mengandungi petunjuk dan cahaya untuk menjadi pegangan Bani Israil. Selain menyuruh Bani Israil menyembah Allah dengan mentaati Injil, baginda mengesahkan kitab Taurat yang diturunkan sebelumnya. Dua firman Allah menjelaskannya di sini, berbunyi:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dan Kami mengutus, menyusuli jejak-jejak mereka, Isa putera Mariam, dengan mengesahkan Taurat yang sebelumnya; dan Kami memberinya Injil, di dalamnya petunjuk dan cahaya,&quot; (5:46) dan, &quot;Aku (Isa) hanya mengatakan kepada mereka apa yang Engkau memerintahkan aku dengannya: 'Sembahlah Allah, Pemelihara aku dan Pemelihara kamu.'&quot; (5:117) "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Turut disebut di dalam Injil (dan Taurat) ialah berita mengenai kedatangan seorang Nabi berbangsa Arab, atau ummiy (7:157), dan janji dikurniakan Taman atau Syurga bagi orang-orang yang berperang di jalan Allah (9:111). Janji itu juga didapati di dalam Taurat dan al-Qur'an."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ketika baginda diutus, manusia sedang berselisih dalam hal agama. Maka kedatangannya adalah juga untuk memperjelaskan apa yang diperselisihkan. Firman Allah:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;dia (Isa) berkata, 'Aku datang kepada kamu dengan kebijaksanaan, dan supaya aku memperjelaskan kepada kamu sebahagian apa yang dalamnya kamu memperselisihkan; maka kamu takutilah Allah, dan taatlah kepadaku.'&quot; (43:63)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Baginda juga memberitahu tentang kedatangan seorang rasul selepas baginda, yang namanya akan dipuji. Ayat yang mengisahkannya berbunyi: "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Wahai Bani Israil, sesungguhnya aku (Isa) rasul Allah kepada kamu, mengesahkan Taurat yang sebelum aku, dan memberi berita gembira dengan seorang rasul yang akan datang selepas aku, namanya ahmad (dipuji).u201d (61:6) Pengikut setia"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Seperti Nabi atau Rasul yang lain, baginda mempunyai pengikut-pengikut yang setia dan juga yang tidak setia atau yang menentang. Pengikut-pengikutnya yang setia percaya kepada Allah dan kepadanya. Mereka adalah muslim. Firman Allah:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dan ketika Aku mewahyukan pengikut-pengikut yang setia, 'Percayalah kepada-Ku, dan rasul-Ku'; mereka berkata, 'Kami percaya, dan saksilah Engkau akan kemusliman kami.'&quot; (5:111) Pengikut-pengikut yang setia pula menjadi penolong-penolong, bukan baginya tetapi bagi Allah. Firman-Nya:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Berkatalah pengikut-pengikutnya yang setia, 'Kami akan menjadi penolong-penolong Allah; kami percaya kepada Allah, dan saksilah kamu akan kemusliman kami.'&quot; (3:52) Begitu juga bagi pengikut-pengikut setia Nabi-Nabi lain, termasuk Muhammad. Semuanya menjadi penolong-penolong Allah, untuk melaksana dan menyampaikan mesej-Nya. Firman Allah:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Wahai orang-orang yang percaya, jadilah kamu penolong-penolong Allah, sebagaimana Isa putera Mariam berkata kepada pengikut-pengikut yang setia, 'Siapakah yang akan menjadi penolong-penolong aku bagi Allah?' Pengikut-pengikut yang setia berkata, 'Kami akan menjadi penolong-penolong Allah.'&quot; (61:14) Walau bagaimana pun, pengikut-pengikut Nabi Isa yang setia memerlukan bukti selanjut untuk megesahkan kebenarannya dan supaya hati mereka menjadi tenteram. Untuk itu mereka memohon sebuah meja hidangan dari langit. Kisahnya berbunyi begini"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dan apabila pengikut-pengikut yang setia berkata, 'Wahai Isa putera Mariam, bolehkah Pemelihara kamu menurunkan kepada kami sebuah meja hidangan dari langit?' Dia (Isa) berkata, 'Kamu takutilah Allah, jika kamu orang-orang mukmin.'"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mereka berkata, 'Kami menghendaki untuk memakan daripadanya, dan hati kami menjadi tenteram, supaya kami mengetahui bahawa kamu berkata benar kepada kami, dan supaya kami adalah antara para saksinya.'&quot; (5:112-113) Justeru itu, Isa memohon kepada Allah,"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Ya Allah, Pemelihara kami, turunkanlah kepada kami sebuah meja hidangan dari langit, yang akan menjadi bagi kami satu perayaan, yang pertama dan yang akhir bagi kami, dan satu ayat (tanda) daripada Engkau. Dan berilah rezeki untuk kami; Engkau yang terbaik daripada pemberi-pemberi rezeki.&quot; (5:114) Allah mengabulkan permintaannya. Lantas, meja hidangan yang turun menjadi satu lagi mukjizat bagi Nabi Isa. Dan ia juga menjadi nama sebuah surah di dalam al-Qur'an, iaitu surah kelima, al-Maidah."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Mukjizat "
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selain daripada kelahiran yang luar biasa dan meja hidangan, Nabi Isa telah dikurniakan dengan beberapa mukjizat lain. Ayat berikut menjelaskannya:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Ketika Allah berkata, 'Wahai Isa putera Mariam, ingatlah akan rahmat-Ku ke atas kamu, dan ke atas ibu kamu, apabila Aku mengukuhkan kamu dengan Roh Qudus (Suci), untuk berkata-kata kepada manusia di dalam buaian dan setelah dewasa ..... dan apabila kamu mencipta daripada tanah liat, dengan izin-Ku, yang seperti bentuk burung, dan kamu menghembuskan ke dalamnya, lalu jadilah ia seekor burung, dengan izin-Ku, dan kamu menyembuhkan orang buta, dan orang sakit kusta, dengan izin-Ku, dan kamu mengeluarkan orang yang mati, dengan izin-Ku' ..... lalu orang-orang yang tidak percaya antara mereka berkata, 'Tiadalah ini, melainkan sihir yang nyata.'&quot; (5:110)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Walaupun Nabi Muhammad hanya diberi satu mukjizat, manusia ditegah daripada berkata bahawa Nabi Isa adalah lebih mulia daripada Nabi Muhammad. Kerana, seperti yang sudah maklum, amalan membeza-beza para Nabi dan Rasul dilarang Allah. (Sila rujuk Tidak Mempercayai Mukjizat Nabi?) "
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Wafat"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tidak seperti kepercayaan sesetengah orang iaitu Nabi Isa tidak wafat semasa disalib tetapi diangkat naik ke langit. Sebenarnya, Nabi Isa telah wafat di bumi, namun bukan disalib. Baginda telah wafat selepas peristiwa penyaliban ke atasnya di sebuah tempat lain yang tidak diceritakan di dalam al-Qur'an. Besar kemungkinan baginda telah melarikan diri dari tempat baginda dijatuhkan hukum."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Bukti yang menunjukkan baginda telah wafat di bumi terdapat pada ayat-ayat berikut:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Apabila Allah berkata, 'Wahai Isa, Aku akan mematikan kamu, dan menaikkan kamu kepada-Ku, dan Aku membersihkan kamu daripada orang-orang yang tidak percaya .....'&quot; (3:55) &quot;Dan aku (Isa) seorang saksi ke atas mereka selama aku di kalangan mereka; tetapi setelah Engkau mematikan aku, Engkau Sendiri adalah penjaga ke atas mereka; Engkau saksi atas segala sesuatu.&quot; (5:117) Akan tetapi, sebahagian daripada kaum Bani Israil mengatakan bahawa mereka telah membunuhnya disalib. Allah mengatakan yang sebaliknya pula. Apa yang berlaku hanya satu kesamaan sahaja. Firman-Nya:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;ucapan mereka, 'Kami telah membunuh al-Masih, Isa putera Mariam, rasul Allah.' Tetapi mereka tidak membunuhnya, dan tidak juga menyalibnya, tetapi hanya satu kesamaan yang ditunjukkan kepada mereka. Orang-orang yang berselisih mengenainya benar-benar dalam keraguan terhadapnya; mereka tidak ada pengetahuan mengenainya, kecuali mengikuti sangkaan; mereka tidak membunuhnya, yakinlah.&quot; (4:157) Telah wujud lagi kepercayaan terhadap Nabi Isa yang tidak disahkan Allah di dalam al-Qur'an, iaitu baginda akan muncul lagi di bumi buat kali kedua. Itu tidak benar. (Sila rujuk artikel Menanya Ustaz: kedatangan Imam Mahadi, kemudian Nabi Isa dan Imam Mahadi di ruangan Soalan Lazim. Terima kasih.)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Terpesong"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Setelah Isa wafat, beberapa perkara telah berlaku. Pertama, orang-orang yang mengaku pengikut baginda telah menubuhkan sistem berahib, atau berpaderi, atau sistem berulama dalam agama. Sistem itu tidak dianjurkan oleh Allah. Firman-Nya:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Dan rahbaniyah (sistem berahib) yang mereka reka - Kami tidak menuliskan (menetapkan) untuk mereka&quot; (57:27). Kemudian, antara mereka bersetuju untuk mengangkat Nabi Isa sebagai Tuhan atau anak Tuhan, mungkin kerana kelahiran yang luar biasa dan mukjizat-mukjizatnya. Mereka yang berbuat demikian telah terpesong dalam kepercayaan lalu menjadi kafir. Firman-Nya:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Merekalah orang-orang yang tidak percaya (kafir), yang berkata, 'Sesungguhnya Allah, Dia ialah al-Masih putera Mariam'&quot; (5:17), dan &quot;orang-orang Kristian berkata, 'Al-Masih ialah putera Allah.' Itu adalah ucapan daripada mulut mereka, menurut ucapan orang-orang yang tidak percaya sebelum mereka. Allah memerangi mereka! Bagaimanakah mereka dipalingkan?&quot; (9:30) Satu bukti telah didatangkan Allah untuk menunjukkan kepalsuan kepercayaan mereka. Buktinya adalah pada amalan memakan makanan, berbunyi:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Al-Masih, putera Mariam, hanyalah seorang rasul; rasul-rasul sebelum dia telah berlalu. Ibunya seorang wanita yang benar; mereka berdua makan makanan. Perhatikanlah bagaimana Kami memperjelaskan ayat-ayat kepada mereka, kemudian perhatikanlah bagaimana mereka berpaling.&quot; (5:75) Nabi Isa dan ibunya makan makanan. Tetapi Tuhan tidak makan. Kalau Dia makan tentu Dia mempunyai sebuah &quot;pintu kecil&quot; untuk mengeluarkan makanan yang tidak diperlukan lagi. Tuhan tidak ada pintu tersebut seperti yang terdapat di bahagian belakang badan manusia atau haiwan."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sekiranya hujah itu disampaikan kepada orang-orang yang mempercayai Nabi Isa itu Tuhan atau anak-Nya, tentu mereka akan berpaling juga dan tetap dengan kepercayaan mereka. Begitulah manusia dengan kepercayaan agamanya. Mereka lupa menggunakan akal."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Akhirat"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kepercayaan serupa itu sungguh berat di sisi Allah sehingga Nabi Isa akan ditanya di akhirat. Baginda akan ditanya sama ada baginda telah menyatakan bahawa baginda dan ibunya adalah tuhan-tuhan selain daripada Allah. Pertanyaan-Nya berbunyi:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Wahai Isa putera Mariam, adakah kamu mengatakan kepada manusia, 'Ambillah aku dan ibuku sebagai tuhan-tuhan selain daripada Allah'?&quot; (5:116) Nabi Isa akan menjawab:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Kepada Engkau sanjungan! Tiadalah bagiku untukku mengatakan apa yang aku tiada hak dengannya. Jika aku mengatakannya, Engkau mengetahuinya, dengan mengetahui apa yang di dalam jiwaku, dan aku tidak mengetahui apa yang di dalam jiwa Engkau; sesungguhnya Engkaulah yang mengetahui yang ghaib.&quot; (5:116) Jawapannya bersambung lagi:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Aku hanya mengatakan kepada mereka apa yang Engkau memerintahkan aku dengannya: 'Sembahlah Allah, Pemelihara aku dan Pemelihara kamu.' Dan aku seorang saksi ke atas mereka selama aku di kalangan mereka; tetapi setelah Engkau mematikan aku, Engkau Sendiri adalah penjaga ke atas mereka; Engkau saksi atas segala sesuatu.&quot; (5:117) Nabi Muhammad juga akan ditanya di akhirat atas sesuatu yang amat berat juga. Baginda ditanya mengenai sambutan kaumnya terhadap al-Qur'an. Jawapan baginda berbunyi:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="&quot;Wahai Pemeliharaku, sesungguhnya kaumku mengambil al-Qur'an ini sebagai suatu yang tidak dipedulikan.&quot; (25:30) Itulah yang berlaku pada hari ini. Ajaran al-Qur'an tidak dipedulikan. Namun, masa masih ada untuk semua kembali kepada ajaran al-Qur'an."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/selanjutnyake25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selanjutnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
