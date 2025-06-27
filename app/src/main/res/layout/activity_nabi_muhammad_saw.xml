@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NabiMuhammadSawActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAE06A"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/kembalikekisahnabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btnkembali" />
+
+        <TextView
+            android:id="@+id/KisahNabiMuhammadSaw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/adlam_display"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="KISAH NABI MUHAMMAD S.A.W"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_KisahNabi">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada waktu umat manusia dalam kegelapan dan suasana jahiliyyah, lahirlah  seorang bayi pada 12 Rabiul Awal tahun Gajah di Makkah. Bayi yang dilahirkan  bakal membawa perubahan besar bagi sejarah peradaban manusia. Bapa bayi tersebut  bernama Abdullah bin Abdul Mutallib yang telah wafat sebelum baginda dilahirkan  iaitu sewaktu baginda 7 bulan dalam kandungan ibu. Ibunya bernama Aminah binti  Wahab. Kehadiran bayi itu disambut dengan penuh kasih sayang dan dibawa ke  ka'abah, kemudian diberikan nama Muhammad, nama yang belum pernah wujud  sebelumnya."
+                        android:textAlignment="viewStart"
+                        android:textColor="#070707"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selepas itu Muhammad disusukan selama beberapa hari oleh  Thuwaiba, budak suruhan Abu Lahab sementara menunggu kedatangan wanita dari Banu  Sa'ad. Adat menyusukan bayi sudah menjadi kebiasaan bagi bangsawan-bangsawan  Arab di Makkah. Akhir tiba juga wanita dari Banu Sa'ad yang bernama Halimah bin  Abi-Dhuaib yang pada mulanya tidak mahu menerima baginda kerana Muhammad seorang  anak yatim. Namun begitu, Halimah membawa pulang juga Muhammad ke pedalaman  dengan harapan Tuhan akan memberkati keluarganya. Sejak diambilnya Muhammad  sebagai anak susuan, kambing ternakan dan susu kambing-kambing tersebut semakin  bertambah. Baginda telah tinggal selama 2 tahun di Sahara dan sesudah itu  Halimah membawa baginda kembali kepada Aminah dan membawa pulang semula ke  pedalaman."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kisah Dua  Malaikat dan Pembedahan Dada Muhammad"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada usia dua tahun, baginda didatangi oleh dua orang malaikat  yang muncul sebagai lelaki yang berpakaian putih. Mereka bertanggungjawab untuk  membedah Muhammad. Pada ketika itu, Halimah dan suaminya tidak menyedari akan  kejadian tersebut. Hanya anak mereka yang sebaya menyaksikan kedatangan kedua  malaikat tersebut lalu mengkhabarkan kepada Halimah. Halimah lantas memeriksa  keadaan Muhammad, namun tiada kesan yang aneh ditemui."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Muhammad tinggal  di pedalaman bersama keluarga Halimah selama lima tahun. Selama itu baginda  mendapat kasih sayang, kebebasan jiwa dan penjagaan yang baik daripada Halimah  dan keluarganya. Selepas itu baginda dibawa pulang kepada datuknya Abdul  Mutallib di Makkah."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Datuk baginda, Abdul Mutallib amat menyayangi  baginda. Ketika Aminah membawa anaknya itu ke Madinah untuk bertemu dengan  saudara-maranya, mereka ditemani oleh Umm Aiman, budak suruhan perempuan yang  ditinggalkan oleh bapa baginda. Baginda ditunjukkan tempat wafatnya Abdullah  serta tempat dia dikuburkan."
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Sesudah sebulan mereka berada di Madinah,  Aminah pun bersiap sedia untuk pulang semula ke Makkah. Dia dan rombongannya  kembali ke Makkah menaiki dua ekor unta yang memang dibawa dari Makkah semasa  mereka datang dahulu. Namun begitu, ketika mereka sampai di Abwa, ibunya pula  jatuh sakit dan akhirnya meninggal dunia lalu dikuburkan di situ  juga."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Muhammad dibawa pulang ke Makkah oleh Umm Aiman dengan perasaan yang  sangat sedih. Maka jadilah Muhammad sebagai seorang anak yatim piatu. Tinggallah  baginda dengan datuk yang dicintainya dan bapa-bapa saudaranya."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Bukankah  Dia mendapatimu sebagai seorang yatim, lalu Dia melindungimu. Dan Dia  mendapatimu sebagai seorang yang bingung lalu Dia memberikan petunjuk&quot; (Surah  Ad-Dhuha, 93: 6-7)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Abdul Mutallib Wafat"
+                        android:textColor="#070707"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kegembiraannya bersama datuk baginda tidak bertahan lama. Ketika  baginda berusia lapan tahun, datuk baginda pula meninggal dunia. Kematian Abdul  Mutallib menjadi satu kehilangan besar buat Bani Hashim. Dia mempunyai keteguhan  hati, berwibawa, pandangan yang bernas, terhormat dan berpengaruh dikalangan  orang Arab. Dia selalu menyediakan makanan dan minuman kepada para tetamu yang  berziarah dan membantu penduduk Makkah yang dalam  kesusahan."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Muhammad  diasuh oleh Abu Talib"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selepas kewafatan datuk baginda, Abu Talib mengambil alih tugas  bapanya untuk menjaga anak saudaranya Muhammad. Walaupun Abu Talib kurang mampu  berbanding saudaranya yang lain, namun dia mempunyai perasaan yang paling halus  dan terhormat di kalangan orang-orang Quraisy.Abu Talib menyayangi Muhammad  seperti dia menyayangi anak-anaknya sendiri. Dia juga tertarik dengan budi  pekerti Muhammad yang mulia."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada suatu hari, ketika mereka berkunjung  ke Syam untuk berdagang sewaktu Muhammad berusia 12 tahun, mereka bertemu dengan  seorang rahib Kristian yang telah dapat melihat tanda-tanda kenabian pada  baginda. Lalu rahib tersebut menasihati Abu Talib supaya tidak pergi jauh ke  daerah Syam kerana dikhuatiri orang-orang Yahudi akan menyakiti baginda  sekiranya diketahui tanda-tanda tersebut. Abu Talib mengikut nasihat rahib  tersebut dan dia tidaak banyak membawa harta dari perjalanan tersebut. Dia  pulang segera ke Makkah dan mengasuh anak-anaknya yang ramai. Muhammad juga  telah menjadi sebahagian dari keluarganya. Baginda mengikut mereka ke  pekan-pekan yang berdekatan dan mendengar sajak-sajak oleh penyair-penyair  terkenal dan pidato-pidato oleh penduduk Yahudi yang anti Arab."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Baginda  juga diberi tugas sebagai pengembala kambing. Baginda mengembala kambing  keluarganya dan kambing penduduk Makkah. Baginda selalu berfikir dan merenung  tentang kejadian alam semasa menjalankan tugasnya. Oleh sebab itu baginda jauh  dari segala pemikiran manusia nafsu manusia duniawi. Baginda terhindar daripada  perbuatan yang sia-sia, sesuai dengan gelaran yang diberikan iaitu  &quot;Al-Amin&quot;."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Selepas baginda mula meningkat dewasa, baginda disuruh oleh  bapa saudaranya untuk membawa barang dagangan Khadijah binti Khuwailid, seorang  peniaga yang kaya dan dihormati. Baginda melaksanakan tugasnya dengan penuh  ikhlas dan jujur. Khadijah amat tertarik dengan perwatakan mulia baginda dan  keupayaan baginda sebagai seorang pedagang. Lalu dia meluahkan rasa hatinya  untuk berkahwin dengan Muhammad yang berusia 25 tahun ketika itu. Wanita  bangsawan yang berusia 40 tahun itu sangat gembira apabila Muhammad menerima  lamarannya lalu berlangsunglah perkahwinan mereka berdua. Bermulalah lembaran  baru dalam hidup Muhammad dan Khadijah sebagai suami isteri."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Turunnya Wahyu Pertama"
+                        android:textColor="#070707"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada usia 40 tahun, Muhammad telah  menerima wahyu yang pertama dan diangkat sebagai nabi sekelian alam. Ketika itu,  baginda berada di Gua Hira' dan sentiasa merenung dalam kesunyian, memikirkan  nasib umat manusia pada zaman itu. Maka datanglah Malaikat Jibril menyapa dan  menyuruhnya membaca ayat quran yang pertama diturunkan kepada  Muhammad."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Bacalah dengan nama Tuhanmu Yang menciptakan&quot; (Al-'Alaq, 96:  1)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Rasulullah pulang dengan penuh rasa gementar lalu diselimuti oleh  Khadijah yang cuba menenangkan baginda. Apabila semangat baginda mulai pulih,  diceritakan kepada Khadijah tentang kejadian yang telah berlaku."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Kemudian  baginda mula berdakwah secara sembunyi-sembunyi bermula dengan kaum kerabatnya  untuk mengelakkan kecaman yang hebat daripada penduduk Makkah yang menyembah  berhala. Khadijah isterinya adalah wanita pertama yang mempercayai kenabian  baginda. Manakala Ali bin Abi Talib adalah lelaki pertama yang beriman dengan  ajaran baginda.Dakwah yang sedemikian berlangsung selama tiga tahun di kalangan  keluarganya sahaja."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Dakwah  Secara Terang-terangan"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Setelah turunnya wahyu memerintahkan baginda untuk berdakwah  secara terang-terangan, maka Rasulullah pun mula menyebarkan ajaran Islam secara  lebih meluas."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Maka sampaikanlah olehmu secara terang-terangan segala apa  yang diperintahkan (kepadamu) dan berpalinglah dari orang-orang yang musyrik.&quot;  (Al-Hijr, 15:94)"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Namun begitu, penduduk Quraisy menentang keras ajaran  yang dibawa oleh baginda. Mereka memusuhi baginda dan para pengikut baginda  termasuk Abu Lahab, bapa saudara baginda sendiri. Tidak pula bagi Abu Talib, dia  selalu melindungi anak saudaranya itu namun dia sangat risau akan keselamatan  Rasulullah memandangkan tentangan yang hebat dari kaum Quraisy itu. Lalu dia  bertanya tentang rancangan Rasulullah seterusnya. Lantas jawab Rasulullah yang  bermaksud:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Wahai bapa saudaraku, andai matahari diletakkan diletakkan di  tangan kiriku dan bulan di tangan kananku, agar aku menghentikan seruan ini, aku  tidak akan menghentikannya sehingga agama Allah ini meluas ke segala penjuru  atau aku binasa kerananya&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Baginda menghadapi pelbagai tekanan, dugaan,  penderitaan, cemuhan dan ejekan daripada penduduk-penduduk Makkah yang jahil dan  keras hati untuk beriman dengan Allah. Bukan Rasulullah sahaja yang menerima  tentangan yang sedemikian, malah para sahabatnya juga turut merasai penderitaan  tersebut seperti Amar dan Bilal bin Rabah yang menerima siksaan yang  berat."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Wafatnya Khadijah  dan Abu Talib"
+                        android:textStyle="bold"
+                        android:textColor="#070707"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Rasulullah  amat sedih melihat tingkahlaku manusia ketika itu terutama kaum Quraisy kerana  baginda tahu akan akibat yang akan diterima oleh mereka nanti. Kesedihan itu  makin bertambah apabila isteri kesayangannya wafat pada tahun sepuluh  kenabiaannya. Isteri bagindalah yang tidak pernah jemu membantu menyebarkan  Islam dan mengorbankan jiwa serta hartanya untuk Islam. Dia juga tidak jemu  menghiburkan Rasulullah di saat baginda dirundung kesedihan."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada tahun  itu juga bapa saudara baginda Abu Talib yang mengasuhnya sejak kecil juga  meninggal dunia. Maka bertambahlah kesedihan yang dirasai oleh Rasulullah kerana  kehilangan orang-orang yang amat disayangi oleh baginda."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Hijrah Ke Madinah"
+                        android:textStyle="bold"
+                        android:textColor="#070707"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Tekanan orang-orang kafir terhadap perjuangan  Rasulullah semakin hebat selepas kepergian isteri dan bapa saudara baginda. Maka  Rasulullah mengambil keputusan untuk berhijrah ke Madinah berikutan ancaman  daripada kafir Quraisy untuk membunuh baginda."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Rasulullah disambut dengan  meriahnya oleh para penduduk Madinah. Mereka digelar kaum Muhajirin manakala  penduduk-penduduk Madinah dipanggil golongan Ansar. Seruan baginda diterima baik  oleh kebanyakan para penduduk Madinah dan sebuah negara Islam didirikan di bawah  pimpinan Rasulullas s.a.w sendiri."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Negara Islam Madinah"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Negara Islam yang baru dibina di Madinah mendapat tentangan  daripada kaum Quraisy di Makkah dan gangguan dari penduduk Yahudi serta kaum  bukan Islam yang lain. Namun begitu, Nabi Muhammad s.a.w berjaya juga menubuhkan  sebuah negara Islam yang mengamalkan sepenuhnya pentadbiran dan perundangan yang  berlandaskan syariat Islam. Baginda dilantik sebagai ketua agama, tentera dan  negara. Semua rakyat mendapat hak yang saksama. Piagam Madinah yang merupakan  sebuah kanun atau perjanjian bertulis telah dibentuk. Piagam ini mengandungi  beberapa fasal yang melibatkan hubungan antara semua rakyat termasuk kaum bukan  Islam dan merangkumi aspek politik, sosial, agama, ekonomi dan ketenteraan.  Kandungan piagam adalah berdasarkan wahyu dan dijadikan dasar undang-undang  Madinah."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Islam adalah agama yang mementingkan kedamaian. Namun begitu,  aspek pertahanan amat penting bagi melindungi agama, masyarakat dan negara.  Rasulullah telah menyertai 27 kali ekspedisi tentera untuk mempertahan dan  menegakkan keadilan Islam. Peperangan yang ditempuhi baginda ialah Perang Badar  (623 M/2 H), Perang Uhud (624 M/3 H), Perang Khandak (626 M/5 H) dan Perang  Tabuk (630 M/9 H). Namun tidak semua peperangan diakhiri dengan  kemenangan."
+                        android:textColor="#070707"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Pada tahun 625 M/ 4 Hijrah, Perjanjian Hudaibiyah telah  dimeterai antara penduduk Islam Madinah dan kaum Musyrikin Makkah. Maka dengan  itu, negara Islam Madinah telah diiktiraf. Nabi Muhammad s.a.w. juga telah  berjaya membuka semula kota Makkah pada 630 M/9 H bersama dengan 10 000 orang  para pengikutnya."
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Perang terakhir yang disertai oleh Rasulullah ialah  Perang Tabuk dan baginda dan pengikutnya berjaya mendapat kemenangan. Pada tahun  berikutnya, baginda telah menunaikan haji bersama-sama dengan 100 000 orang  pengikutnya. Baginda juga telah menyampaikan amanat baginda yang terakhir pada  tahun itu juga. Sabda baginda yang bermaksud:"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="&quot;Wahai sekalian manusia,  ketahuilah bahawa Tuhan kamu Maha Esa dan kamu semua adalah daripada satu  keturunan iaitu keturunan Nabi Adam a.s. Semulia-mulia manusia di antara kamu di  sisi Allah s.w.t. ialah orang yang paling bertakwa. Aku telah tinggalkan kepada  kamu dua perkara dan kamu tidak akan sesat selama-lamanya selagi kamu berpegang  teguh dengan dua perkara itu, iaitu kitab al-Quran dan Sunnah  Rasulullah.&quot;"
+                        android:textColor="#070707"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Wafatnya Nabi  Muhammad s.a.w"
+                        android:textColor="#070707"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="150dp"
+                        android:text="Baginda  telah wafat pada bulan Jun tahun 632 M/12 Rabiul Awal tahun 11 Hijrah. Baginda  wafat setelah selesai melaksanakan tugasnya sebagai rasul dan pemimpin negara.  Baginda berjaya membawa manusia ke jalan yang benar dan menjadi seorang pemimpin  yang bertanggungjawab, berilmu dan berkebolehan. Rasulullah adalah contoh  terbaik bagi semua manusia sepanjang zaman."
+                        android:textColor="#040404"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sebelumnyake24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sebelumnya"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/kembalikisahnabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A9DE69"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Selesai"
+            android:textColor="#050505"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
